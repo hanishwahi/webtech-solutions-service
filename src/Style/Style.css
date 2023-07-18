@@ -2161,7 +2161,7 @@ input::-webkit-inner-spin-button {
     text-decoration: none;
 }
 .blog-detail-001 a h4{
-    font-size: 18px;
+    font-size: 17px;
     color: #000;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -2170,11 +2170,11 @@ input::-webkit-inner-spin-button {
 .blog-detail-001 a h4:hover{
     color: rgb(126, 10, 10);
 }
-.blog-detail-001 h2{
+.blog-detail-001 h1{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 26px;
     line-height: 26px;
     margin-bottom: 0px;
     color: #42ade4;

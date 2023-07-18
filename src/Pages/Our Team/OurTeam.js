@@ -1,4 +1,4 @@
-import React from 'react' 
+import React from 'react'
 import Hanish from '../../Images/hanish-wahi.webp'
 import Param from '../../Images/param.jpg'
 import Shamse from '../../Images/shamse.jpg'
@@ -11,12 +11,32 @@ import Ankit_Mishra from '../../Images/ankit_mishra.webp'
 import deepak_sharma from '../../Images/deepak-sharma.webp'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import { Helmet } from 'react-helmet'
 
 
 function OurTeam() {
 
     return (
         <>
+            <Helmet>
+                <title>Meet Our Skilled IT Professionals | Web Tech Solutions Service</title>
+                <meta name="description" content="Get to know the talented individuals behind Web Tech Solutions Service. Our skilled team of IT professionals is dedicated to delivering top-notch solutions and exceptional customer service. Meet our experts today." />
+
+                {/* - Open Graph (OG) tags  */}
+                <meta property="og:title" content="Meet Our Skilled IT Professionals | Web Tech Solutions Service" />
+                <meta property="og:description" content="Get to know the talented individuals behind Web Tech Solutions Service. Our skilled team of IT professionals is dedicated to delivering top-notch solutions and exceptional customer service. Meet our experts today." />
+                <meta property="og:url" content="https://webtechsolutionsservice.com/our-team" />
+                <meta property="og:type" content="website" />
+                <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+
+                {/* - Twitter Card tags  */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Meet Our Skilled IT Professionals | Web Tech Solutions Service" />
+                <meta name="twitter:description" content="Get to know the talented individuals behind Web Tech Solutions Service. Our skilled team of IT professionals is dedicated to delivering top-notch solutions and exceptional customer service. Meet our experts today." />
+                <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+                {/* - Canonical tag  */}
+                <link rel="canonical" href="https://webtechsolutionsservice.com/our-team" />
+            </Helmet>
             <Header />
             <div className='container-fluid'>
                 <div className='row our-team-main'>
@@ -29,10 +49,10 @@ function OurTeam() {
                 </div>
                 <div className='container-lg'>
                     <div className='row py-md-5 pt-4 OurTeam-inner-heading '>
-                    <p>"We are good at what we do."Love for our work and a resulting passion exhibits itself in the quality of services and products that we offer. Across all services, a similar commitment binds us together. Here are some very young people who script our success story, as they work together with numerous other faujis. 
+                        <p>"We are good at what we do."Love for our work and a resulting passion exhibits itself in the quality of services and products that we offer. Across all services, a similar commitment binds us together. Here are some very young people who script our success story, as they work together with numerous other faujis.
                         </p>
                     </div>
-                  
+
 
                     <div className="row row-cols-1 row-cols-md-3 g-4 pb-5">
                         <div className="col">
@@ -146,7 +166,7 @@ function OurTeam() {
                             </div>
                         </div>
 
-                        
+
                         <div className="col">
                             <div className="card">
                                 <img src={deepak_sharma}
@@ -155,7 +175,7 @@ function OurTeam() {
                                 <div className="card-body">
                                     <h5 className="card-title">Deepak Sharma</h5>
                                     <p className="card-text">
-                                    Multimedia Designer
+                                        Multimedia Designer
                                     </p>
                                 </div>
                             </div>

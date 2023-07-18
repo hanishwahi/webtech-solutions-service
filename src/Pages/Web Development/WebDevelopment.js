@@ -8,18 +8,40 @@ import ContactForm from '../ContactForm/ContactForm'
 import BusinessGrowth from './BusinessGrowth'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import { Helmet } from 'react-helmet'
 
 function WebDevelopment() {
 
     return (
         <>
-         <Header/>
-             <div className='container-fluid'>
+            <Helmet>
+                <title>Web Development | Top-Notch Web Solutions | Webtech Solutions Service</title>
+                <meta name="description" content="Webtechsolutionsservice.com is the best web development company in India. We develop customized websites using advanced technologies for your business needs. Get started!" />
+
+                {/* " Open Graph (OG) tags" */}
+                <meta property="og:title" content="Web Development | Top-Notch Web Solutions | Webtech Solutions Service" />
+                <meta property="og:description" content="Webtechsolutionsservice.com is the best web development company in India. We develop customized websites using advanced technologies for your business needs. Get started!" />
+                <meta property="og:url" content="https://webtechsolutionsservice.com/web-development" />
+                <meta property="og:type" content="website" />
+                <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+
+                {/* " Twitter Card tags" */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Web Development | Top-Notch Web Solutions | Webtech Solutions Service" />
+                <meta name="twitter:description" content="Webtechsolutionsservice.com is the best web development company in India. We develop customized websites using advanced technologies for your business needs. Get started!" />
+                <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+
+                {/* " Canonical tag" */}
+                <link rel="canonical" href="https://webtechsolutionsservice.com/web-development" />
+            </Helmet>
+
+            <Header />
+            <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
                         <img width="100%" height="100%" className='overflow-hidden px-0 img-fluid' src={Webdevelopment} alt='' />
                     </div>
-                </div>               
+                </div>
             </div>
             <div className='container-fluid'>
                 <div className='container-lg'>
@@ -45,14 +67,14 @@ function WebDevelopment() {
                                     </div>
                                     <div className='web-devp-content'>
                                         <h2>Web Development Solution We Provide:</h2>
-                                         <ul className='web-devp-list'>
+                                        <ul className='web-devp-list'>
                                             <li>Informational Websites</li>
                                             <li>Custom Web Development</li>
                                             <li>E-Commerce Solutions</li>
                                             <li>Intranet and Extranet Portals</li>
                                             <li>Web-based Enterprise Solutions</li>
                                             <li>Cloud-based / SAAS Development</li>
-                                         </ul>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -61,11 +83,11 @@ function WebDevelopment() {
                 </div>
 
             </div>
-            <WhyChooseDevp/>
-            <WebDesigning/>
-            <BusinessGrowth/>
-            <ContactForm/>
-            <Footer/>
+            <WhyChooseDevp />
+            <WebDesigning />
+            <BusinessGrowth />
+            <ContactForm />
+            <Footer />
         </>
     )
 }

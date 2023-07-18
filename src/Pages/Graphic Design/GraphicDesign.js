@@ -5,11 +5,33 @@ import dm_rectangle from '../../Images/dm-rectangle 13.png'
 import GraphicSolution from './GraphicSolution'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import { Helmet } from 'react-helmet'
 
 function GraphicDesign() {
     return (
         <>
-<Header/>
+            <Helmet>
+                <title>Creative Graphic Design Solutions | Web Tech Solutions Service</title>
+                <meta name="description" content="Transform your brand with visually stunning graphic design solutions. Our creative experts specialize in delivering captivating designs that leave a lasting impression. Explore our graphic design services today." />
+
+                {/* Open Graph (OG) tags" */}
+                <meta property="og:title" content="Creative Graphic Design Solutions | Web Tech Solutions Service" />
+                <meta property="og:description" content="Transform your brand with visually stunning graphic design solutions. Our creative experts specialize in delivering captivating designs that leave a lasting impression. Explore our graphic design services today." />
+                <meta property="og:url" content="https://webtechsolutionsservice.com/graphic-design" />
+                <meta property="og:type" content="website" />
+                <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+
+                {/* Twitter Card tags" */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Creative Graphic Design Solutions | Web Tech Solutions Service" />
+                <meta name="twitter:description" content="Transform your brand with visually stunning graphic design solutions. Our creative experts specialize in delivering captivating designs that leave a lasting impression. Explore our graphic design services today." />
+                <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+
+                {/* Canonical tag" */}
+                <link rel="canonical" href="https://webtechsolutionsservice.com/graphic-design" />
+            </Helmet>
+
+            <Header />
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
@@ -52,21 +74,21 @@ function GraphicDesign() {
                         </div>
                     </div>
                     <div className='row'>
-                          <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>Cost-effective Services</p></div>
-                          <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>Experienced Graphic Designers</p></div>
-                          <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>High-quality Graphic Design Tools</p></div>
-                          <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>Timely Communication</p></div>
-                          <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>UI and UX Strategy</p></div>
-                          <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>Professional Approach</p></div>
-                          <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>Timely Delivery</p></div>
-                          <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>All-Time Support</p></div>
+                        <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>Cost-effective Services</p></div>
+                        <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>Experienced Graphic Designers</p></div>
+                        <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>High-quality Graphic Design Tools</p></div>
+                        <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>Timely Communication</p></div>
+                        <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>UI and UX Strategy</p></div>
+                        <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>Professional Approach</p></div>
+                        <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>Timely Delivery</p></div>
+                        <div className='col-12 col-md-3 col-sm-6 graphic-list'><p>All-Time Support</p></div>
                     </div>
                 </div>
 
 
             </div>
-            <GraphicSolution/>
-            <Footer/>
+            <GraphicSolution />
+            <Footer />
 
         </>
     )

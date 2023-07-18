@@ -8,11 +8,34 @@ import NewHeights from './NewHeights'
 import CallNow from './CallNow'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import { Helmet } from 'react-helmet'
 
 function DigitalMarketing() {
     return (
         <>
-<Header/>
+
+            
+                <Helmet>
+                    <title>Result-Driven Digital Marketing Agency in Chandigarh, India - Webtech Solutions Service</title>
+                    <meta name="description" content="Boost your online presence, attract targeted traffic, and achieve your marketing goals with the help of best digital marketing company webtechsolutionsservice.com Contact us today!" />
+
+                    {/* Open Graph (OG) tags  */}
+                    <meta property="og:title" content="Result-Driven Digital Marketing Agency in Chandigarh, India - Webtech Solutions Service" />
+                    <meta property="og:description" content="Boost your online presence, attract targeted traffic, and achieve your marketing goals with the help of best digital marketing company webtechsolutionsservice.com Contact us today!" />
+                    <meta property="og:url" content="https://webtechsolutionsservice.com/digital-marketing" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />  Replace with the actual image URL
+
+                    {/* Twitter Card tags  */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content="Result-Driven Digital Marketing Agency in Chandigarh, India - Webtech Solutions Service" />
+                    <meta name="twitter:description" content="Boost your online presence, attract targeted traffic, and achieve your marketing goals with the help of best digital marketing company webtechsolutionsservice.com Contact us today!" />
+                    <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+                    {/* Canonical tag  */}
+                    <link rel="canonical" href="https://webtechsolutionsservice.com/digital-marketing" />
+                </Helmet>
+            
+            <Header />
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
@@ -50,9 +73,9 @@ function DigitalMarketing() {
 
             <NewHeights />
             <ServiceBox />
-            <CallNow/>
+            <CallNow />
             <ContactForm />
-            <Footer/>
+            <Footer />
 
         </>
     )

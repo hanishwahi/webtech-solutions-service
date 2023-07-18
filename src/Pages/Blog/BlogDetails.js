@@ -31,7 +31,7 @@ function BlogDetails() {
 
   }, [])
 
-  console.log('Picked data:', recentPost);
+  // console.log('Picked data:', recentPost);
 
 
 
@@ -40,12 +40,12 @@ function BlogDetails() {
       <Header />
       <div className='container-fluid py-5'>
         <div className='container-lg'>
-          <div className='row align-items-center  mb-3'>
+          <div className='row align-items-center py-3'>
             <div className='col-lg-6 col-8 blog-detail'>
               {newblog && <h2><span >Posted on: </span>  {newblog.date}</h2>}
             </div>
             <div className='col-lg-6 col-4 text-end blog-detail'>
-              <Link onClick={backWindow}>Back</Link>
+              <Link onClick={backWindow}><i class="fa-solid fa-rotate-left"></i></Link>
             </div>
           </div>
           <div className='row justify-content-between'>
@@ -63,8 +63,8 @@ function BlogDetails() {
 
             </div>
             <div className='col-lg-3'>
-              <div className='row blog-detail-001'>
-                <h1 className='h3 mb-3' style={{ color: "#42ade4" }}>Recent Posts</h1>
+              <div className='row blog-detail-001 border-bottom'>
+                <h1 className='mb-3' style={{ color: "#42ade4" }}>Recent Posts</h1>
                 {
                   recentPost.map((items) => {
                     const title = items.title.replace(/\s+/g, '-')
