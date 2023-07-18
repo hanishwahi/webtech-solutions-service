@@ -1,40 +1,48 @@
-import React, { useEffect, useState } from 'react'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import React, { useEffect, useState } from 'react';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import { data } from './BlogsData'
-
-
+import { data } from './BlogsData';
 
 function BlogDetails() {
-  const [recentPost, setRecentPost] = useState([])
+  const [recentPost, setRecentPost] = useState([]);
+  const [categories, setCategories] = useState([]);
 
-  const blogDetails = data
+  const blogDetails = data;
   const { id } = useParams();
-  const currentId = id
+  const currentId = id;
 
+  // back button 
   const Navigate = useNavigate();
-
   function backWindow() {
-    Navigate(-1)
+    Navigate(-1);
   }
 
+  // new blog with key 
+  const newblog = blogDetails[currentId - 1];
 
-  const newblog = blogDetails[currentId - 1]
-
-
+  // to show the recent post 
   useEffect(() => {
+    // to show the recent post 
     const numElements = 3;
     const startIndex = data.length - numElements;
     const pickedData = data.slice(startIndex);
-    setRecentPost(pickedData)
+    setRecentPost(pickedData);
 
-  }, [])
+    // Extract unique categories from JSON data
+    const uniqueCategories = [...new Set(data.map(item => item.category))];
+    setCategories(uniqueCategories);
+  }, []);
 
-  // console.log('Picked data:', recentPost);
+  
+  function scrollToHome() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+}
 
-
-
+ 
   return (
     <>
       <Header />
@@ -42,10 +50,10 @@ function BlogDetails() {
         <div className='container-lg'>
           <div className='row align-items-center py-3'>
             <div className='col-lg-6 col-8 blog-detail'>
-              {newblog && <h2><span >Posted on: </span>  {newblog.date}</h2>}
+              {newblog && <h2><span>Posted on: </span> {newblog.date}</h2>}
             </div>
             <div className='col-lg-6 col-4 text-end blog-detail'>
-              <Link onClick={backWindow}><i class="fa-solid fa-rotate-left"></i></Link>
+              <Link onClick={backWindow}><i className='fa-solid fa-rotate-left'></i></Link>
             </div>
           </div>
           <div className='row justify-content-between'>
@@ -55,36 +63,54 @@ function BlogDetails() {
                   <img className='p-0 img-fluid' height={550} src={newblog.image} alt='' />
                 </div>
               </div>
-
               <div className='row blog-detail'>
-                {newblog && <h1 className='h3 mb-3' style={{ color: "#42ade4" }}>{newblog.title}?</h1>}
+                {newblog && <h1 className='h3 mb-3' style={{ color: '#42ade4' }}>{newblog.title}?</h1>}
                 {newblog && <p className='h6'> {newblog.description}</p>}
               </div>
-
             </div>
             <div className='col-lg-3'>
-              <div className='row blog-detail-001 border-bottom'>
-                <h1 className='mb-3' style={{ color: "#42ade4" }}>Recent Posts</h1>
-                {
-                  recentPost.map((items) => {
-                    const title = items.title.replace(/\s+/g, '-')
-                    return (
-                      <div key={items.id} className='blog-detail-001'>
-                        <Link to={`/blog/${items.id}/${title}`}><h4>{items.title}</h4></Link>
-                      </div>
-                    )
-                  })
-                }
+              <div className='row blog-detail-001 border-bottom py-3'>
+                <h1 className='mb-3' style={{ color: '#42ade4' }}>Recent Posts</h1>
+                {recentPost.map((item) => {
+                  const title = item.title.replace(/\s+/g, '-');
+                  return (
+                    <div key={item.id} className='blog-detail-001'>
+                      <Link to={`/blog/${item.id}/${title}`}>
+                        <h4>{item.title}</h4>
+                      </Link>
+                    </div>
+                  );
+                })}
+              </div>
+              <div className='row blog-detail-001 border-bottom py-3'>
+                <h1 className='mb-3' style={{ color: '#42ade4' }}>Recent Comments</h1>
+                <div className='blog-detail-001'>
+                  <h4 className='h5'>No Comments to show</h4>
+                </div>
+              </div>
+              <div className='row blog-detail-001 border-bottom py-3'>
+                <h1 className='mb-3' style={{ color: '#42ade4' }}>Categories</h1>
+               <div className='blog-detail-001'>
+               
+               </div>
+                {categories.map((categories) => {
+                  const category = categories.replace(/\s+/g, '-');
+                  return (
+                    <div key={category} className='blog-detail-001'>
+                      <Link onClick={scrollToHome} to={`/blog/category/${category}`}>
+                        <h4>{category}</h4>
+                      </Link>
+                    </div>
+                  );
+                })}
               </div>
             </div>
-
           </div>
         </div>
       </div>
-
       <Footer />
     </>
-  )
+  );
 }
 
-export default BlogDetails
+export default BlogDetails;

@@ -3,8 +3,6 @@ import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import { Link } from 'react-router-dom'
 import { data } from './BlogsData'
- 
-// import { useEffect } from 'react'
 
 
 function Blogs() {
@@ -17,16 +15,7 @@ function Blogs() {
         });
     }
 
-    // useEffect(() => {
-    //     fetch('https://dummyjson.com/posts').then((res) => {
-    //         res.json().then((result) => {
 
-    //             setItems(result.posts)
-    //         })
-    //     })
-    // }, [])
-
- 
     return (
         <>
             <Header />
@@ -49,12 +38,8 @@ function Blogs() {
                                                         </div>  
                                                         
                                                     <div className='row px-4 py-3'>
-                                                        {/* <div className='col-sm-1 col-2 col-md-2 pe-0'>
-                                                             <h5 className="card-title mb-2">{item.id}.</h5>
-                                                        </div> */}
                                                         <div className='col-sm-12 col-lg-12 col-12 col-md-12 px-0'>
                                                             <h5 className="card-title mb-2" >{item.title}</h5>
-
                                                         </div>
                                                     </div>
                                                     <div className='row px-4 py-3 align-items-center'>
