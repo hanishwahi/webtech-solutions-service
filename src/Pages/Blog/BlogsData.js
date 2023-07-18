@@ -64,8 +64,8 @@ export const data = [
         "image": "https://www.freelancinggig.com/blog/wp-content/uploads/2020/03/How-to-Convert-Website-Visitors-Into-Customers.jpg",
         "title": "Turning Website Visitors into Customers",
         "description": "Conversion rate optimization (CRO) focuses on improving the percentage of website visitors who take desired actions, such as making a purchase or filling out a form. In this blog post, we will delve into CRO strategies to increase conversions. We will cover website usability, A/B testing, landing page optimization, persuasive copywriting, and other techniques to optimize your conversion funnel and drive business growth."
-    }
-
+    },
+     
 
 ]
 

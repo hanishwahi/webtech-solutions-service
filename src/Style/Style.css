@@ -2138,6 +2138,8 @@ input::-webkit-inner-spin-button {
     margin-bottom: 0px;
     color: #42ade4;
 }
+
+
 .blog-detail p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -2154,4 +2156,26 @@ input::-webkit-inner-spin-button {
     font-weight: 400;
     font-size: 16px;
     text-decoration: none;
+}
+.blog-detail-001 a{
+    text-decoration: none;
+}
+.blog-detail-001 a h4{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.blog-detail-001 a h4:hover{
+    color: rgb(126, 10, 10);
+}
+.blog-detail-001 h2{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 0px;
+    color: #42ade4;
 }
