@@ -1,0 +1,643 @@
+@media screen and (max-width: 480px) {
+  .banner-heading h1 {
+    font-size: 24px !important;
+    line-height: 28px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-001-hide {
+    display: none;
+  }
+
+  .contact-button {
+    display: none;
+  }
+
+  .new-menu-hide {
+    display: block;
+    margin-right: 0 !important;
+  }
+
+  .banner-heading h1 {
+    font-size: 27px;
+    line-height: 35px;
+  }
+
+  .banner-text {
+    padding-left: 15px;
+  }
+
+  .banner-text p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .Banner-contact-button button {
+    margin-left: 35px;
+    padding: 7px 14px;
+  }
+
+  .create-website-text p {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .create-website-heading h1 {
+    line-height: 28px;
+    font-size: 26px;
+  }
+  .web-devp-content p {
+    text-align: left;
+  }
+
+  .Counter-1 {
+    font-size: 42px;
+  }
+  .Banner-contact-button button {
+    font-size: 15px;
+  }
+  .features-tools-grid {
+    padding: 0 36px;
+  }
+  .how-it-works-header-text {
+    font-size: 19px;
+  }
+  .how-it-works-left-contain {
+    width: 100%;
+  }
+  .how-it-works-right-contain {
+    width: 100%;
+  }
+  .features-tools-heading {
+    font-size: 26px;
+  }
+  .features-tools-header-text {
+    font-size: 17px;
+  }
+  .main-cta-left-contain {
+    width: 100%;
+  }
+  .main-cta-image {
+    width: 100%;
+  }
+
+  .how-it-works-heading {
+    font-size: 26px;
+  }
+  .how-it-works-point-heading {
+    font-size: 22px;
+  }
+  .how-it-works-point-text {
+    font-size: 17px;
+  }
+  .about-banner-heading h1 {
+    font-size: 32px;
+  }
+  .about-banner-text p {
+    text-align: left;
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .about-mission-heading h1 {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0px;
+  }
+  .unique h1 {
+    font-size: 26px;
+    line-height: 29px;
+  }
+  .unique p {
+    text-align: center;
+    font-size: 17px;
+  }
+  .why-us-heading h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .why-us-list ol li {
+    font-size: 16px;
+    line-height: 29px;
+  }
+  .border-right {
+    border-right: none;
+  }
+  .border-bottom1 {
+    border-bottom: none !important;
+  }
+  .services-header {
+    max-width: 90%;
+  }
+  .service-tools-heading {
+    font-size: 22px;
+  }
+  .service-home-text {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    text-align: justify;
+  }
+  .blob {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    position: initial;
+    transform: none;
+  }
+  .about-blob {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    position: initial;
+    transform: none;
+  }
+  .create-website-text h6 {
+    margin-left: 0px;
+    font-size: 18px;
+  }
+  .services-main-banner-heading h1 {
+    font-size: 30px;
+  }
+  .services-main-banner-text p {
+    font-size: 18px;
+  }
+  .contact-us a {
+    font-size: 15px;
+  }
+  .contact-us h1 {
+    font-size: 26px;
+  }
+  .contact-us p {
+    font-size: 17px;
+  }
+  .services-overview h1 {
+    font-size: 30px;
+  }
+  .services-overview p {
+    font-size: 17px;
+    text-align: center;
+  }
+  .service-list-head a {
+    font-size: 22px;
+    line-height: 55px;
+  }
+  .bt-nav-hide {
+    display: none;
+  }
+  .new-height-content p {
+    text-align: justify;
+    font-size: 15px;
+  }
+  .new-height-content h1 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .call-now-content h2 {
+    font-size: 22px;
+  }
+  .call-now-content a {
+    font-size: 15px;
+    padding: 7px 15px;
+  }
+  .GraphicSolution-content h1 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .graphic-desg-heading h1 {
+    font-size: 26px;
+  }
+  .graphic-desg-content p {
+    text-align: left;
+  }
+  .top-Nav-contact-hide {
+    display: none !important;
+  }
+  .top-Nav-contact-hide1 {
+    display: none !important;
+  }
+  .call-mail {
+    display: none;
+  }
+  .call-mail-2 {
+    display: block;
+  }
+  .OurTeam-inner-heading h5 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .OurTeam-inner-heading p {
+    font-size: 17px;
+  }
+  .testimonial h1 {
+    font-size: 24px;
+  }
+  .ppc-heading h1 {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .ppc-marketing h1 {
+    font-size: 26px;
+    line-height: 30px;
+    margin: 16px 0px;
+  }
+  .seo-content h1 {
+    font-size: 23px;
+    line-height: 29px;
+  }
+  .web-devp-list li {
+    font-size: 17px;
+  }
+  .web-devp-heading h1 {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .web-devp h1 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .growth-business-text p {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .businessGrowth-bg {
+    height: 600px;
+  }
+  .androidIOS h1 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .we-grow-content h1 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .ppc-content h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .content-marketing-text h3 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .content-marketing-text h1 {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .content-marketing-box {
+    min-height: 300px;
+  }
+  .smo-heading h1 {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .smo-text h1 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .orm-content p {
+    text-align: left;
+  }
+  .orm-content h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .landing_page_content h1 {
+    font-size: 27px;
+    line-height: 33px;
+  }
+  .landing_page_content p {
+    text-align: left;
+  }
+  .career-001 h1 {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .blogs a { 
+    font-size: 14px; 
+}
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .navbar-001-hide {
+    display: none;
+  }
+  .contact-button {
+    display: none;
+  }
+
+  .new-menu-hide {
+    display: block;
+    margin-right: 0 !important;
+  }
+  .banner-heading h1 {
+    font-size: 32px;
+    line-height: 34px;
+  }
+
+  .banner-text {
+    padding-left: 65px;
+  }
+
+  .Banner-contact-button button {
+    margin-left: 50px;
+  }
+  .Counter-1 {
+    font-size: 42px;
+  }
+  .features-tools-heading {
+    font-size: 30px;
+  }
+  .features-tools-header-text {
+    font-size: 20px;
+  }
+  .features-tools-grid {
+    padding: 0 0px;
+  }
+  .how-it-works-left-contain {
+    width: 100%;
+    max-width: 800px;
+  }
+  .how-it-works-right-contain {
+    width: 100%;
+  }
+  .how-it-works-right-contain {
+    max-width: 580px;
+  }
+  .main-cta-heading {
+    font-size: 24px;
+  }
+  .how-it-works-header-text {
+    font-size: 20px;
+  }
+  .record-004 h2 {
+    font-size: 18px;
+  }
+  .features-tools-grid-contain {
+    justify-content: flex-start;
+  }
+  .border-right {
+    border-right: none;
+  }
+  .border-bottom1 {
+    border-bottom: none;
+  }
+  .counter-box {
+    padding: 40px;
+    min-height: 218px;
+  }
+  .blob {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    position: initial;
+    transform: none;
+  }
+
+  .about-blob {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    position: initial;
+    transform: none;
+  }
+  .bt-nav-hide {
+    display: none;
+  }
+  .new-height-content h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .new-height-content p {
+    font-size: 17px;
+    text-align: justify;
+  }
+  .call-now-content h2 {
+    font-size: 26px;
+  }
+  .GraphicSolution-content h1 {
+    font-size: 21px;
+    line-height: 26px;
+  }
+  .ppc-marketing-box h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .ppc-marketing-box {
+    min-height: 410px;
+  }
+  .ppc-marketing h1 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 17px 0px;
+  }
+  .growth-business-text p {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .web-devp-heading h1 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .web-devp h1 {
+    font-size: 22px;
+  }
+  .content-marketing-text h1 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .ppc-heading h1 {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .content-marketing-text h3 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .content-marketing-text p {
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .top-Nav-contact-hide {
+    display: none !important;
+  }
+  .orm-content h3 {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .orm-content h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .orm-box {
+    min-height: 220px;
+  }
+  .landing_page_content h1 {
+    font-size: 35px;
+    line-height: 37px;
+  }
+  .blogs h5 { 
+    min-height: 35px;
+}
+.blogs {
+    min-height: 145px; 
+}
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .landing_page_content h1 {
+    font-size: 34px;
+    line-height: 38px;
+  }
+  .landing_page_content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .navbar-001-hide {
+    display: none;
+  }
+  .contact-button {
+    display: none;
+  }
+
+  .new-menu-hide {
+    display: block;
+    margin-right: 0 !important;
+  }
+  .banner-text {
+    padding-left: 80px;
+  }
+  .Banner-contact-button button {
+    margin-left: 70px;
+  }
+  .Counter-1 {
+    font-size: 36px;
+  }
+  .features-tools-heading {
+    font-size: 30px;
+  }
+  .features-tools-header-text {
+    font-size: 20px;
+  }
+  .how-it-works-content-wrap {
+    justify-content: center;
+  }
+  .how-it-works-right-contain {
+    width: 100%;
+    max-width: 780px;
+  }
+  .features-tools-grid {
+    padding: 0 0px;
+  }
+  .banner-heading h1 {
+    font-size: 34px;
+  }
+  .create-website-heading h1 {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .create-website-text p {
+    font-size: 16px;
+    text-align: left;
+  }
+  .how-it-works-wrapper {
+    padding-bottom: 0px;
+  }
+  .main-cta-heading {
+    line-height: 104%;
+    font-size: 28px;
+  }
+  .border-right {
+    border-right: none;
+  }
+  .border-bottom1 {
+    border-bottom: none;
+  }
+  .blob {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    position: initial;
+    transform: none;
+  }
+  .about-blob {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    position: initial;
+    transform: none;
+  }
+  .service-grid-text p {
+    font-size: 16px;
+    text-align: justify;
+    min-height: 160px;
+  }
+  .bt-nav-hide {
+    display: none;
+  }
+  .new-height-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .androidIOS-bg {
+    min-height: 42.7rem;
+  }
+  .GraphicSolution-content h1 {
+    font-size: 26px;
+  }
+  .web-devp-heading h1 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .content-marketing-text h3 {
+    line-height: 28px;
+  }
+  .content-marketing-text h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .ppc-heading h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .smo-heading h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .orm-content h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .blogs {
+    min-height: 195px;
+  }
+  .blogs h5 { 
+    min-height: 80px;
+}
+.blogs a { 
+    font-size: 13px; 
+}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+  .service-grid-text p {
+    font-size: 17px;
+    text-align: justify;
+    min-height: 146px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .ppc-marketing-box h2 {
+    font-family: "inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
