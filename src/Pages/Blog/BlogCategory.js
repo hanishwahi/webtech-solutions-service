@@ -26,8 +26,7 @@ function BlogCategory() {
     // Categorize the data based on categories
     uniqueCategories.forEach(category => {
       categorized[category] = data.filter(item => item.category === category);
-      console.log(categorized)
-    });
+     });
     setCategorizedData(categorized);
   }, []);
 
@@ -38,7 +37,7 @@ function BlogCategory() {
       <Header />
       <div className='container-fluid py-3 py-lg-5'>
         <div className='container-lg'>
-          <h1 className='text-center h2 fw-bold py-4'>{category}</h1>
+          <h1 className='text-center h2 fw-bold py-4'>{newCategory}</h1>
           <div className='row row-cols-1 row-cols-md-3 g-4'>
             {latestCategory.map((item)=>{
                  const title = item.title.replace(/\s+/g, '-')

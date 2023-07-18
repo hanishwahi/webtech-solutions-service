@@ -2138,6 +2138,15 @@ input::-webkit-inner-spin-button {
     margin-bottom: 0px;
     color: #42ade4;
 }
+.blog-detail h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 0px;
+    color: #42ade4;
+}
 
 
 .blog-detail p {

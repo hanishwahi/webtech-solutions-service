@@ -11,6 +11,8 @@ function BlogDetails() {
   const blogDetails = data;
   const { id } = useParams();
   const currentId = id;
+   // new blog with key 
+   const newblog = blogDetails[currentId - 1];
 
   // back button 
   const Navigate = useNavigate();
@@ -18,8 +20,7 @@ function BlogDetails() {
     Navigate(-1);
   }
 
-  // new blog with key 
-  const newblog = blogDetails[currentId - 1];
+ 
 
   // to show the recent post 
   useEffect(() => {
@@ -57,18 +58,18 @@ function BlogDetails() {
             </div>
           </div>
           <div className='row justify-content-between'>
-            <div className='col-lg-8'>
+            <div className='col-lg-9 col-md-8'>
               <div className='row mb-3'>
-                <div className='col'>
-                  <img className='p-0 img-fluid' height={550} src={newblog.image} alt='' />
+                <div className='col border px-0'>
+                  <img className='p-0 img-fluid' width="100%" src={newblog.image} alt='' />
                 </div>
               </div>
               <div className='row blog-detail'>
-                {newblog && <h1 className='h3 mb-3' style={{ color: '#42ade4' }}>{newblog.title}?</h1>}
+                {newblog && <h1 className='mb-3' style={{ color: '#42ade4' }}>{newblog.title}?</h1>}
                 {newblog && <p className='h6'> {newblog.description}</p>}
               </div>
             </div>
-            <div className='col-lg-3'>
+            <div className='col-lg-3 col-md-4 ps-lg-3'>
               <div className='row blog-detail-001 border-bottom py-3'>
                 <h1 className='mb-3' style={{ color: '#42ade4' }}>Recent Posts</h1>
                 {recentPost.map((item) => {
