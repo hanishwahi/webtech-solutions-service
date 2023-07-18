@@ -26,6 +26,7 @@ function BlogCategory() {
     // Categorize the data based on categories
     uniqueCategories.forEach(category => {
       categorized[category] = data.filter(item => item.category === category);
+      console.log(categorized)
     });
     setCategorizedData(categorized);
   }, []);

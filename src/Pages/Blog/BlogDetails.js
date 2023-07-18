@@ -24,7 +24,7 @@ function BlogDetails() {
   // to show the recent post 
   useEffect(() => {
     // to show the recent post 
-    const numElements = 3;
+    const numElements = 4;
     const startIndex = data.length - numElements;
     const pickedData = data.slice(startIndex);
     setRecentPost(pickedData);
