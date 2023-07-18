@@ -11,8 +11,7 @@ import GraphicDesign from './Pages/Graphic Design/GraphicDesign';
 import Service from './Pages/Service/AllService';
 // import ScrollToTop from './Pages/ScrollToTop';
 import PageNotFound from './Pages/PageNotFound';
-import Blog from './Pages/Blog/Blog';
-import ContactForm from './Pages/ContactForm/Contact';
+ import ContactForm from './Pages/ContactForm/Contact';
 import AppDevelopment from './Pages/App Development/AppDevelopment'
 import LetsWorkTogether from './Pages/LetsWorkTogether';
 import Clients from './Pages/Clients/Clients';
@@ -27,6 +26,7 @@ import SMO from './Pages/SMO/SMO';
 import ORM from './Pages/ORM/ORM';
 import SMM from './Pages/SMM/SMM';
 import BlogDetails from './Pages/Blog/BlogDetails';
+import Blogs from './Pages/Blog/Blogs';
 
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
         <Route path='/our-team' element={<OurTeam />} />
         <Route path='/about-us' element={<About />} />
         <Route path='/contact-us' element={<ContactForm />} />
-        <Route path='/blogs' element={<Blog />} />
+        <Route path='/blogs' element={<Blogs/>} />
         <Route path='/blog/:id/:title' element={<BlogDetails />} />
         <Route path='/services' element={<Service />} />
         <Route path='/clients' element={<Clients />} />

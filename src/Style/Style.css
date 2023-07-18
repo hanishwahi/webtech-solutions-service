@@ -2124,7 +2124,7 @@ line-height: 28px;
  }
  .blogs {
     min-height: 150px;
-    background-color: #e6e5e5; 
+    /* background-color: #e6e5e5;  */
  }
 
  .blogs h5{
@@ -2133,7 +2133,7 @@ line-height: 28px;
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
-      color: #000;
+      color: #42ade4;
       min-height: 50px;
  }
  .blogs a {
@@ -2143,5 +2143,21 @@ line-height: 28px;
     padding: 10px 14px;
     font-weight: 400;
     font-size: 16px;
-text-decoration: none;
+ text-decoration: none;
+}
+.blogs p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #42ade4; 
+}
+.blog-detail p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000; 
 }
