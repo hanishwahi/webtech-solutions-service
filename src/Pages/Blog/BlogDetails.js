@@ -58,7 +58,7 @@ function BlogDetails() {
             </div>
           </div>
           <div className='row justify-content-between'>
-            <div className='col-lg-9 col-md-8'>
+            <div className='col-lg-8 col-md-8'>
               <div className='row mb-3'>
                 <div className='col border px-0'>
                   <img className='p-0 img-fluid' width="100%" src={newblog.image} alt='' />
@@ -69,8 +69,8 @@ function BlogDetails() {
                 {newblog && <p className='h6'> {newblog.description}</p>}
               </div>
             </div>
-            <div className='col-lg-3 col-md-4 ps-lg-3'>
-              <div className='row blog-detail-001 border-bottom py-3'>
+            <div className='col-lg-4 col-md-4 ps-lg-3'>
+              <div className='row blog-detail-001  ps-lg-5 py-3 mb-4'>
                 <h1 className='mb-3' style={{ color: '#42ade4' }}>Recent Posts</h1>
                 {recentPost.map((item) => {
                   const title = item.title.replace(/\s+/g, '-');
@@ -83,27 +83,27 @@ function BlogDetails() {
                   );
                 })}
               </div>
-              <div className='row blog-detail-001 border-bottom py-3'>
+              <div className='row blog-detail-001  ps-lg-5 py-3 mb-4'>
                 <h1 className='mb-3' style={{ color: '#42ade4' }}>Recent Comments</h1>
                 <div className='blog-detail-001'>
                   <h4 className='h5'>No Comments to show</h4>
                 </div>
               </div>
-              <div className='row blog-detail-001 border-bottom py-3'>
+              <div className='row blog-detail-001  ps-lg-5 py-3'>
                 <h1 className='mb-3' style={{ color: '#42ade4' }}>Categories</h1>
                <div className='blog-detail-001'>
-               
-               </div>
-                {categories.map((categories) => {
+               {categories.map((categories) => {
                   const category = categories.replace(/\s+/g, '-');
                   return (
                     <div key={category} className='blog-detail-001'>
                       <Link onClick={scrollToHome} to={`/blog/category/${category}`}>
-                        <h4>{category}</h4>
+                        <h4>{categories}</h4>
                       </Link>
                     </div>
                   );
                 })}
+               </div>
+                
               </div>
             </div>
           </div>
