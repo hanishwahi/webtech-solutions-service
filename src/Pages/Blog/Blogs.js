@@ -34,7 +34,7 @@ function Blogs() {
                                             <div className="card">
                                                 <div className="card-body p-0 shadow blog-box">
                                                     <div className='row ratio ratio-16x9 object-fit m-0'>
-                                                        <img className='img-fluid p-0' src={item.image} alt='' />
+                                                        <img className='img-fluid p-0' src={item.image} alt={item.title} />
                                                     </div>
 
                                                     <div className='row px-4 py-3'>

@@ -13,7 +13,7 @@ function AboutHome() {
             <div className='col-lg-7 col-md-7 ps-md-4 mb-4 '>
                     <div className='row mb-3'>
                         <div className='col-lg-1 col-1 text-end align-self-center'>
-                            <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                            <img width={10} className='img-fluid' src={dm_rectangle} alt='About Web Tech Solutions' />
                         </div>
                         <div className='col-11 create-website-heading align-self-center'>
                             <h1>About Our Company</h1>

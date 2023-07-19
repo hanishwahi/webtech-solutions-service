@@ -36,7 +36,7 @@ function AppServices() {
                             </div>
                         </div>
                         <div className='col-lg-6'>
-                            <img width="100%" height="100%" className='img-fluid' src={app_service_img} alt='' />
+                            <img width="100%" height="100%" className='img-fluid' src={app_service_img} alt='Mobile App Development' />
                         </div>
                     </div>
                 </div>

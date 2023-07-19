@@ -18,7 +18,7 @@ function HowWeWork() {
           <div className="how-it-works-left-contain col-12 frame">
            <div className='blob blob-1'>
            <img src={HowImg} loading="lazy"
-              alt=""
+              alt="IT Work Flow"
               className="how-it-works-image img-fluid" />
            </div>
           </div>

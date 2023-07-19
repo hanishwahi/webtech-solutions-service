@@ -65,7 +65,7 @@ function SeoService() {
                             <p>Imagine You`Ve Positioned As Plenty Paintings As You Could Into Making Your Internet Site The Right Platform, And It`S Simply Now No Longer Enough. What Takes Place Whilst You`Ve Carried Out As Plenty Of The Natural Search Engine Optimization (Search Engine Optimization) Paintings As You Could In Your Own? When You`Ve Stranded Your Self Withinside The UI`S Of A 1/2 Of Dozen Search Engine Optimization Tools, Now No Longer Even Positive When You Have The Evaluation The Records Right. It`S Now No Longer Simply Frustrating, It`S A Danger In Your Business. What You`Re Doing Incorrect Together Along With Your Search Engine Optimization Can Fee You Money. It Doesn`T Make Feel To Take The Dangers Whilst Outsourcing Natural Search Engine Optimization Consulting Offerings Has Such A Lot Of Advantages.</p>
                         </div>
                         <div className='col-lg-4 text-center'>
-                            <img className='img-fluid' src={seo_img_2} alt='' />
+                            <img className='img-fluid' src={seo_img_2} alt='SEO Consultations' />
                         </div>
                     </div>
                 </div>

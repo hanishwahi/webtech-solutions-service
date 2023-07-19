@@ -20,7 +20,7 @@ function Testmonial() {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img width="100%" height='100%' className="rounded-circle border shadow-1-strong mb-4"
-                                src={Tabburajput} alt="avatar"
+                                src={Tabburajput} alt="Client Reviews"
                                 style={{ width: "150px" }} />
                             <div className="row d-flex justify-content-center">
                                 <div className="col-lg-8 col-8 col-sm-9">
@@ -41,7 +41,7 @@ function Testmonial() {
                         </div>
                         <div className="carousel-item">
                             <img className="rounded-circle border shadow-1-strong mb-4"
-                                src={Nucosmetic} alt="avatar"
+                                src={Nucosmetic} alt="Client Reviews"
                                 style={{ width: "150px" }} />
                             <div className="row d-flex justify-content-center">
                                 <div className="col-lg-8 col-8 col-sm-9">
@@ -63,7 +63,7 @@ function Testmonial() {
                         </div>
                         <div className="carousel-item">
                             <img className="rounded-circle border shadow-1-strong mb-4"
-                                src={Rapidtax} alt="avatar"
+                                src={Rapidtax} alt="Client Reviews"
                                 style={{ width: "150px" }} />
                             <div className="row d-flex justify-content-center">
                                 <div className="col-lg-8 col-8 col-sm-9">

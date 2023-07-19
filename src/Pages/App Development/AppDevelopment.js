@@ -41,7 +41,7 @@ function AppDevelopment() {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
-                        <img width="100%" height="100%" className='overflow-hidden px-0 img-fluid' src={appdevelopment} alt='' />
+                        <img width="100%" height="100%" className='overflow-hidden px-0 img-fluid' src={appdevelopment} alt='App Development Company in Chandigarh' />
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ function AppDevelopment() {
                 <div className='container-lg'>
                     <div className='row py-3 py-lg-5 justify-content-center'>
                         <div className='col-lg-6 col-sm-8 col-md-6'>
-                            <img width="100%" height="100%" src={appdevelopmentimg} alt='' className='img-fluid' />
+                            <img width="100%" height="100%" src={appdevelopmentimg} alt='App Development Service' className='img-fluid' />
                         </div>
                         <div className='col-lg-6'>
                             <div className='row mb-3'>

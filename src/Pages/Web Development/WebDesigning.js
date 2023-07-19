@@ -47,7 +47,7 @@ function WebDesigning() {
                             </div>
                         </div>
                         <div className='col-lg-6 col-sm-8 col-md-6'>
-                            <img width="100%" height="100%" src={web_design_img} alt='' className='img-fluid' />
+                            <img width="100%" height="100%" src={web_design_img} alt='Web Designing Agency' className='img-fluid' />
                         </div>
 
                     </div>

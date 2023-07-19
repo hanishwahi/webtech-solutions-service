@@ -8,10 +8,10 @@ function Banner() {
       <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img width="100%" height="100%" src={banner1} className="d-block" alt="..." />
+            <img width="100%" height="100%" src={banner1} className="d-block" alt="Web Tech Solutions Service" />
           </div>
           <div className="carousel-item">
-            <img width="100%" height="100%" src={banner2} className="d-block w-100" alt="..." />
+            <img width="100%" height="100%" src={banner2} className="d-block w-100" alt="Web Development Service" />
           </div>
           
         

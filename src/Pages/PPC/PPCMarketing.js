@@ -21,7 +21,7 @@ function PPCMarketing() {
                     <div className='row'>
                         <div className='col-lg-4 col-sm-6 mb-3'>
                             <div className='shadow p-4 text-center ppc-marketing-box'>
-                                 <img className='mb-3'width={140} src={Google_Advertising_icon} alt='' /> 
+                                 <img className='mb-3'width={140} src={Google_Advertising_icon} alt='Google Ads Agency' /> 
                                 <h2>Google Advertising</h2>
                                 <p>Working as a Google Adwords agency in Delhi, we equip businesses with tools that get your (Sample Text).</p>
                             </div>
@@ -29,7 +29,7 @@ function PPCMarketing() {
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3'>
                             <div className='shadow p-4 text-center ppc-marketing-box'>
-                                 <img className='mb-3'width={140} src={Bing_Advertising_icon} alt='' /> 
+                                 <img className='mb-3'width={140} src={Bing_Advertising_icon} alt='Bing Ads Agency' /> 
                                 <h2>Bing Advertising</h2>
                                 <p>Working as a Google Adwords agency in Delhi, we equip businesses with tools that get your (Sample Text).</p>
                             </div>
@@ -37,7 +37,7 @@ function PPCMarketing() {
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3'>
                             <div className='shadow p-4 text-center ppc-marketing-box'>
-                                 <img className='mb-3'width={140} src={ECommerce_Ads_icon} alt='' /> 
+                                 <img className='mb-3'width={140} src={ECommerce_Ads_icon} alt='E-commerce Ads Agency in Chandigarh' /> 
                                 <h2>E-Commerce Ads</h2>
                                 <p>Working as a Google Adwords agency in Delhi, we equip businesses with tools that get your (Sample Text).</p>
                             </div>
@@ -45,7 +45,7 @@ function PPCMarketing() {
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3'>
                             <div className='shadow p-4 text-center ppc-marketing-box'>
-                                 <img className='mb-3'width={140} src={FacebookAdvertising_icon} alt='' /> 
+                                 <img className='mb-3'width={140} src={FacebookAdvertising_icon} alt='SMO Services in Chandigarh' /> 
                                 <h2>Facebook Advertising</h2>
                                 <p>Working as a Google Adwords agency in Delhi, we equip businesses with tools that get your (Sample Text).</p>
                             </div>
@@ -53,7 +53,7 @@ function PPCMarketing() {
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3'>
                             <div className='shadow p-4 text-center ppc-marketing-box'>
-                                 <img className='mb-3'width={140} src={Remarketing} alt='' /> 
+                                 <img className='mb-3'width={140} src={Remarketing} alt='Remarketing Specialist' /> 
                                 <h2>Remarketing</h2>
                                 <p>Working as a Google Adwords agency in Delhi, we equip businesses with tools that get your (Sample Text).</p>
                             </div>
@@ -61,7 +61,7 @@ function PPCMarketing() {
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3'>
                             <div className='shadow p-4 text-center ppc-marketing-box'>
-                                 <img className='mb-3'width={140} src={AmazonAdvertisingicon} alt='' /> 
+                                 <img className='mb-3'width={140} src={AmazonAdvertisingicon} alt='Amazon Ads Expert' /> 
                                 <h2>Amazon Advertising</h2>
                                 <p>Working as a Google Adwords agency in Delhi, we equip businesses with tools that get your (Sample Text).</p>
                             </div>

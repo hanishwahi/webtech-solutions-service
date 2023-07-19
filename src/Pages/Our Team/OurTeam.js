@@ -43,7 +43,7 @@ function OurTeam() {
                     <div className='col px-0'>
                         <img className='img-fluid px-0'
                             src={Teambanner}
-                            alt='' />
+                            alt='Hire + Service Name + Expert or Specialist' />
                     </div>
 
                 </div>

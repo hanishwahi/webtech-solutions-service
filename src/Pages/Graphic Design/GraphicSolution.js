@@ -28,7 +28,7 @@ function GraphicSolution() {
                     <div className='col px-0'>
                         <img className='overflow-hidden px-0 img-fluid'
                             src={graphicDsign1}
-                            alt='' />
+                            alt='Graphic Designing Services' />
                     </div>
                 </div>
             </div>

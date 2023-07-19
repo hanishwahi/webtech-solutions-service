@@ -25,7 +25,7 @@ function ServiceBox() {
                                         <img
                                             width={80}
                                             src={SEO}
-                                            loading="lazy" alt="" className="tools-grid-image   mb-0 box" />
+                                            loading="lazy" alt="seo-service" className="tools-grid-image   mb-0 box" />
                                     </div>
                                     <h5 className="tools-grid-heading">Search Engine Optimization</h5>
                                     <div className="service-grid-text"><p>
@@ -42,7 +42,7 @@ function ServiceBox() {
                                         <img
                                             width={80}
                                             src={PPC}
-                                            loading="lazy" alt="" className="tools-grid-image   mb-0 box" />
+                                            loading="lazy" alt="ppc-service" className="tools-grid-image   mb-0 box" />
                                     </div>
                                     <h5 className="tools-grid-heading">Pay Per Click</h5>
                                     <div className="service-grid-text">
@@ -60,7 +60,7 @@ function ServiceBox() {
                                         <img
                                             width={80}
                                             src={WEBDEVELOPMENT}
-                                            loading="lazy" alt="" className="tools-grid-image   mb-0 box" />
+                                            loading="lazy" alt="smo-service" className="tools-grid-image   mb-0 box" />
                                     </div>
                                     <h5 className="tools-grid-heading">SMO</h5>
                                     <div className="service-grid-text"><p>
@@ -77,7 +77,7 @@ function ServiceBox() {
                                         <img
                                             width={80}
                                             src={ORM}
-                                            loading="lazy" alt="" className="tools-grid-image   mb-0 box" />
+                                            loading="lazy" alt="orm-service" className="tools-grid-image   mb-0 box" />
                                     </div>
                                     <h5 className="tools-grid-heading">Online Reputation Management (ORM)</h5>
                                     <div className="service-grid-text"><p>
@@ -93,7 +93,7 @@ function ServiceBox() {
                                         <img
                                             width={80}
                                             src={AppDevelopment}
-                                            loading="lazy" alt="" className="tools-grid-image   mb-0 box" />
+                                            loading="lazy" alt="smm-service" className="tools-grid-image   mb-0 box" />
                                     </div>
                                     <h5 className="tools-grid-heading">SMM</h5>
                                     <div className="service-grid-text"><p>
@@ -109,7 +109,7 @@ function ServiceBox() {
                                         <img
                                             width={80}
                                             src={Content_Marketing}
-                                            loading="lazy" alt="" className="tools-grid-image   mb-0 box box" />
+                                            loading="lazy" alt="content-marketing" className="tools-grid-image   mb-0 box box" />
                                     </div>
                                     <h5 className="tools-grid-heading">Content Marketing</h5>
                                     <div className="service-grid-text"><p>

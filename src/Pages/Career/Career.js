@@ -38,7 +38,7 @@ function Career() {
                     <div className='col px-0'>
                         <img className='overflow-hidden px-0 img-fluid'
                             src={careerbanner}
-                            alt='' />
+                            alt='We Are Hiring - IT Jobs' />
                     </div>
                 </div>
             </div>
