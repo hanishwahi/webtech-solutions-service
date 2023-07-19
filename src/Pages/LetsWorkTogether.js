@@ -27,7 +27,7 @@ function LetsWorkTogether() {
                         <Link to='https://wa.me/+918427682603?text=Welcome to webtech solutions' target='_blank'> <img width={40} src={whatsApp} alt='' className='img-fluid' /></Link> 
                         </div>
                     </div>
-                    <div className='call-mail-2 fixed-bottom'>
+                    <div className='call-mail-2 fixed-bottom border-top'>
                         <div className='d-flex gap-4 justify-content-center align-items-center call-mail-2-content'>
                             <div className='whatsapp'>
                                 <Link to="tel:+91 8427682603"><i className="fa-sharp fa-solid fa-phone  "></i></Link>

@@ -15,20 +15,26 @@ function AppDevelopment() {
     return (
         <>
             <Helmet>
-                <title>Build Mobile App - Get Best Mobile App Development | Webtech Solutions Service</title>
-                <meta name="description" content="Webtech Solutions Service builds mobile apps that take your business to the next level. Generate skyrocketed revenues with our mobile app services. Get Started!" />
+                <title>Hire the best Mobile App Developers | App Development Company in Chandigarh, INDIA
+</title>
+                <meta name="description" content="Webtech Solutions Service build a mobile app that takes your business to the next level. Now generate skyrocketed revenues with mobile app services. Get Started!
+" />
 
                 Open Graph (OG) tags
-                <meta property="og:title" content="Build Mobile App - Get Best Mobile App Development | Webtech Solutions Service" />
-                <meta property="og:description" content="Webtech Solutions Service builds mobile apps that take your business to the next level. Generate skyrocketed revenues with our mobile app services. Get Started!" />
+                <meta property="og:title" content="Hire the best Mobile App Developers | App Development Company in Chandigarh, INDIA
+" />
+                <meta property="og:description" content="Webtech Solutions Service build a mobile app that takes your business to the next level. Now generate skyrocketed revenues with mobile app services. Get Started!
+" />
                 <meta property="og:url" content="https://webtechsolutionsservice.com/app-development" />
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
                 Twitter Card tags
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Build Mobile App - Get Best Mobile App Development | Webtech Solutions Service" />
-                <meta name="twitter:description" content="Webtech Solutions Service builds mobile apps that take your business to the next level. Generate skyrocketed revenues with our mobile app services. Get Started!"/>
+                <meta name="twitter:title" content="Hire the best Mobile App Developers | App Development Company in Chandigarh, INDIA
+" />
+                <meta name="twitter:description" content="Webtech Solutions Service build a mobile app that takes your business to the next level. Now generate skyrocketed revenues with mobile app services. Get Started!
+"/>
                     <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
                     Canonical tag

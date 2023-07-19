@@ -64,14 +64,15 @@ function BlogDetails() {
   return (
     <>
       <Header />
-      <div className='container-fluid py-5'>
+      <div className='container-fluid py-md-5'>
         <div className='container-lg'>
           <div className='row align-items-center py-3'>
-            <div className='col-lg-6 col-8 blog-detail'>
-              {latestUniqueTitle1 && <h2><span>Posted on: </span> {latestUniqueTitle1.date}</h2>}
+            
+            <div className='col-lg-6 col-4 blog-detail-back-button'>
+              <Link onClick={backWindow}><i class="fa-solid fa-arrow-left"></i></Link>
             </div>
-            <div className='col-lg-6 col-4 text-end blog-detail-back-button'>
-              <Link onClick={backWindow}><i className='fa-solid fa-rotate-left'></i></Link>
+            <div className='col-lg-6 col-8 text-end blog-detail'>
+              {latestUniqueTitle1 && <h2><span>Posted on: </span> {latestUniqueTitle1.date}</h2>}
             </div>
           </div>
           <div className='row justify-content-between'>
@@ -88,8 +89,8 @@ function BlogDetails() {
               </div>
             </div>
             <div className='col-lg-4 col-md-4 ps-lg-3'>
-              <div className='row blog-detail-001  ps-lg-5 py-3 mb-4'>
-                <h1 className='mb-3' style={{ color: '#42ade4' }}>Recent Posts</h1>
+              <div className='row blog-detail-001  ps-lg-5 py-3 mb-md-4'>
+                <h1 className='mb-3'>Recent Posts</h1>
                 {recentPost.map((item) => {
                   const title = item.title.replace(/\s+/g, '-');
                   return (
@@ -101,21 +102,21 @@ function BlogDetails() {
                   );
                 })}
               </div>
-              <div className='row blog-detail-001  ps-lg-5 py-3 mb-4'>
-                <h1 className='mb-3' style={{ color: '#42ade4' }}>Recent Comments</h1>
+              <div className='row blog-detail-001  ps-lg-5 py-3 mb-md-4'>
+                <h1 className='mb-3'>Recent Comments</h1>
                 <div className='blog-detail-001'>
                  <Link> <h4 className=''>No comments to show</h4></Link>
                 </div>
               </div>
               <div className='row blog-detail-001  ps-lg-5 py-3'>
-                <h1 className='mb-3' style={{ color: '#42ade4' }}>Categories</h1>
+                <h1 className='mb-3'>Categories</h1>
                 <div className='blog-detail-001'>
                   {categories.map((categories) => {
                     const category = categories.replace(/\s+/g, '-');
                     return (
                       <div key={category} className='blog-detail-001'>
                         <Link onClick={scrollToHome} to={`/blog/category/${category}`}>
-                          <h4>{categories}</h4>
+                          <li>{categories}</li>
                         </Link>
                       </div>
                     );

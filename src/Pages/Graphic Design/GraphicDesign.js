@@ -11,20 +11,23 @@ function GraphicDesign() {
     return (
         <>
             <Helmet>
-                <title>Creative Graphic Design Solutions | Web Tech Solutions Service</title>
-                <meta name="description" content="Transform your brand with visually stunning graphic design solutions. Our creative experts specialize in delivering captivating designs that leave a lasting impression. Explore our graphic design services today." />
+                <title>Hire Best Graphic Design Agency  in Chandigarh | Creative Logo Design Solutions
+</title>
+                <meta name="description" content="Transform your brand with visually stunning graphic design solutions. Our creative experts specialize in delivering captivating designs that leave a lasting impression" />
 
                 {/* Open Graph (OG) tags" */}
-                <meta property="og:title" content="Creative Graphic Design Solutions | Web Tech Solutions Service" />
-                <meta property="og:description" content="Transform your brand with visually stunning graphic design solutions. Our creative experts specialize in delivering captivating designs that leave a lasting impression. Explore our graphic design services today." />
+                <meta property="og:title" content="Hire Best Graphic Design Agency  in Chandigarh | Creative Logo Design Solutions
+" />
+                <meta property="og:description" content="Transform your brand with visually stunning graphic design solutions. Our creative experts specialize in delivering captivating designs that leave a lasting impression" />
                 <meta property="og:url" content="https://webtechsolutionsservice.com/graphic-design" />
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
                 {/* Twitter Card tags" */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Creative Graphic Design Solutions | Web Tech Solutions Service" />
-                <meta name="twitter:description" content="Transform your brand with visually stunning graphic design solutions. Our creative experts specialize in delivering captivating designs that leave a lasting impression. Explore our graphic design services today." />
+                <meta name="twitter:title" content="Hire Best Graphic Design Agency  in Chandigarh | Creative Logo Design Solutions
+" />
+                <meta name="twitter:description" content="Transform your brand with visually stunning graphic design solutions. Our creative experts specialize in delivering captivating designs that leave a lasting impression" />
                 <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
                 {/* Canonical tag" */}

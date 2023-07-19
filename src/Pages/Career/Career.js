@@ -11,9 +11,9 @@ function Career() {
     return (
         <>
             <Helmet>
-                <title>Join Our Team of IT Experts | Web Tech Solutions Service</title>
+                <title>Join Our Team of IT Experts | Web Tech Solutions Service
+                </title>
                 <meta name="description" content="Take your career to new heights with Web Tech Solutions Service. Join our team of IT experts and work on cutting-edge projects that drive digital innovation. Explore our career opportunities and grow with us." />
-
                 {/* Open Graph (OG) tags  */}
                 <meta property="og:title" content="Join Our Team of IT Experts | Web Tech Solutions Service" />
                 <meta property="og:description" content="Take your career to new heights with Web Tech Solutions Service. Join our team of IT experts and work on cutting-edge projects that drive digital innovation. Explore our career opportunities and grow with us." />
@@ -23,8 +23,10 @@ function Career() {
 
                 {/* Twitter Card tags  */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Join Our Team of IT Experts | Web Tech Solutions Service" />
-                <meta name="twitter:description" content="Take your career to new heights with Web Tech Solutions Service. Join our team of IT experts and work on cutting-edge projects that drive digital innovation. Explore our career opportunities and grow with us." />
+                <meta name="twitter:title" content="Join Our Team of IT Experts | Web Tech Solutions Service
+" />
+                <meta name="twitter:description" content="Take your career to new heights with Web Tech Solutions Service. Join our team of IT experts and work on cutting-edge projects that drive digital innovation. Explore our career opportunities and grow with us.
+" />
                 <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
                 {/* Canonical tag  */}

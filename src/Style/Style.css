@@ -2201,8 +2201,20 @@ input::-webkit-inner-spin-button {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
+    margin-bottom: 18px;
 }
 .blog-detail-001 a h4:hover{
+    color: rgb(126, 10, 10);
+}
+.blog-detail-001 li{
+    font-size: 17px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.blog-detail-001 a li:hover{
     color: rgb(126, 10, 10);
 }
 .blog-detail-001 h1{

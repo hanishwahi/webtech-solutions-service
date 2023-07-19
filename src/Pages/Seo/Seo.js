@@ -12,20 +12,26 @@ function Seo() {
     return (
         <>
             <Helmet>
-                <title>Improve Your Website's Visibility with Effective SEO Strategies | Web Tech Solutions Service</title>
-                <meta name="description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. Web Tech Solutions Service specializes in optimizing websites for search engines, helping businesses attract organic traffic and achieve long-term online success. Learn more about our SEO services." />
+                <title>SEO Specialist | SEO Agency |  Best SEO Company in Chandigarh, India
+</title>
+                <meta name="description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. We are specializes in optimising websites for search engines.
+" />
 
                 {/* Open Graph (OG) tags */}
-                <meta property="og:title" content="Improve Your Website's Visibility with Effective SEO Strategies | Web Tech Solutions Service" />
-                <meta property="og:description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. Web Tech Solutions Service specializes in optimizing websites for search engines, helping businesses attract organic traffic and achieve long-term online success. Learn more about our SEO services." />
+                <meta property="og:title" content="SEO Specialist | SEO Agency |  Best SEO Company in Chandigarh, India
+" />
+                <meta property="og:description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. We are specializes in optimising websites for search engines.
+" />
                 <meta property="og:url" content="https://webtechsolutionsservice.com/seo-service" />
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
                 {/* Twitter Card tags */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Improve Your Website's Visibility with Effective SEO Strategies | Web Tech Solutions Service" />
-                <meta name="twitter:description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. Web Tech Solutions Service specializes in optimizing websites for search engines, helping businesses attract organic traffic and achieve long-term online success. Learn more about our SEO services." />
+                <meta name="twitter:title" content="SEO Specialist | SEO Agency |  Best SEO Company in Chandigarh, India
+" />
+                <meta name="twitter:description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. We are specializes in optimising websites for search engines.
+" />
                 <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
                 {/* Canonical tag */}

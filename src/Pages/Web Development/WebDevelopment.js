@@ -15,20 +15,26 @@ function WebDevelopment() {
     return (
         <>
             <Helmet>
-                <title>Web Development | Top-Notch Web Solutions | Webtech Solutions Service</title>
-                <meta name="description" content="Webtechsolutionsservice.com is the best web development company in India. We develop customized websites using advanced technologies for your business needs. Get started!" />
+                <title>Best Web Development Company in Chandigarh | Top-Notch Web Solutions
+</title>
+                <meta name="description" content="Webtechsolutionsservice.com is an award-winning, globally recognized Website Development Company in Chandigarh, India. We are offering cost effective custom web development,. Get started!
+" />
 
                 {/* " Open Graph (OG) tags" */}
-                <meta property="og:title" content="Web Development | Top-Notch Web Solutions | Webtech Solutions Service" />
-                <meta property="og:description" content="Webtechsolutionsservice.com is the best web development company in India. We develop customized websites using advanced technologies for your business needs. Get started!" />
+                <meta property="og:title" content="Best Web Development Company in Chandigarh | Top-Notch Web Solutions
+" />
+                <meta property="og:description" content="Webtechsolutionsservice.com is an award-winning, globally recognized Website Development Company in Chandigarh, India. We are offering cost effective custom web development,. Get started!
+" />
                 <meta property="og:url" content="https://webtechsolutionsservice.com/web-development" />
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
                 {/* " Twitter Card tags" */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Web Development | Top-Notch Web Solutions | Webtech Solutions Service" />
-                <meta name="twitter:description" content="Webtechsolutionsservice.com is the best web development company in India. We develop customized websites using advanced technologies for your business needs. Get started!" />
+                <meta name="twitter:title" content="Best Web Development Company in Chandigarh | Top-Notch Web Solutions
+" />
+                <meta name="twitter:description" content="Webtechsolutionsservice.com is an award-winning, globally recognized Website Development Company in Chandigarh, India. We are offering cost effective custom web development,. Get started!
+" />
                 <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
                 {/* " Canonical tag" */}

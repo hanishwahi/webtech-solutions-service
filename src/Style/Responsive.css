@@ -316,6 +316,18 @@
   .blogs a { 
     font-size: 14px; 
 }
+.blog-detail h1 { 
+  font-size: 22px;
+  line-height: 28px; 
+}
+.blog-detail-002 h1 { 
+  font-size: 24px;
+  line-height: 28px; 
+}
+.blog-detail-001 h1 { 
+  font-size: 22px;
+  line-height: 28px;  
+}
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
