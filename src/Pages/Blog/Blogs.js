@@ -6,7 +6,7 @@ import { data } from './BlogsData'
 
 
 function Blogs() {
-    const items = data
+    const items = data.reverse()
 
     function scrollToHome() {
         window.scrollTo({
@@ -44,13 +44,21 @@ function Blogs() {
                                                             </Link>
                                                         </div>
                                                     </div>
+                                                    <div className='row px-4'>
+                                                        <div className='col-sm-12 col-lg-12 col-12 col-md-12 px-0 blog-content'>
+                                                            <Link onClick={scrollToHome} to={`/blog/${title}`}>
+                                                                <p className="card-title mb-2" >{item.description.slice(0,100)}...</p>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
                                                     <div className='row px-4 py-3 align-items-center'>
                                                          <div className='col-6 col-sm-7  col-md-12 col-lg-6 px-0 py-2 blogs-button'>
                                                             <Link onClick={scrollToHome} to={`/blog/${title}`}>Read More</Link>
                                                         </div>
                                                         <div className='col-6 col-sm-5 col-md-12 col-lg-6 text-end py-2 blog-content'>
-                                                            <p className='h6 mb-0' >  {item.date}</p>
+                                                            <h6 className='h6 mb-0' >  {item.date}</h6>
                                                         </div>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>

@@ -62,7 +62,7 @@ function BlogCategory() {
                             <Link onClick={scrollToHome} to={`/blog/${title}`}>Read More</Link>
                           </div>
                           <div className='col-6 col-sm-5 col-md-12 col-lg-6 text-end py-2'>
-                            <p className='h6 mb-0'>{item.date}</p>
+                            <h6 className='h6 mb-0'>{item.date}</h6>
                           </div>
                         </div>
                       </div>

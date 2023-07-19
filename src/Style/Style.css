@@ -2128,7 +2128,15 @@ input::-webkit-inner-spin-button {
     min-height: 50px;
     text-decoration: none !important; 
 }
-.blog-content p {
+.blog-content p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    color: #000;
+}
+.blog-content h6 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
