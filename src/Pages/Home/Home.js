@@ -15,8 +15,7 @@ function Home() {
   return (
     <>
       <Helmet>
-        " Title Tag
-        <title>Web Tech Solutions Service - Leading IT Service Provider In India | Best Digital Marketing & App Development Company in Chandigarh</title>
+        <title>Web Tech Solutions Service - Best Digital Marketing & App Development Company in Chandigarh, India</title>
 
         Meta Tags
         <meta charset="UTF-8" />
@@ -28,7 +27,7 @@ function Home() {
         <meta property="og:description" content="Web Tech Solutions Service: Best Digital Marketing & App Development Company in Chandigarh, India. We are one of the leading IT solutions providers offering a wide range of digital marketing, mobile & web application development services worldwide." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://webtechsolutionsservice.com/" />
-        <meta property="og:image" content="https://webtechsolutionsservice.com/og-image.jpg" />
+        <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
         Twitter Card Tags
         <meta name="twitter:card" content="summary_large_image" />
