@@ -59,7 +59,7 @@ console.log(categorizedData)
                         </div>
                         <div className='row px-4 py-3 align-items-center'>
                           <div className='col-6 col-sm-7 col-md-12 col-lg-6 px-0 py-2'>
-                            <Link onClick={scrollToHome} to={`/blog/${item.id}/${title}`}>Read More</Link>
+                            <Link onClick={scrollToHome} to={`/blog/${title}`}>Read More</Link>
                           </div>
                           <div className='col-6 col-sm-5 col-md-12 col-lg-6 text-end py-2'>
                             <p className='h6 mb-0'>{item.date}</p>
