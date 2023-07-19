@@ -41,8 +41,6 @@ function BlogDetails() {
     Navigate(-1);
   }
 
-
-
   // to show the recent post 
   useEffect(() => { 
     const pickedData = data.slice(-4);
@@ -105,7 +103,7 @@ function BlogDetails() {
               <div className='row blog-detail-001  ps-lg-5 py-3 mb-4'>
                 <h1 className='mb-3' style={{ color: '#42ade4' }}>Recent Comments</h1>
                 <div className='blog-detail-001'>
-                  <h4 className='h5'>No Comments to show</h4>
+                  <h4 className='h5'>No comments to show</h4>
                 </div>
               </div>
               <div className='row blog-detail-001  ps-lg-5 py-3'>
