@@ -907,9 +907,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 /* seo page  */
 .seo-content h1 {
     font-family: 'inter', sans-serif;
-    font-size: 32px;
+    font-size:24px;
     font-weight: 700;
-    line-height: 38px;
+    line-height: 30px;
     margin-bottom: 0;
 }
 .seo-content p {

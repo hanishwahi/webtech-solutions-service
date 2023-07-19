@@ -12,12 +12,11 @@ function GraphicDesign() {
         <>
             <Helmet>
                 <title>Hire Best Graphic Design Agency  in Chandigarh | Creative Logo Design Solutions
-</title>
+                </title>
                 <meta name="description" content="Transform your brand with visually stunning graphic design solutions. Our creative experts specialize in delivering captivating designs that leave a lasting impression" />
 
                 {/* Open Graph (OG) tags" */}
-                <meta property="og:title" content="Hire Best Graphic Design Agency  in Chandigarh | Creative Logo Design Solutions
-" />
+                <meta property="og:title" content="Hire Best Graphic Design Agency  in Chandigarh | Creative Logo Design Solutions" />
                 <meta property="og:description" content="Transform your brand with visually stunning graphic design solutions. Our creative experts specialize in delivering captivating designs that leave a lasting impression" />
                 <meta property="og:url" content="https://webtechsolutionsservice.com/graphic-design" />
                 <meta property="og:type" content="website" />
@@ -25,8 +24,7 @@ function GraphicDesign() {
 
                 {/* Twitter Card tags" */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Hire Best Graphic Design Agency  in Chandigarh | Creative Logo Design Solutions
-" />
+                <meta name="twitter:title" content="Hire Best Graphic Design Agency  in Chandigarh | Creative Logo Design Solutions" />
                 <meta name="twitter:description" content="Transform your brand with visually stunning graphic design solutions. Our creative experts specialize in delivering captivating designs that leave a lasting impression" />
                 <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
@@ -67,9 +65,8 @@ function GraphicDesign() {
                                         <p>Web Tech Solutions Service's outstanding graphic designers will create whatever you need, whether it's an extraordinary illustration, lovely print designs, or captivating digital marketing assets. We, in contrast to conventional graphic design firms, are a tech-enabled, Creative-as-a-Service design solution created to keep up with the accelerating pace and changing needs of corporate teams. A clear design subscription model lets you access the full range of design capabilities.</p>
                                     </div>
                                     <div className='graphic-desg-content'>
-                                        <h2>What our graphic design services can do for you:</h2>
-                                        <p>
-                                            Our graphic design services are designed to bring your vision to life and take your brand to new heights. With many years of experience, we’ll help your business convert potential clients into paying customers with well designed, printed collateral.
+                                        <h2>How our graphic design services can help you:</h2>
+                                        <p>As bring your vision to life and take your brand to new heights is our first goal. With many years of experience, we’ll help your business convert potential clients into paying customers with well designed, printed collateral.
                                         </p>
                                     </div>
                                 </div>

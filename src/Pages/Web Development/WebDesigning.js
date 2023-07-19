@@ -41,7 +41,7 @@ function WebDesigning() {
                                     </div>
                                     <div className='web-devp-content'>
                                         <h2>Launch your success story today!</h2>
-                                        <p>From sleek and modern designs to elegant and artistic layouts, we bring your ideas to life with a touch of magic. Our websites are not only visually striking, but they are also highly functional and user-friendly, ensuring seamless navigation and an enjoyable browsing experience for your visitors.</p>
+                                        <p>From sleek and modern designs to elegant and artistic layouts, we bring your ideas to life with a touch of magic. The websites we create are not only visually striking, but also highly functional and user-friendly, in order to ensuring better user experience for your web visitors.</p>
                                     </div>
                                 </div>
                             </div>

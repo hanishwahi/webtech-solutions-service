@@ -13,15 +13,12 @@ function Seo() {
         <>
             <Helmet>
                 <title>SEO Specialist | SEO Agency |  Best SEO Company in Chandigarh, India
-</title>
-                <meta name="description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. We are specializes in optimising websites for search engines.
-" />
+                </title>
+                <meta name="description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. We are specializes in optimising websites for search engines." />
 
                 {/* Open Graph (OG) tags */}
-                <meta property="og:title" content="SEO Specialist | SEO Agency |  Best SEO Company in Chandigarh, India
-" />
-                <meta property="og:description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. We are specializes in optimising websites for search engines.
-" />
+                <meta property="og:title" content="SEO Specialist | SEO Agency |  Best SEO Company in Chandigarh, India" />
+                <meta property="og:description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. We are specializes in optimising websites for search engines." />
                 <meta property="og:url" content="https://webtechsolutionsservice.com/seo-service" />
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
@@ -67,16 +64,12 @@ function Seo() {
                                 <div className='col-11'>
                                     <div className='graphic-desg-content'>
                                         <h2>Boost Your Website's Visibility and Dominate Search Results.</h2>
-                                        <p>Enhance your online visibility and earn high-quality traffic. At Web Tech Solutions Service, we ensure our SEO services are aligned with search engines’ best practices to boost your website’s trustworthiness.
-                                            Partner with our SEO company and let us help you demonstrate your industry expertise.
+                                        <p>Enhance your online visibility and earn high-quality traffic. At Web Tech Solutions Service, we ensure our SEO services are aligned with search engines’ best practices to boost your website’s trustworthiness. Partner with our SEO company and let us help you demonstrate your industry expertise.
                                         </p>
                                     </div>
                                     <div className='graphic-desg-content'>
                                         <h2>Reach Your Audience Faster Than Ever</h2>
-                                        <p>Whether you're a local business targeting a specific region or a global brand aiming for widespread recognition, we have the expertise to propel your website to the top.
-                                            Our team of SEO specialists stays up-to-date with the latest industry trends and algorithm updates, ensuring that your website remains ahead of the curve. By employing latest SEO techniques, we deliver long-term results that stand the test of time.
-
-                                        </p>
+                                        <p>Whether you're a local business targeting a specific region or a global brand aiming for widespread recognition, we have the expertise to propel your website to the top. We SEO specialists stays up-to-date with the latest industry trends and algorithm updates. By employing latest SEO techniques, we deliver long-term results that stand the test of time.</p>
                                     </div>
                                 </div>
                             </div>

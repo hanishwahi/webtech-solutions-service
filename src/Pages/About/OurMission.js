@@ -32,7 +32,7 @@ function OurMission() {
                                 <div className='col-md-11 col-sm-11 col-11 '>
                                     <p className='our-mission-text'>
                                         <strong>Mission:
-                                        </strong> Our mission is to improve businesses and improve people's lives through cutting-edge technology.</p>
+                                        </strong> Our mission is to improve businesses and through cutting-edge technology.</p>
                                 </div>
                             </div>
                             <div className='row'>

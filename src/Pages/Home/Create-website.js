@@ -25,7 +25,7 @@ function CreateWebsite() {
                             <div className='row'>
                                 <div className='col-1'></div>
                                 <div className='col-11 create-website-text'>
-                                    <p>Welcome to our web design, development, and digital marketing services, where we specialise in Developing visually appealing websites that are designed to attract and engage your target audience. Our team excels in offering a wide range of attractive website themes, including mobile web development solutions, responsive website designs, and custom E-commerce platforms.With our expertise, we bring your unique vision to life by leveraging the latest and most reliable web technologies. Our goal is creating a website that not only captivates your consumers but also delivers a seamless and user-friendly experience.</p>
+                                    <p>Welcome to Web Tech Solutions Service the leading web design, App & Software development, and digital marketing services, where we specialise in Developing a visually appealing websites or apps that are designed to attract and engage your target audience. Our team excels in offering a wide range of attractive website themes, including mobile web development solutions, responsive website designs, and custom E-commerce platforms.With our expertise, we bring your unique vision to life by leveraging the latest and most reliable web technologies. Our mission is to build a website that  captures your customers' attention.</p>
                                 </div>
                             </div>
                         </div>

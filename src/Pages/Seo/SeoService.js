@@ -73,11 +73,15 @@ function SeoService() {
             </div>
             <div className='container-fluid py-4 my-lg-5 py-lg-5'>
                 <div className='container-lg'>
+                    <div className='row seo-content text-center mb-lg-5'>
+                        <h1 className='mb-4'>How Social Media Optimization Service Can Be A Key To The Growth Of Your Business?</h1>
+                        <p>Most of the millennials have started earning as a result their purchasing power is in billions of dollars. Do you want to tap their resources for the growth of your company? We are sure, your answer would be Yes! 
+</p>
+                    </div>
                     <div className='row seo-content text-center'>
-                        <h1 className='mb-4'>How Social Media Optimization ServiceCan Be A Key To The Growth Of Your Business?</h1>
-                        <p>Most of the millennials have started earning as a result their purchasing power is in billions of dollars. Do you want to tap their resources for the growth of your company? We are sure, your answer would be Yes! Do you want the strategy to convert them? Social media optimization is the solution.
-                            They spend a considerable amount of time on social media thus, it is a key to the growth of your company.
-                            Hire the best SMO company in Delhi to get your desired results.</p>
+                        <h1 className='mb-4'>Do you want the strategy to convert them? </h1>
+                        <p>Social media optimization is the solution. People spend a considerable amount of time on social media thus, it is really important to make present your business on all major social media platforms. Last but not least, Hire the best SMO company to get your desired results.
+</p>
                     </div>
                 </div>
 

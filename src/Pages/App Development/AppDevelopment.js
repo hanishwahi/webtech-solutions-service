@@ -16,15 +16,12 @@ function AppDevelopment() {
         <>
             <Helmet>
                 <title>Hire the best Mobile App Developers | App Development Company in Chandigarh, INDIA
-</title>
-                <meta name="description" content="Webtech Solutions Service build a mobile app that takes your business to the next level. Now generate skyrocketed revenues with mobile app services. Get Started!
-" />
+                </title>
+                <meta name="description" content="Webtech Solutions Service build a mobile app that takes your business to the next level. Now generate skyrocketed revenues with mobile app services. Get Started!" />
 
                 Open Graph (OG) tags
-                <meta property="og:title" content="Hire the best Mobile App Developers | App Development Company in Chandigarh, INDIA
-" />
-                <meta property="og:description" content="Webtech Solutions Service build a mobile app that takes your business to the next level. Now generate skyrocketed revenues with mobile app services. Get Started!
-" />
+                <meta property="og:title" content="Hire the best Mobile App Developers | App Development Company in Chandigarh, INDIA" />
+                <meta property="og:description" content="Webtech Solutions Service build a mobile app that takes your business to the next level. Now generate skyrocketed revenues with mobile app services. Get Started!" />
                 <meta property="og:url" content="https://webtechsolutionsservice.com/app-development" />
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
@@ -35,10 +32,10 @@ function AppDevelopment() {
 " />
                 <meta name="twitter:description" content="Webtech Solutions Service build a mobile app that takes your business to the next level. Now generate skyrocketed revenues with mobile app services. Get Started!
 "/>
-                    <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+                <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
-                    Canonical tag
-                    <link rel="canonical" href="https://webtechsolutionsservice.com/app-development" />
+                Canonical tag
+                <link rel="canonical" href="https://webtechsolutionsservice.com/app-development" />
             </Helmet>
             <Header />
             <div className='container-fluid'>
@@ -68,13 +65,11 @@ function AppDevelopment() {
                                 <div className='col-11'>
                                     <div className='app-devp-content'>
                                         <h2>Transforming Ideas into Seamless Apps</h2>
-                                        <p>Experience the power of our mobile app development service.
-                                            Looking for services for developing custom mobile applications? To create your mobile solution, collaborate with the leading mobile app developers in the sector. We work with you to properly promote your company's online presence and win over the mobile-mad public. </p>
+                                        <p>Experience the power of our mobile app development service. Looking for services for developing custom mobile applications? To create your mobile solution, collaborate with the leading mobile app developers in the sector. We work with you to properly promote your company's online presence and win over the mobile-mad public.</p>
                                     </div>
                                     <div className='app-devp-content'>
                                         <h2>Ready to Take the Next Step?</h2>
-                                        <p>Collaboration with the right partner is essential.
-                                            With the help of Web Tech Solutions Service's custom mobile app development services, Realise your vision. Our team can develop a unique mobile application for your business that meets all of your needs and stands out. </p>
+                                        <p>Collaboration with the right partner is essential. With the help of Web Tech Solutions Service's custom mobile app development services, Realise your vision. We ensure you to develop a unique mobile application for your business that meets all of your needs.</p>
                                     </div>
                                 </div>
                             </div>
