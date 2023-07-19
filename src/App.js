@@ -39,7 +39,7 @@ function App() {
         <Route path='/about-us' element={<About />} />
         <Route path='/contact-us' element={<ContactForm />} />
         <Route path='/blogs' element={<Blogs/>} />
-        <Route path='/blog/:id/:title' element={<BlogDetails />} />
+        <Route path='/blog/:title' element={<BlogDetails />} />
         <Route path='/blog/category/:category' element={<BlogCategory/>} />
         <Route path='/services' element={<Service />} />
         <Route path='/clients' element={<Clients />} />

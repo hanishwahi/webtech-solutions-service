@@ -29,6 +29,7 @@ function BlogCategory() {
      });
     setCategorizedData(categorized);
   }, []);
+console.log(categorizedData)
 
   const latestCategory = categorizedData[newCategory] || [];
 
