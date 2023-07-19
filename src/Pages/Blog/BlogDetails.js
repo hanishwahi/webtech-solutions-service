@@ -40,6 +40,10 @@ function BlogDetails() {
   function backWindow() {
     Navigate(-1);
   }
+  // const Navigate2 = useNavigate();
+  // function forwardWindow() {
+  //   Navigate2(1);
+  // }
 
   // to show the recent post 
   useEffect(() => {
@@ -70,7 +74,9 @@ function BlogDetails() {
             
             <div className='col-lg-6 col-4 blog-detail-back-button'>
               <Link onClick={backWindow}><i class="fa-solid fa-arrow-left"></i></Link>
+              {/* <Link className='ms-2' onClick={forwardWindow}><i class="fa-solid fa-arrow-right"></i></Link> */}
             </div>
+            
             <div className='col-lg-6 col-8 text-end blog-detail'>
               {latestUniqueTitle1 && <h2><span>Posted on: </span> {latestUniqueTitle1.date}</h2>}
             </div>
