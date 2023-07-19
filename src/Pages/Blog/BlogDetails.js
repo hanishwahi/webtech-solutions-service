@@ -11,8 +11,8 @@ function BlogDetails() {
 
 
   const { title } = useParams();
-   const currentTitle = title.replace(/-/g, ' '); 
- 
+  const currentTitle = title.replace(/-/g, ' ');
+
 
 
   useEffect(() => {
@@ -33,7 +33,7 @@ function BlogDetails() {
   const latestUniqueTitle = categorizedData[currentTitle] || [];
   const latestUniqueTitle1 = latestUniqueTitle[0]
 
-  
+
 
   // back button 
   const Navigate = useNavigate();
@@ -42,7 +42,7 @@ function BlogDetails() {
   }
 
   // to show the recent post 
-  useEffect(() => { 
+  useEffect(() => {
     const pickedData = data.slice(-4);
     const pickedDataReverse = pickedData.reverse()
     setRecentPost(pickedDataReverse);
@@ -70,7 +70,7 @@ function BlogDetails() {
             <div className='col-lg-6 col-8 blog-detail'>
               {latestUniqueTitle1 && <h2><span>Posted on: </span> {latestUniqueTitle1.date}</h2>}
             </div>
-            <div className='col-lg-6 col-4 text-end blog-detail'>
+            <div className='col-lg-6 col-4 text-end blog-detail-back-button'>
               <Link onClick={backWindow}><i className='fa-solid fa-rotate-left'></i></Link>
             </div>
           </div>
@@ -82,7 +82,8 @@ function BlogDetails() {
                 </div>
               </div>
               <div className='row blog-detail'>
-                {latestUniqueTitle1 && <h1 className='mb-3' style={{ color: '#42ade4' }}>{latestUniqueTitle1.title}?</h1>}
+                {latestUniqueTitle1 && <h1 className='mb-3' style={{ color: '#42ade4' }}>{latestUniqueTitle1.title}?
+                </h1>}
                 {latestUniqueTitle1 && <p className='h6'> {latestUniqueTitle1.description}</p>}
               </div>
             </div>
@@ -103,7 +104,7 @@ function BlogDetails() {
               <div className='row blog-detail-001  ps-lg-5 py-3 mb-4'>
                 <h1 className='mb-3' style={{ color: '#42ade4' }}>Recent Comments</h1>
                 <div className='blog-detail-001'>
-                  <h4 className='h5'>No comments to show</h4>
+                 <Link> <h4 className=''>No comments to show</h4></Link>
                 </div>
               </div>
               <div className='row blog-detail-001  ps-lg-5 py-3'>

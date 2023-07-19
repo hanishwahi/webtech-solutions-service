@@ -28,7 +28,7 @@ import SMM from './Pages/SMM/SMM';
 import BlogDetails from './Pages/Blog/BlogDetails';
 import Blogs from './Pages/Blog/Blogs';
 import BlogCategory from './Pages/Blog/BlogCategory';
-
+ 
 
 function App() {
   return (
@@ -41,7 +41,7 @@ function App() {
         <Route path='/blogs' element={<Blogs/>} />
         <Route path='/blog/:title' element={<BlogDetails />} />
         <Route path='/blog/category/:category' element={<BlogCategory/>} />
-        <Route path='/services' element={<Service />} />
+         <Route path='/services' element={<Service />} />
         <Route path='/clients' element={<Clients />} />
         <Route index path='/landing-page' element={<LandingPage />} />
         <Route path='/digital-marketing' element={<DigitalMarketing />} />

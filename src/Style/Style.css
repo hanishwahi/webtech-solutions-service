@@ -2098,12 +2098,27 @@ input::-webkit-inner-spin-button {
     background-color: #ebe6e6;
     border-radius: 30px;
 }
-.blogs {
+
+/* blog page  */
+.blog-heading{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 26px;
+    color: #000; 
+    text-align: center;
+}
+
+.blog-box {
     min-height: 150px;
     /* background-color: #e6e5e5;  */
 }
 
-.blogs h5 {
+.blog-content a{
+    text-decoration: none;
+}
+.blog-content h5 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -2111,8 +2126,17 @@ input::-webkit-inner-spin-button {
     line-height: 26px;
     color: #42ade4;
     min-height: 50px;
+    text-decoration: none !important; 
 }
-.blogs a {
+.blog-content p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #42ade4;
+}
+.blogs-button a {
     background-image: linear-gradient(to right, #018dd1, #42ADE4);
     border-radius: 53px;
     color: #fff;
@@ -2121,14 +2145,8 @@ input::-webkit-inner-spin-button {
     font-size: 16px;
     text-decoration: none;
 }
-.blogs p {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 26px;
-    color: #42ade4;
-}
+
+/* blog detail page  */
 .blog-detail h2 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -2157,7 +2175,7 @@ input::-webkit-inner-spin-button {
     line-height: 26px;
     color: #000;
 }
-.blog-detail a {
+.blog-detail-back-button a {
     background-image: linear-gradient(to right, #018dd1, #42ADE4);
     border-radius: 53px;
     color: #fff;
@@ -2170,11 +2188,11 @@ input::-webkit-inner-spin-button {
     text-decoration: none;
 }
 .blog-detail-001 a h4{
-    font-size: 18px;
+    font-size: 17px;
     color: #000;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
 }
 .blog-detail-001 a h4:hover{
     color: rgb(126, 10, 10);

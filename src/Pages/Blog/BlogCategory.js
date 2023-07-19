@@ -21,15 +21,15 @@ function BlogCategory() {
     // Extract unique categories from JSON data
     const uniqueCategories = [...new Set(data.map(item => item.category))];
 
-    const categorized = {};
-
+     const categorized = {};
+  
     // Categorize the data based on categories
     uniqueCategories.forEach(category => {
       categorized[category] = data.filter(item => item.category === category);
      });
     setCategorizedData(categorized);
-  }, []);
-console.log(categorizedData)
+   }, []);
+
 
   const latestCategory = categorizedData[newCategory] || [];
 
@@ -47,7 +47,7 @@ console.log(categorizedData)
                 return(
                     <div className='col' key={item.id}>
                     <div className='card'>
-                      <div className='card-body p-0 shadow blogs'>
+                      <div className='card-body p-0 shadow blog-content'>
                         <div className='row ratio ratio-16x9 object-fit m-0'>
                           <img className='img-fluid p-0' src={item.image} alt='' />
                         </div>
@@ -58,7 +58,7 @@ console.log(categorizedData)
                           </div>
                         </div>
                         <div className='row px-4 py-3 align-items-center'>
-                          <div className='col-6 col-sm-7 col-md-12 col-lg-6 px-0 py-2'>
+                          <div className='col-6 col-sm-7 col-md-12 col-lg-6 px-0 py-2 blogs-button'>
                             <Link onClick={scrollToHome} to={`/blog/${title}`}>Read More</Link>
                           </div>
                           <div className='col-6 col-sm-5 col-md-12 col-lg-6 text-end py-2'>
