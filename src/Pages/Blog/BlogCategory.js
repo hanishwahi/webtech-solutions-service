@@ -38,7 +38,9 @@ function BlogCategory() {
       <div className='container-fluid py-3 py-lg-5'>
         <div className='container-lg'>
           <h1 className='text-center h2 fw-bold py-4'>{newCategory}</h1>
+           
           <div className='row row-cols-1 row-cols-md-3 g-4'>
+           
             {latestCategory.map((item)=>{
                  const title = item.title.replace(/\s+/g, '-')
                 return(
@@ -67,7 +69,8 @@ function BlogCategory() {
                   </div>
                 )
             })}
-          </div>
+            </div>
+       
         </div>
       </div>
       <Footer />

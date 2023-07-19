@@ -25,11 +25,13 @@ function BlogDetails() {
   // to show the recent post 
   useEffect(() => {
     // to show the recent post 
-    const numElements = 4;
-    const startIndex = data.length - numElements;
-    const pickedData = data.slice(startIndex);
-    setRecentPost(pickedData);
-
+    // const numElements = 4;
+    // const startIndex = data.length - numElements;
+    // const pickedData = data.slice(startIndex);
+    const pickedData = data.slice(-4);
+    const pickedDataReverse= pickedData.reverse()
+    setRecentPost(pickedDataReverse);
+    console.log("pickedData", pickedData)
     // Extract unique categories from JSON data
     const uniqueCategories = [...new Set(data.map(item => item.category))];
     setCategories(uniqueCategories);
@@ -74,7 +76,8 @@ function BlogDetails() {
                 <h1 className='mb-3' style={{ color: '#42ade4' }}>Recent Posts</h1>
                 {recentPost.map((item) => {
                   const title = item.title.replace(/\s+/g, '-');
-                  return (
+                
+                   return (
                     <div key={item.id} className='blog-detail-001'>
                       <Link to={`/blog/${item.id}/${title}`}>
                         <h4>{item.title}</h4>
