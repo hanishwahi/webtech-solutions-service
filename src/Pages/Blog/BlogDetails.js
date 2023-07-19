@@ -18,6 +18,7 @@ function BlogDetails() {
   useEffect(() => {
     // Extract unique categories from JSON data
     const uniqueTitle = [...new Set(data.map(item => item.title))];
+    // console.log("uniqueTitle", uniqueTitle)
 
     const categorized = {};
 

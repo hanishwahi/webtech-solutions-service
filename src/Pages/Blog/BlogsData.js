@@ -54,7 +54,7 @@ export const data = [
         "date": "12-06-2023",
         "category":"Digital Marketing",
         "image": "https://digitalhive.in/wp-content/uploads/2023/05/PPC-Advertising-Maximizing-RoI-with-Pay-Per-Click-Campaigns.jpg",
-        "title": "Maximizing ROI with Pay-Per-Click Campaigns",
+        "title": "Maximizing ROI with Pay Per Click Campaigns",
         "description": "Pay-per-click (PPC) advertising allows businesses to drive targeted traffic to their websites and generate leads. In this blog post, we will explore the world of PPC advertising, including platforms like Google Ads and social media advertising. We will provide insights into keyword research, ad copywriting, bidding strategies, and optimizing campaigns to maximize ROI and drive conversions."
     },
 
@@ -69,7 +69,7 @@ export const data = [
     {
         "id": 9,
         "date": "26-06-2023",
-        "category":"Web Development",
+        "category":"Digital Marketing",
         "image": "https://www.freelancinggig.com/blog/wp-content/uploads/2020/03/How-to-Convert-Website-Visitors-Into-Customers.jpg",
         "title": "Turning Website Visitors into Customers",
         "description": "Conversion rate optimization (CRO) focuses on improving the percentage of website visitors who take desired actions, such as making a purchase or filling out a form. In this blog post, we will delve into CRO strategies to increase conversions. We will cover website usability, A/B testing, landing page optimization, persuasive copywriting, and other techniques to optimize your conversion funnel and drive business growth."
