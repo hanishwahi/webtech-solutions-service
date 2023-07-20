@@ -30,8 +30,9 @@ function BlogCategory() {
     setCategorizedData(categorized);
    }, []);
 
-
-  const latestCategory = categorizedData[newCategory] || [];
+   const SelectedCategory = categorizedData[newCategory] || [];
+  
+  const SelectedCategoryData= [...SelectedCategory].reverse();
 
   return (
     <>
@@ -42,7 +43,7 @@ function BlogCategory() {
            
           <div className='row row-cols-1 row-cols-md-3 g-4'>
            
-            {latestCategory.map((item)=>{
+            {SelectedCategoryData.map((item)=>{
                  const title = item.title.replace(/\s+/g, '-')
                 return(
                     <div className='col' key={item.id}>

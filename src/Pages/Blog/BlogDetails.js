@@ -19,16 +19,13 @@ function BlogDetails() {
     // Extract unique categories from JSON data
     const uniqueTitle = [...new Set(data.map(item => item.title))];
     // console.log("uniqueTitle", uniqueTitle)
-
     const categorized = {};
-
     // Categorize the data based on categories
     uniqueTitle.forEach(title => {
       categorized[title] = data.filter(item => item.title === title);
     });
     setCategorizedData(categorized);
   }, []);
-
 
   const latestUniqueTitle = categorizedData[currentTitle] || [];
   const latestUniqueTitle1 = latestUniqueTitle[0]
@@ -50,18 +47,13 @@ function BlogDetails() {
 
   // to show the recent post 
   useEffect(() => {
-
     const pickedData = data.slice(-4);
-    console.log("pickedData",pickedData)
     const pickedDataReverse = pickedData.reverse()
-    
     setRecentPost(pickedDataReverse);
-    // Extract unique categories from JSON data
-    const uniqueCategories = [...new Set(data.map(item => item.category))];
-    setCategories(uniqueCategories);
   }, []);
 
   useEffect(() => {
+    // Extract unique categories from JSON data
     const uniqueCategories = [...new Set(data.map(item => item.category))];
     setCategories(uniqueCategories);
   }, []);
@@ -83,8 +75,8 @@ function BlogDetails() {
           <div className='row align-items-center py-3'>
 
             <div className='col-lg-6 col-4 blog-detail-back-button'>
-              <Link onClick={backWindow}><i class="fa-solid fa-arrow-left"></i></Link>
-              {/* <Link className='ms-2' onClick={forwardWindow}><i class="fa-solid fa-arrow-right"></i></Link> */}
+              <Link onClick={backWindow}><i className="fa-solid fa-arrow-left"></i></Link>
+              {/* <Link className='ms-2' onClick={forwardWindow}><i className="fa-solid fa-arrow-right"></i></Link> */}
             </div>
 
             <div className='col-lg-6 col-8 text-end blog-detail'>
@@ -105,13 +97,14 @@ function BlogDetails() {
                 {latestUniqueTitle1 && latestUniqueTitle1.ul && (
                   <ul >
                     {latestUniqueTitle1.ul.map(item => (
-                      <>
+                      <React.Fragment key={item.id}>
                         <div className='row'>
-                          <li key={item.id}><strong>{item.liTitle}:</strong></li>
+                          <li><strong>{item.liTitle}:</strong></li>
                           <p>{item.liDescription}</p>
                         </div>
-                      </>
+                      </React.Fragment>
                     ))}
+
                   </ul>
                 )}
               </div>
@@ -120,7 +113,7 @@ function BlogDetails() {
               <div className='row blog-detail-001  ps-lg-5 py-3 mb-md-4'>
                 <h1 className='mb-3'>Recent Posts</h1>
                 {recentPost.map((item) => {
-                   const title = item.title.replace(/\s+/g, '-');
+                  const title = item.title.replace(/\s+/g, '-');
                   return (
                     <div key={item.id} className='blog-detail-001'>
                       <Link onClick={scrollToHome} to={`/blog/${title}`}>
