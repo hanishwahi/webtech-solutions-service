@@ -50,14 +50,21 @@ function BlogDetails() {
 
   // to show the recent post 
   useEffect(() => {
+
     const pickedData = data.slice(-4);
+    console.log("pickedData",pickedData)
     const pickedDataReverse = pickedData.reverse()
+    
     setRecentPost(pickedDataReverse);
     // Extract unique categories from JSON data
     const uniqueCategories = [...new Set(data.map(item => item.category))];
     setCategories(uniqueCategories);
   }, []);
 
+  useEffect(() => {
+    const uniqueCategories = [...new Set(data.map(item => item.category))];
+    setCategories(uniqueCategories);
+  }, []);
 
 
   function scrollToHome() {
@@ -113,7 +120,7 @@ function BlogDetails() {
               <div className='row blog-detail-001  ps-lg-5 py-3 mb-md-4'>
                 <h1 className='mb-3'>Recent Posts</h1>
                 {recentPost.map((item) => {
-                  const title = item.title.replace(/\s+/g, '-');
+                   const title = item.title.replace(/\s+/g, '-');
                   return (
                     <div key={item.id} className='blog-detail-001'>
                       <Link onClick={scrollToHome} to={`/blog/${title}`}>
@@ -121,6 +128,7 @@ function BlogDetails() {
                       </Link>
                     </div>
                   );
+
                 })}
               </div>
               <div className='row blog-detail-001  ps-lg-5 py-3 mb-md-4'>

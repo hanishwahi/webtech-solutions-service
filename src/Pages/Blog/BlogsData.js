@@ -96,6 +96,33 @@ export const data = [
             { "liTitle": "Lightning-Fast Load Times", "liDescription": "Waiting for webpages to load is a test of patience. Web developers are concentrating on optimising website speed to achieve blazing-fast load times in response to the increased desire for instant gratification. Quickly loading websites will benefit from greater user engagement and improved search engine positioning." },
         ]
     },
+    {
+        "id": 12,
+        "date": "20-07-2023",
+        "category": "Web Development",
+        "image": "https://understandingecommerce.com/wp-content/uploads/2022/11/Responsive-Web-Design-jpg.webp",
+        "title": "The Complete Guide to Responsive Web Design",
+        "description": "Responsive web design has become an essential component of contemporary website creation in today's mobile-centric world. A variety of devices, including smartphones, tablets, laptops, and desktops, are used by users to access websites. We'll delve into the fundamentals and methods of responsive web design in this in-depth book, arming you with the knowledge you need to create websites that stand out in the mobile-first era.",
+        "ul": [
+          {
+            "liTitle": "Understanding Responsive Web Design",
+            "liDescription": "A design strategy called responsive web design enables websites to adjust and react to various screen sizes and orientations. The layout, graphics, and content are all automatically adjusted to give users the best viewing experience possible on any device."
+          },
+          {
+            "liTitle": "Optimizing Images and Media",
+            "liDescription": "Particularly on mobile devices with constrained bandwidth, large photos can dramatically slow down page loads. Use responsive images by referencing the srcset and sizes properties, which supply the optimal image resolution depending on the user's viewport. For icons and logos, think about using scalable vector graphics (SVGs) to ensure clear rendering on high-density screens."
+          },
+          {
+            "liTitle": "Mobile-First Approach",
+            "liDescription": "A mobile-first approach places the primary design and development emphasis on the website's mobile version. By prioritising the most important features and content for smaller screens, this method offers a clear and streamlined mobile experience. A smooth transition from mobile to desktop views can be achieved by adding more features and content as the screen size expands."
+          },
+          {
+            "liTitle": "Testing and Debugging",
+            "liDescription": "It's important to carefully test and debug your responsive website because there are so many different types of devices, browsers, and operating systems available today. During the development process, simulate various screen sizes and viewports using the browser developer tools. To give a faultless user experience across all platforms, fix any layout irregularities, alignment problems, or broken pieces."
+          }
+        ]
+      }
+      
      
 
 ]

@@ -8,9 +8,8 @@ import { data } from './BlogsData'
 function Blogs() {
   
      
-    // const items = data.reverse()
-     
-         const items=data.reverse()
+      
+    const items = [...data].reverse();
         
    
     function scrollToHome() {
