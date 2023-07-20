@@ -64,7 +64,7 @@ function Seo() {
                                 <div className='col-11'>
                                     <div className='graphic-desg-content'>
                                         <h2>Boost Your Website's Visibility and Dominate Search Results.</h2>
-                                        <p>Enhance your online visibility and earn high-quality traffic. At Web Tech Solutions Service, we ensure our SEO services are aligned with search engines’ best practices to boost your website’s trustworthiness. Partner with our SEO company and let us help you demonstrate your industry expertise.
+                                        <p>Enhance your online visibility and earn high-quality traffic. At WebTech Solutions, we ensure our SEO services are aligned with search engines’ best practices to boost your website’s trustworthiness. Partner with our SEO company and let us help you demonstrate your industry expertise.
                                         </p>
                                     </div>
                                     <div className='graphic-desg-content'>

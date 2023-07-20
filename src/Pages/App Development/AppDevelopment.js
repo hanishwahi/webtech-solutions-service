@@ -69,7 +69,7 @@ function AppDevelopment() {
                                     </div>
                                     <div className='app-devp-content'>
                                         <h2>Ready to Take the Next Step?</h2>
-                                        <p>Collaboration with the right partner is essential. With the help of Web Tech Solutions Service's custom mobile app development services, Realise your vision. We ensure you to develop a unique mobile application for your business that meets all of your needs.</p>
+                                        <p>Collaboration with the right partner is essential. With the help of WebTech Solutions's custom mobile app development services, Realise your vision. We ensure you to develop a unique mobile application for your business that meets all of your needs.</p>
                                     </div>
                                 </div>
                             </div>

@@ -10,12 +10,12 @@ import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import { Helmet } from 'react-helmet'
 
-
+ 
 function Home() {
   return (
     <>
       <Helmet>
-        <title>Web Tech Solutions Service: Best Digital Marketing & App Development Company in Chandigarh, INDIA</title>
+        <title>WebTech Solutions: Best Digital Marketing & App Development Company in Chandigarh, INDIA</title>
 
         {/* Meta Tags */}
         <meta charset="UTF-8" />
@@ -24,7 +24,7 @@ function Home() {
 " />
 
         {/* Open Graph (OG) Tags */}
-        <meta property="og:title" content="Web Tech Solutions Service: Best Digital Marketing & App Development Company in Chandigarh, INDIA" />
+        <meta property="og:title" content="WebTech Solutions: Best Digital Marketing & App Development Company in Chandigarh, INDIA" />
         <meta property="og:description" content="We are one of the leading IT Solutions providers offering a wide range of digital marketing, mobile & web application development services worldwide."/>
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://webtechsolutionsservice.com/" />
@@ -32,7 +32,7 @@ function Home() {
 
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Web Tech Solutions Service: Best Digital Marketing & App Development Company in Chandigarh, INDIA
+        <meta name="twitter:title" content="WebTech Solutions: Best Digital Marketing & App Development Company in Chandigarh, INDIA
 " />
         <meta name="twitter:description" content="We are one of the leading IT Solutions providers offering a wide range of digital marketing, mobile & web application development services worldwide.
 " />

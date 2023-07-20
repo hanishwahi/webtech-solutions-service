@@ -31,7 +31,7 @@ function AboutHome() {
                     </div>
                 </div>
                 <div className='col-lg-5 col-sm-8 col-md-5 p-0 mb-4 mb-md-0'>
-                    <img width= "100%" height='100%' className='img-fluid' src={whowe} alt='' />
+                    <img width= "100%" height='100%' className='img-fluid' src={whowe} alt='About Web Tech Solutions' />
                 </div>
                 
             </div>
