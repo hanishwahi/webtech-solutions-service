@@ -103,7 +103,7 @@ function OurTeam() {
                                     alt="Los Angeles Skyscrapers" />
                                 <div className="card-body">
                                     <h5 className="card-title">Hanish Wahi</h5>
-                                    <p className="card-text">React Developer</p>
+                                    <p className="card-text">Web Developer</p>
                                 </div>
                             </div>
                         </div>

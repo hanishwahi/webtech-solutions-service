@@ -9,7 +9,7 @@ import DigitalMarketing from './Pages/DigitalMarketing/DigitalMarketing';
 import WebDevelopment from './Pages/Web Development/WebDevelopment';
 import GraphicDesign from './Pages/Graphic Design/GraphicDesign';
 import Service from './Pages/Service/AllService';
-// import ScrollToTop from './Pages/ScrollToTop';
+import ScrollToTop from './Pages/ScrollToTop';
 import PageNotFound from './Pages/PageNotFound';
  import ContactForm from './Pages/ContactForm/Contact';
 import AppDevelopment from './Pages/App Development/AppDevelopment'
@@ -60,7 +60,7 @@ function App() {
         <Route path='*' element={<PageNotFound />} />
       </Routes>
       <LetsWorkTogether />
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
 
     </>
   );

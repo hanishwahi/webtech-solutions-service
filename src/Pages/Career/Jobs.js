@@ -8,7 +8,7 @@ function Jobs() {
             <div className='container-fluid my-5 px-0 py-lg-5 how-it-works-section'>
                 <div className='container-lg'>
                     <div className='row py-3 mb-3 career-001 text-center'>
-                        <h1>Career at Web tech Solution services</h1>
+                        <h1>Career at Web tech Solutions service</h1>
                         <p>We want to make agency life peasant, productive and empowering</p>
                     </div>
                     <div className='row'>
@@ -79,7 +79,7 @@ function Jobs() {
                     < div className='container-lg' >
                     <div className='row career-001 text-center'>
                         <h1>Don’t see  a suitable position?</h1>
-                        <p>We are for everyone. Write to us to  <Link className='text-decoration-none' to='mailto:career@webtechsolutionservices.com'>career@webtechsolutionservices.com</Link></p>
+                        <p>We are for everyone. Write to us to  <Link className='text-decoration-none' to='mailto:career@webtechsolutionsservice.com'>career@webtechsolutionsservice.com</Link></p>
                     </div>
 
                 </div >

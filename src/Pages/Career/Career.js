@@ -48,7 +48,7 @@ function Career() {
                     <div className='row career-001 text-center'>
                         <h1>Hello there!</h1>
                         <p>If you have it in you to be a change-maker team player and impactful contributor, you are welcome. We are on a
-                            mission to create greeat work, and make agency client partership to be balanced and positive.</p>
+                            mission to create great work, and make agency client partership to be balanced and positive.</p>
                     </div>
                 </div>
             </div>

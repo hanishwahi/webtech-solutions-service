@@ -115,7 +115,7 @@ function BlogDetails() {
                 {recentPost.map((item) => {
                   const title = item.title.replace(/\s+/g, '-');
                   return (
-                    <div key={item.id} className='blog-detail-001'>
+                    <div key={item.id} className='blog-detail-001 border-bottom mb-2'>
                       <Link onClick={scrollToHome} to={`/blog/${title}`}>
                         <h4>{item.title}</h4>
                       </Link>
