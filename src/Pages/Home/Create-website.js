@@ -11,7 +11,7 @@ function CreateWebsite() {
                 <div className='container-lg py-lg-5 py-3'>
                     <div className='row justify-content-center align-items-center'>
                         <div className='col-lg-5 col-md-5 col-sm-8 p-0 mb-4 mb-md-0'>
-                            <img width= "100%" height='100%' className='img-fluid create-website-banner' src={createbanner} alt='' />
+                            <img width= "100%" height='100%' className='img-fluid create-website-banner' src={createbanner} alt='Web Designing Company' />
                         </div>
                         <div className='col-lg-7 col-md-7 ps-md-4 mb-4 '>
                             <div className='row mb-3'>

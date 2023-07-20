@@ -34,16 +34,19 @@ function BlogDetails() {
   const latestUniqueTitle1 = latestUniqueTitle[0]
 
 
-
   // back button 
   const Navigate = useNavigate();
-  function backWindow() {
+
+  const backWindow = () => {
     Navigate(-1);
-  }
+  };
   // const Navigate2 = useNavigate();
   // function forwardWindow() {
   //   Navigate2(1);
   // }
+
+
+
 
   // to show the recent post 
   useEffect(() => {
@@ -71,12 +74,12 @@ function BlogDetails() {
       <div className='container-fluid py-md-5'>
         <div className='container-lg'>
           <div className='row align-items-center py-3'>
-            
+
             <div className='col-lg-6 col-4 blog-detail-back-button'>
               <Link onClick={backWindow}><i class="fa-solid fa-arrow-left"></i></Link>
               {/* <Link className='ms-2' onClick={forwardWindow}><i class="fa-solid fa-arrow-right"></i></Link> */}
             </div>
-            
+
             <div className='col-lg-6 col-8 text-end blog-detail'>
               {latestUniqueTitle1 && <h2><span>Posted on: </span> {latestUniqueTitle1.date}</h2>}
             </div>
@@ -92,6 +95,18 @@ function BlogDetails() {
                 {latestUniqueTitle1 && <h1 className='mb-3' style={{ color: '#42ade4' }}>{latestUniqueTitle1.title}?
                 </h1>}
                 {latestUniqueTitle1 && <p className='h6'> {latestUniqueTitle1.description}</p>}
+                {latestUniqueTitle1 && latestUniqueTitle1.ul && (
+                  <ul >
+                    {latestUniqueTitle1.ul.map(item => (
+                      <>
+                        <div className='row'>
+                          <li key={item.id}><strong>{item.liTitle}:</strong></li>
+                          <p>{item.liDescription}</p>
+                        </div>
+                      </>
+                    ))}
+                  </ul>
+                )}
               </div>
             </div>
             <div className='col-lg-4 col-md-4 ps-lg-3'>
@@ -111,7 +126,7 @@ function BlogDetails() {
               <div className='row blog-detail-001  ps-lg-5 py-3 mb-md-4'>
                 <h1 className='mb-3'>Recent Comments</h1>
                 <div className='blog-detail-001'>
-                 <Link> <h4 className=''>No comments to show</h4></Link>
+                  <Link> <h4 className=''>No comments to show</h4></Link>
                 </div>
               </div>
               <div className='row blog-detail-001  ps-lg-5 py-3'>
