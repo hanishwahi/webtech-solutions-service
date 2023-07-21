@@ -4,11 +4,29 @@
 export const data = [
     {
         "id": 1,
-        "date": "01-05-2023",
-        "category": "Digital Marketing",
-        "image": "https://www.lotame.com/wp-content/uploads/2019/09/What-is-Data-Analytics-min-700x350.png",
-        "title": "How to Harness the Power of Analytics for Better Results",
-        "description": "Data-driven marketing empowers businesses to make informed decisions based on insights from analytics. In this blog post, we will explore the world of data-driven marketing and discuss how to leverage analytics tools and data to gain valuable insights about your audience, campaigns, and marketing efforts. We will cover setting up tracking, analyzing key metrics, creating data-driven strategies, and implementing continuous improvements to achieve better marketing results."
+        "date": "20-07-2023",
+        "category": "Graphic Design",
+        "image": "https://infogram.com/blog/wp-content/uploads/2023/06/GettyImages-1415537875-1-1024x638.jpg",
+        "title": "Mastering Design Excellence: Golden Rules for Elevating Your Creative Vision",
+        "description": "Design is an art form that conveys ideas, emotions, and messages beyond just aesthetics. There are timeless concepts that can greatly enhance your designs, regardless of your level of experience as a designer or where you are in your creative process. In this blog, we'll share the golden standards that will sharpen your creative vision and enable you to produce designs that are compelling, significant, and memorable",
+        "ul": [
+            {
+                "liTitle": "Embrace Simplicity",
+                "liDescription": "Adopting simplicity is the first of design's guiding principles.  Keep your compositions free of unnecessary information that might distract the main point. Aim for clear areas, crisp lines, and a well-organised layout. A minimalist style conveys beauty and sophistication by letting the key components stand out."
+            },
+            {
+                "liTitle": "Maintain Visual Hierarchy",
+                "liDescription": "The secret to leading people through your design and making sure they take in information in the intended sequence is visual hierarchy. Strategically arrange the elements, putting more emphasis on the more important ones and less on the less important ones. Establish a clear hierarchy and draw the viewer's attention to the key elements by using size, colour, contrast, and spacing"
+            },
+            {
+                "liTitle": "Choose Colours Wisely",
+                "liDescription": "Colours greatly impact feelings and perception. Be thoughtful when choosing shades, keeping in mind the feelings and memories they create. Use shades that complement the brand's personality and mission. Choose a colour scheme that works well together, enhances the design, and conveys the intended mood or tone to achieve harmony."
+            },
+            {
+                "liTitle": "Prioritise Typography",
+                "liDescription": "The effectiveness of a design can be made or broken by its use of typography. Select readable typefaces that are suitable for the situation. Try with different font sizes, weights, and styles to add visual hierarchy and intrigue. To ensure coherence, keep the font consistent throughout the entire design"
+            }
+        ]
     },
     {
         "id": 2,
@@ -16,7 +34,25 @@ export const data = [
         "category": "Digital Marketing",
         "image": "https://www.modalyst.co/wp-content/uploads/2016/08/SEO.jpg",
         "title": "How to Improve Your Website's Visibility",
-        "description": "Search engine optimization (SEO) plays a pivotal role in digital marketing success. In this blog post, we will delve into the importance of SEO and how it can boost your website's visibility on search engines. We will discuss keyword research, on-page optimization, link building, and other SEO tactics to help you climb the search engine rankings and attract organic traffic"
+        "description": "Having an online presence is essential in the digital age for both individuals and organisations. But simply having a website is insufficient. You must make sure that your website stands out and attracts the right audience if you want to make an impact on the wide internet world. This blog will discuss key strategies to raise your website's visibility and chances of success.",
+        "ul": [
+            {
+                "liTitle": "Create High-Quality Content",
+                "liDescription": "The foundation of any successful website is its content. You can increase the number of visitors to your site and encourage them to stay there longer by producing material that is of high quality, worth reading, and interesting. Update your blog or content area frequently with new, pertinent posts, videos, or infographics that speak to the wants and requirements of your audience. Additionally, informative content can help you establish yourself as an authority in your field, which can improve credibility and trust."
+            },
+            {
+                "liTitle": "Utilize Email Marketing",
+                "liDescription": "One of the best strategies for developing relationships with your audience and increasing website traffic is email marketing. By providing worthwhile incentives like exclusive content, savings, or free tools, you may grow your email list. Send your email subscribers information, fresh material, and exclusive deals on a regular basis. Create segments for your audience and personalise your emails to offer targeted messaging that will increase conversion rates."
+            },
+            {
+                "liTitle": "Collaborate and Network",
+                "liDescription": "Your website's visibility can be greatly increased by working with influencers, businesses, or leaders in the sector. For opportunities to sponsor content or guest blog, collaborate with relevant influencers. To network and share your expertise, join online communities, forums, or social media groups in your niche. Participating in networking and collaborative activities might result in cross-promotion and expose your website to new audiences."
+            },
+            {
+                "liTitle": "Monitor Analytics and Adapt",
+                "liDescription": "Finally, keep an eye on your website statistics to determine how well your visibility techniques are working. Examine the sources of traffic, the most-viewed content, bounce rates, and conversion rates. Utilise this information to determine what functions best for your website and modify your techniques as necessary. You may consistently optimise and raise the visibility of your website by making informed decisions by monitoring its performance."
+            }
+        ]
     },
     {
         "id": 3,
