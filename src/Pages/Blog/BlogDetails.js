@@ -94,11 +94,13 @@ function BlogDetails() {
                 {latestUniqueTitle1 && <h1 className='mb-3' style={{ color: '#42ade4' }}>{latestUniqueTitle1.title}?
                 </h1>}
                 {latestUniqueTitle1 && <p className='h6'> {latestUniqueTitle1.description}</p>}
+              </div>
+              <div>
                 {latestUniqueTitle1 && latestUniqueTitle1.ul && (
                   <ul >
                     {latestUniqueTitle1.ul.map(item => (
                       <React.Fragment key={item.id}>
-                        <div className='row'>
+                        <div className='row blog-list'>
                           <li><strong>{item.liTitle}:</strong></li>
                           <p>{item.liDescription}</p>
                         </div>
@@ -108,6 +110,8 @@ function BlogDetails() {
                   </ul>
                 )}
               </div>
+
+
             </div>
             <div className='col-lg-4 col-md-4 ps-lg-3'>
               <div className='row blog-detail-001  ps-lg-5 py-3 mb-md-4'>

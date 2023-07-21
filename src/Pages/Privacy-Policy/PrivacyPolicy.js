@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import { Link } from 'react-router-dom'
 
 function PrivacyPolicy() {
     return (
@@ -12,7 +13,7 @@ function PrivacyPolicy() {
                         <ul>
                             <div className='privacy-policy'>
                                 <li>Privacy Policy:</li>
-                                <p>At Web Tech Solutions Service, accessible from http://webtechsolutionsservice.com/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Web Tech Solutions Service and how we use it.<br /><br />
+                                <p>At Web Tech Solutions Service, accessible from <Link to="https://webtechsolutionsservice.com/">https://webtechsolutionsservice.com/</Link>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Web Tech Solutions Service and how we use it.<br /><br />
 
                                     If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.<br /><br />
 
