@@ -4,7 +4,7 @@
 export const data = [
     {
         "id": 1,
-        "date": "20-07-2023",
+        "date": "18-07-2023",
         "category": "Graphic Design",
         "image": "https://infogram.com/blog/wp-content/uploads/2023/06/GettyImages-1415537875-1-1024x638.jpg",
         "title": "Mastering Design Excellence: Golden Rules for Elevating Your Creative Vision",
@@ -30,7 +30,7 @@ export const data = [
     },
     {
         "id": 2,
-        "date": "08-05-2023",
+        "date": "19-07-2023",
         "category": "Digital Marketing",
         "image": "https://www.modalyst.co/wp-content/uploads/2016/08/SEO.jpg",
         "title": "How to Improve Your Website's Visibility",
