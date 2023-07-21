@@ -74,7 +74,7 @@ export const data = [
     },
     {
         "id": 4,
-        "date": "20-07-2023",
+        "date": "21-07-2023",
         "category": "Web Development",
         "image": "https://understandingecommerce.com/wp-content/uploads/2022/11/Responsive-Web-Design-jpg.webp",
         "title": "The Complete Guide to Responsive Web Design",
