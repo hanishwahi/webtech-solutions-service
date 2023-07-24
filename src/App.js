@@ -28,6 +28,7 @@ import SMM from './Pages/SMM/SMM';
 import BlogDetails from './Pages/Blog/BlogDetails';
 import Blogs from './Pages/Blog/Blogs';
 import BlogCategory from './Pages/Blog/BlogCategory';
+import Training from './Pages/Training/Training';
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
         <Route path='/smo-service' element={<SMO />} />
         <Route path='/orm-service' element={<ORM />} />
         <Route path='/smm-service' element={<SMM />} />
+        <Route path='/training' element={<Training/>} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
       <LetsWorkTogether />
