@@ -64,11 +64,7 @@ function GraphicDesign() {
                                         <h2>From Concept to Creation: Unleash the Magic of Graphic Design</h2>
                                         <p>Web Tech Solutions Service's outstanding graphic designers will create whatever you need, whether it's an extraordinary illustration, lovely print designs, or captivating digital marketing assets. We, in contrast to conventional graphic design firms, are a tech-enabled, Creative-as-a-Service design solution created to keep up with the accelerating pace and changing needs of corporate teams. A clear design subscription model lets you access the full range of design capabilities.</p>
                                     </div>
-                                    <div className='graphic-desg-content'>
-                                        <h2>How our graphic design services can help you:</h2>
-                                        <p>As bring your vision to life and take your brand to new heights is our first goal. With many years of experience, we’ll help your business convert potential clients into paying customers with well designed, printed collateral.
-                                        </p>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>

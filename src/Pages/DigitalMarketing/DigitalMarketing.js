@@ -49,7 +49,7 @@ function DigitalMarketing() {
                     </div>
                 </div>
                 <div className='container-lg'>
-                    <div className='row py-md-5 py-3'>
+                    <div className='row py-md-5 py-3 align-items-center justify-content-center'>
                         <div className='col-lg-6 col-md-5 col-sm-8 p-0 mb-4 mb-md-0'>
                             <img width="100%" height="100%" className='img-fluid' src={DigitalmarktingImg} alt='Digital Marketing Company' />
                         </div>

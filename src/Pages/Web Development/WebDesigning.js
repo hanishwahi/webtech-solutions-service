@@ -23,7 +23,7 @@ function WebDesigning() {
 
             <div className='container-fluid'>
                 <div className='container-lg'>
-                    <div className='row py-5 justify-content-center'>
+                    <div className='row py-5 justify-content-center align-items-center'>
                         <div className='col-lg-6'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 text-end align-self-center'>

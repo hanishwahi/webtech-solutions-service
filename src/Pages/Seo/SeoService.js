@@ -27,7 +27,7 @@ function SeoService() {
                             <div className='shadow p-4 text-center seo-box'>
                                 <img className='mb-3' width={140} src={Keyword_search} alt='' />
                                 <h2>Keyword Search</h2>
-                                <p>Far far away, behind the word mounta ins, far from the countries Vokalia and Conson antia, there live the blind texts</p>
+                                <p>Your SEO keywords are the keywords and phrases in your web content that make it possible for people to find your site via search engines. </p>
                             </div>
 
                         </div>
@@ -35,7 +35,7 @@ function SeoService() {
                             <div className='shadow p-4 text-center seo-box'>
                                 <img className='mb-3' width={140} src={CompetitiveAnalysis} alt='' />
                                 <h2>Competitive Analysis</h2>
-                                <p>Far far away, behind the word mounta ins, far from the countries Vokalia and Conson antia, there live the blind texts.</p>
+                                <p>SEO competitive analysis involves researching your direct search competitors to understand their target keywords, content strategy, backlink profile, and more</p>
                             </div>
 
                         </div>
@@ -43,7 +43,7 @@ function SeoService() {
                             <div className='shadow p-4 text-center seo-box'>
                                 <img className='mb-3' width={140} src={Link_Building} alt='' />
                                 <h2>Link Building</h2>
-                                <p>Far far away, behind the word mounta ins, far from the countries Vokalia and Conson antia, there live the blind texts.</p>
+                                <p>Link building refers to the marketing efforts to get links from other websites to your website. It's seen as one of the most powerful tools to achieve higher rankings.</p>
                             </div>
 
                         </div>
@@ -51,7 +51,7 @@ function SeoService() {
                             <div className='shadow p-4 text-center seo-box'>
                                 <img className='mb-3' width={140} src={Web_Marketing_Analytics} alt='' />
                                 <h2>Web Marketing Analytics</h2>
-                                <p>Far far away, behind the word mounta ins, far from the countries Vokalia and Conson antia, there live the blind texts</p>
+                                <p>Digital marketing analytics consists of processes and technologies that enable marketers to evaluate the success of their digital marketing initiatives.</p>
                             </div>
 
                         </div>
@@ -62,7 +62,7 @@ function SeoService() {
                 <div className='container-lg'>
                     <div className='row'>
                         <div className='col-lg-8 align-self-center seo-content mb-4'>
-                            <p>Imagine You`Ve Positioned As Plenty Paintings As You Could Into Making Your Internet Site The Right Platform, And It`S Simply Now No Longer Enough. What Takes Place Whilst You`Ve Carried Out As Plenty Of The Natural Search Engine Optimization (Search Engine Optimization) Paintings As You Could In Your Own? When You`Ve Stranded Your Self Withinside The UI`S Of A 1/2 Of Dozen Search Engine Optimization Tools, Now No Longer Even Positive When You Have The Evaluation The Records Right. It`S Now No Longer Simply Frustrating, It`S A Danger In Your Business. What You`Re Doing Incorrect Together Along With Your Search Engine Optimization Can Fee You Money. It Doesn`T Make Feel To Take The Dangers Whilst Outsourcing Natural Search Engine Optimization Consulting Offerings Has Such A Lot Of Advantages.</p>
+                            <p>Imagine you`ve positioned as plenty paintings as you could into making your internet site the right platform, and it`s simply now no longer enough. what takes place whilst you`ve carried out as plenty of the natural search engine optimization (search engine optimization) paintings as you could in your own? when you`ve stranded your self withinside the ui`s of a 1/2 of dozen search engine optimization tools, now no longer even positive when you have the evaluation the records right. it`s now no longer simply frustrating, it`s a danger in your business. what you`re doing incorrect together along with your search engine optimization can fee you money. it doesn`t make feel to take the dangers whilst outsourcing natural search engine optimization consulting offerings has such a lot of advantages.</p>
                         </div>
                         <div className='col-lg-4 text-center'>
                             <img className='img-fluid' src={seo_img_2} alt='SEO Consultations' />

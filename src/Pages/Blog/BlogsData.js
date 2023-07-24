@@ -7,7 +7,7 @@ export const data = [
         "date": "18-07-2023",
         "category": "Graphic Design",
         "image": "https://infogram.com/blog/wp-content/uploads/2023/06/GettyImages-1415537875-1-1024x638.jpg",
-        "title": "Mastering Design Excellence: Golden Rules for Elevating Your Creative Vision",
+        "title": "Golden Rules for Elevating Your Creative Vision",
         "description": "Design is an art form that conveys ideas, emotions, and messages beyond just aesthetics. There are timeless concepts that can greatly enhance your designs, regardless of your level of experience as a designer or where you are in your creative process. In this blog, we'll share the golden standards that will sharpen your creative vision and enable you to produce designs that are compelling, significant, and memorable",
         "ul": [
             {

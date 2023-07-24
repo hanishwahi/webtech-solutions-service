@@ -55,7 +55,7 @@ function PPC() {
             <div className='container-fluid py-lg-5'>
                 <div className='container-lg'>
                     <div className='row py-3 py-lg-5 justify-content-center'>
-                        <div className='col-lg-6 col-md-8 align-self-center'>
+                        <div className='col-lg-6 col-md-6 align-self-center'>
                             <img width="100%" height="100%" src={PPCimg} alt='PPC Services' className='img-fluid' />
                         </div>
                         <div className='col-lg-6'>

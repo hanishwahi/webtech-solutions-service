@@ -28,10 +28,10 @@ function SMO() {
                     </div>
                 </div>
             </div>
-            <div className='container-fluid pt-4 pt-lg-5'>
+            <div className='container-fluid pt-4'>
                 <div className='container-lg'>
-                    <div className='row justify-content-center'>
-                        <div className='col-lg-6 col-sm-8 col-md-8 align-self-center mb-3'>
+                    <div className='row justify-content-center align-items-center'>
+                        <div className='col-lg-6 col-sm-8 col-md-6 align-self-center mb-3'>
                             <img width="100%" height="100%" src={smo_img} alt='' className='img-fluid' />
                         </div>
                         <div className='col-lg-6'>

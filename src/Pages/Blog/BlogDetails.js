@@ -91,7 +91,7 @@ function BlogDetails() {
                 </div>
               </div>
               <div className='row blog-detail'>
-                {latestUniqueTitle1 && <h1 className='mb-3' style={{ color: '#42ade4' }}>{latestUniqueTitle1.title}?
+                {latestUniqueTitle1 && <h1 className='mb-3' style={{ color: '#42ade4' }}>{latestUniqueTitle1.title}
                 </h1>}
                 {latestUniqueTitle1 && <p className='h6'> {latestUniqueTitle1.description}</p>}
               </div>
