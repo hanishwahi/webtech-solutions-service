@@ -1,6 +1,4 @@
 
-
-
 export const data = [
     {
         "id": 1,
@@ -62,14 +60,22 @@ export const data = [
         "title": "Exploring the Future of Website Development in 2023 and Beyond!",
         "description": "Websites have developed into potent tools that shape our online experiences as the internet has become an essential part of our daily lives. The options for website development are endless as we move into 2023 and beyond, and they promise to radically alter the internet world. Therefore, , hold on tight as we take you on an exciting journey through the future of web development!",
         "ul": [
-            { "liTitle": "AI-Driven Websites", 
-            "liDescription": "Consider websites that comprehend your choices and instantly adjust to meet your wants. The way we interact with the web is about to undergo a transformation thanks to artificial intelligence (AI). Websites will become simpler and user-friendly than ever thanks to AI, which will enable chatbots to offer immediate support and personalised content recommendations." },
-            { "liTitle": "Immersive User Experiences", 
-            "liDescription": "Get ready for a wave of compelling virtual worlds that will be accessed through immersive user experiences. Web development will increasingly rely on virtual and augmented reality, which will enable businesses to offer interactive virtual tours and present their items in 3D, giving users unique experiences." },
-            { "liTitle": "Voice-Activated Interfaces", 
-            "liDescription": "Users won't only be able to interact with websites using keyboards and touchscreens any longer. Advanced voice recognition technology will enable voice-activated interfaces to go commonplace, allowing users to navigate webpages, conduct searches, and even make transactions using only their voice." },
-            { "liTitle": "Lightning-Fast Load Times", 
-            "liDescription": "Waiting for webpages to load is a test of patience. Web developers are concentrating on optimising website speed to achieve blazing-fast load times in response to the increased desire for instant gratification. Quickly loading websites will benefit from greater user engagement and improved search engine positioning." },
+            {
+                "liTitle": "AI-Driven Websites",
+                "liDescription": "Consider websites that comprehend your choices and instantly adjust to meet your wants. The way we interact with the web is about to undergo a transformation thanks to artificial intelligence (AI). Websites will become simpler and user-friendly than ever thanks to AI, which will enable chatbots to offer immediate support and personalised content recommendations."
+            },
+            {
+                "liTitle": "Immersive User Experiences",
+                "liDescription": "Get ready for a wave of compelling virtual worlds that will be accessed through immersive user experiences. Web development will increasingly rely on virtual and augmented reality, which will enable businesses to offer interactive virtual tours and present their items in 3D, giving users unique experiences."
+            },
+            {
+                "liTitle": "Voice-Activated Interfaces",
+                "liDescription": "Users won't only be able to interact with websites using keyboards and touchscreens any longer. Advanced voice recognition technology will enable voice-activated interfaces to go commonplace, allowing users to navigate webpages, conduct searches, and even make transactions using only their voice."
+            },
+            {
+                "liTitle": "Lightning-Fast Load Times",
+                "liDescription": "Waiting for webpages to load is a test of patience. Web developers are concentrating on optimising website speed to achieve blazing-fast load times in response to the increased desire for instant gratification. Quickly loading websites will benefit from greater user engagement and improved search engine positioning."
+            },
         ]
     },
     {
@@ -97,7 +103,43 @@ export const data = [
                 "liDescription": "It's important to carefully test and debug your responsive website because there are so many different types of devices, browsers, and operating systems available today. During the development process, simulate various screen sizes and viewports using the browser developer tools. To give a faultless user experience across all platforms, fix any layout irregularities, alignment problems, or broken pieces."
             }
         ]
+    },
+    {
+        "id": 5,
+        "date": "24-07-2023",
+        "category": "Digital Marketing",
+        "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2023/04/Best-SEO-Tools.jpg",
+        "title": "Essential SEO Tools to Boost Your Website's Performance",
+        "description": "Search Engine Optimisation (SEO) has become essential for businesses to increase their online presence and connect with their target audience in the constantly changing world of digital marketing. As a leading provider of comprehensive digital marketing services in Chandigarh, We understands the significance of utilizing the right SEO tools to achieve remarkable results. In this blog, we'll look at ten crucial SEO tools that can improve your digital marketing tactics and support the growth of your company.",
+        "url":"/web-development",
+          "ul": [
+            {
+                "liTitle": "Google Analytics",
+                "liDescription": "Google Analytics is a robust, free tool that offers in-depth analysis of user behaviour and website traffic. It assists you in keeping tabs on the quantity of visitors, their location, the sources of traffic, and more. Understanding which marketing tactics are effective and where room for improvement exists depends heavily on this data."
+            },
+            {
+                "liTitle": "Google Search Console",
+                "liDescription": "Previously referred to as Webmaster Tools, Google Search Console is an additional free tool provided by Google that enables you to track and improve the visibility of your website in search results. It offers information on the search terms your website ranks for, indexing problems, and more. It also provides performance data and aids in pinpointing places where click-through rates might be raised."
+            },
+            {
+                "liTitle": "SEMrush",
+                "liDescription": "SEMrush is a comprehensive SEO tool with a wide range of functions, including backlink analysis, keyword research, competitor analysis, and site auditing. It enables you to keep tabs on your keyword rankings, evaluate the success of your content marketing plan, and spot fresh SEO optimisation prospects for your website."
+            },
+            {
+                "liTitle": "Ahrefs",
+                "liDescription": "Ahrefs is a well-liked backlink analysis tool. It offers in-depth information on the backlink profile of a website, assisting you in understanding your link-building efforts and spotting future link-building prospects. Ahrefs also provides helpful insights into the keywords and backlinks of rival websites."
+            },
+            {
+                "liTitle": "Moz Pro",
+                "liDescription": "Moz Pro is a comprehensive suite of SEO tools that includes features for site auditing, link building, and keyword research. Its user-friendly interface makes it simple to check keyword ranks, keep an eye on your website's SEO health, and find areas for development."
+            },
+            {
+                "liTitle": "Ubersuggest",
+                "liDescription": "A user-friendly SEO tool, Ubersuggest provides keyword research, article ideas, and competitor analysis. Ubersuggest can help you find fresh long-tail keywords to target and learn about the SEO tactics used by your rivals."
+            }
+        ]
     }
+
 
 ]
 

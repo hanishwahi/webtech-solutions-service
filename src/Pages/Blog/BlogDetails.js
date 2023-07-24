@@ -27,21 +27,16 @@ function BlogDetails() {
     setCategorizedData(categorized);
   }, []);
 
+  
   const latestUniqueTitle = categorizedData[currentTitle] || [];
-  const latestUniqueTitle1 = latestUniqueTitle[0]
-
-
-  // back button 
+  const latestUniqueTitle1 = latestUniqueTitle[0] 
+    // back button 
   const Navigate = useNavigate();
 
   const backWindow = () => {
     Navigate(-1);
   };
-  // const Navigate2 = useNavigate();
-  // function forwardWindow() {
-  //   Navigate2(1);
-  // }
-
+ 
 
 
 
@@ -66,8 +61,8 @@ function BlogDetails() {
     });
   }
 
-
-  return (
+ 
+    return (
     <>
       <Header />
       <div className='container-fluid py-md-5'>
@@ -76,7 +71,7 @@ function BlogDetails() {
 
             <div className='col-lg-6 col-4 blog-detail-back-button'>
               <Link onClick={backWindow}><i className="fa-solid fa-arrow-left"></i></Link>
-              {/* <Link className='ms-2' onClick={forwardWindow}><i className="fa-solid fa-arrow-right"></i></Link> */}
+         
             </div>
 
             <div className='col-lg-6 col-8 text-end blog-detail'>
@@ -93,11 +88,13 @@ function BlogDetails() {
               <div className='row blog-detail'>
                 {latestUniqueTitle1 && <h1 className='mb-3' style={{ color: '#42ade4' }}>{latestUniqueTitle1.title}
                 </h1>}
-                {latestUniqueTitle1 && <p className='h6'> {latestUniqueTitle1.description}</p>}
-              </div>
+                {latestUniqueTitle1 && <Link to={latestUniqueTitle1.url} className='text-decoration-none'><p className='h6'> {latestUniqueTitle1.description}</p></Link> }
+                  
+
+               </div>
               <div>
                 {latestUniqueTitle1 && latestUniqueTitle1.ul && (
-                  <ul >
+                  <ul>
                     {latestUniqueTitle1.ul.map(item => (
                       <React.Fragment key={item.id}>
                         <div className='row blog-list'>
