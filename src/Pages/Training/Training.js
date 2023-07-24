@@ -18,7 +18,7 @@ function Training() {
                     <div className='col px-0'>
                         <img className='overflow-hidden px-0 img-fluid'
                             src={TrainingDevelopment}
-                            alt='SEO Company in Chandigarh' />
+                            alt='Training Company in Chandigarh' />
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@ function Training() {
                 <div className='container-lg'>
                     <div className='row justify-content-center py-lg-5'>
                         <div className='col-lg-6 col-sm-8 col-md-8 align-self-center'>
-                            <img width="100%" height="100%" src={trainingImg} alt='Best SEO Service' className='img-fluid' />
+                            <img width="100%" height="100%" src={trainingImg} alt='Best Training Service' className='img-fluid' />
                         </div>
                         <div className='col-lg-6'>
                             <div className='row mb-3'>
