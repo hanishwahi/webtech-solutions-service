@@ -328,6 +328,14 @@
   font-size: 22px;
   line-height: 28px;  
 }
+.training-callnow h1 { 
+  font-size: 19px;
+  line-height: 25px; 
+}
+.training-callnow p { 
+  font-size: 16px;
+  line-height: 24px; 
+}
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
@@ -495,6 +503,13 @@
 .blogs {
     min-height: 145px; 
 }
+.training-callnow h1 { 
+  font-size: 24px;
+  line-height: 28px; 
+}
+.training-box h2 { 
+  font-size: 18px; 
+}
   
 }
 
@@ -652,6 +667,9 @@
 .ppc-content h1 { 
   font-size: 28px;
   line-height: 32px; 
+}
+.training-box h2 { 
+  font-size: 17px; 
 }
 }
 

@@ -1,11 +1,10 @@
 import React from 'react'
 // import TrainingDevelopment from '../../Images/TrainingDevelopment.webp'
-import TrainingDevelopment from '../../Images/trainingDevelopment2.webp'
+import TrainingDevelopment from '../../Images/training-banner-main.webp'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import trainingImg from '../../Images/training-img.webp'
 import dm_rectangle from '../../Images/dm-rectangle 13.png'
-import { Link } from 'react-router-dom'
 import TrainingCourses from './TrainingCourses'
 import ContactForm from '../ContactForm/ContactForm'
 
@@ -57,16 +56,22 @@ function Training() {
 
 
             </div>
-            <div className='container-fluid how-it-works-section'>
+            <div className='container-fluid'>
                 <div className='container-lg'>
-                    <div className='row py-5'>
-                        <div className='col-lg-10 training-heading'>
-                            <h1>Master your skills with our Best Digital Marketing Course in Chandigarh/Mohali</h1>
-                        </div>
-                        <div className='col-lg-2 blogs-button'>
-                            <Link to='tel:+91 8427682603'>Call Now</Link>
-                        </div>
+                    <div className='row training-heading text-center '>
+                        <h1 className='p-3'>Who Can Join Our Digital Marketing Course Program</h1>
+                        <p>Everyone who has an interest in Digital learning and desires to upgrade technical skills may enroll for the online and office batches of Digital marketing at their convenience.</p>
                     </div>
+                    <div className='row training-lists py-3'>
+                        <ol>
+                            <li><strong>100% Satisfactory Classes:</strong> One-to-One sessions help you to clear your doubts and results in the successful implementation of tools & techniques covered under live classes.</li>
+                            <li><strong>Money Back Guarantee:</strong> After 1 live class, If the course seems not valuable for you, You may ask for a complete refund. Offer Valid from 2nd live class only.</li>
+                            <li><strong>Smooth Job Process:</strong> Get your resume Ready before completion of the course, Join In-house mock Sessions, Appear for Interviews & Get an Offer letter.</li>
+                             
+                        </ol>
+
+                    </div>
+                    
                 </div>
 
             </div>
