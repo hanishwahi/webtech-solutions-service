@@ -939,6 +939,16 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000;  
 
 }
+.training-offer{
+    position: absolute;
+    top: 0; 
+    color: #fff;
+    background-color: red;
+    padding: 8px 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 10px;
+}
 
 /* graphic design  */
 .graphic-desg-heading h1 {

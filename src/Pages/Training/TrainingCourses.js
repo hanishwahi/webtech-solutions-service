@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+// import TrainingOffer from './TrainingOffer'
 
 function TrainingCourses() {
     return (
@@ -147,7 +148,7 @@ function TrainingCourses() {
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Yes, we provide you the assured placement. we have a dedicated team for placement assistance
+                                       <p className='h6 training-faq-para'> Yes, we provide you the assured placement. we have a dedicated team for placement assistance</p>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +174,6 @@ function TrainingCourses() {
                                 <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                     <p className='h6 training-faq-para'>Yes, you surely will as our Digital Marketing Training course covers all aspects of Digital Marketing that will allow you to have the skills needed to secure a job in marketing firms, tech giants as well as SMEs.</p>
-                                    
                                     </div>
                                 </div>
                             </div>
@@ -183,6 +183,7 @@ function TrainingCourses() {
                 </div>
 
             </div>
+            {/* <TrainingOffer/> */}
         </>
     )
 }

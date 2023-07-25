@@ -50,6 +50,7 @@ function Footer() {
                                 <Link onClick={scrollToTop} to="/graphic-design">Graphic Design</Link>
                                 <Link onClick={scrollToTop} to="/seo">SEO</Link>
                                 <Link onClick={scrollToTop} to="/smo">SMM</Link>
+                                <Link onClick={scrollToTop} to="/training-development">Training & Development</Link>
                             </div>
                              
                         </div>
