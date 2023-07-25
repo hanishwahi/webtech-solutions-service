@@ -27,21 +27,21 @@ function TrainingCourses() {
                     <div className='row'>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                            <i class="fa-solid fa-user"></i>
+                                <i class="fa-solid fa-user"></i>
                                 <h2>Expert Trainer</h2>
                                 <p>Our expert trainers are experienced professionals who are passionate about teaching and will provide you with in-depth knowledge of digital marketing.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                            <i class="fa-solid fa-headphones"></i>
+                                <i class="fa-solid fa-headphones"></i>
                                 <h2>Doubt- Clearing Sessions</h2>
                                 <p>Doubt-clearing sessions ensure that you have a thorough understanding of the material and can confidently apply it in real-world situations.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                            <i class="fa-solid fa-video"></i>
+                                <i class="fa-solid fa-video"></i>
                                 <h2>Interactive Live Classes</h2>
                                 <p>Our interactive live classes provide a collaborative learning experience, allowing you to engage with the material and your classmates in real-time.</p>
                             </div>
@@ -55,7 +55,7 @@ function TrainingCourses() {
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                            <i class="fa-solid fa-graduation-cap"></i>
+                                <i class="fa-solid fa-graduation-cap"></i>
                                 <h2>100% Job Assistance</h2>
                                 <p>We provide 100% job assistance to
                                     help you find the right job or
@@ -65,13 +65,123 @@ function TrainingCourses() {
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                            <i class="fa-solid fa-certificate"></i>
+                                <i class="fa-solid fa-certificate"></i>
                                 <h2>Digital Marketing Certificate</h2>
                                 <p>You will receive a digital marketing certificate upon completion of our course, which will validate your skills and make you stand out in the job market.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='container-fluid py-5'>
+                <div className='container-lg'>
+                    <div className='row training-faq-heading text-center py-4'>
+                        <h1>Exams & Certifications</h1>
+                    </div>
+                    <div className='row'>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <h2 className='h5 m-0 training-faq-content'> Exam & certification on digital marketing</h2>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p className='h6 training-faq-para'>We offer digital marketing courses and placement with certificates issued by Apponix Technologies.Being one of the leading providers of guidance for digital marketing certificate Google, we will also help you get your hands on several other globally recognized certifications from tech-giants like –
+
+                                            <li>Google Analytics</li>
+                                            <li>Inbound marketing from HubSpot</li>
+                                            <li>Email marketing from HubSpot</li>
+                                            <li>Content marketing from HubSpot</li>
+                                            <li>Facebook blueprint</li>
+                                            <li>SEO Fundamentals certification from SEMRUSH</li>
+                                            <li>Google Ads certification</li>
+                                            For more details, please refer to the FAQ section below –</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed h3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <h2 className='h5 m-0 training-faq-content'  >Should a person know to code if they want to learn SEO?</h2>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+
+                                        <p className='h6 training-faq-para'> No, you do not need to know to code when you want to learn SEO.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <h2 className='h5 m-0 training-faq-content'>What is the scope in India after learning Digital Marketing?</h2>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    <p className='h6 training-faq-para'>There is a huge demand for digital marketers. It creates the right opportunity for you to make a name for yourself in the sector by learning Digital Marketing today.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <h2 className='h5 m-0 training-faq-content'>Who is my instructor?</h2>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    <p className='h6 training-faq-para'>All our trainers are working professional having more than 6 years of relevant industry experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <h2 className='h5 m-0 training-faq-content'>Can you provide guaranteed placement after the course?</h2>
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Yes, we provide you the assured placement. we have a dedicated team for placement assistance
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <h2 className='h5 m-0 training-faq-content'>Can I get certification after completing the course?</h2>
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    <p className='h6 training-faq-para'>Yes, We provide a course completion certificate in web design & development. apart from this, there is 1 more certificate called “ Apponix Certified Professional in Digital marketing”
+                                        If you score more than 80% in the exam you will be awarded an “Apponix Certified Professional”</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        <h2 className='h5 m-0 training-faq-content'>Will I get a job after doing this course?</h2>
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    <p className='h6 training-faq-para'>Yes, you surely will as our Digital Marketing Training course covers all aspects of Digital Marketing that will allow you to have the skills needed to secure a job in marketing firms, tech giants as well as SMEs.</p>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </>
     )
