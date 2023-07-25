@@ -25,7 +25,7 @@ function TrainingOffer() {
         };
     }, [timeline]);
 
- 
+
 
     return (
         <>
@@ -33,14 +33,14 @@ function TrainingOffer() {
 
             {show && (
                 <div className='container-fluid fixed-bottom'>
-                        <div className='row'>
-                            <div className='col-lg-4 border'>
-                               <img src={trainingoffer} alt='' className='img-fluid' />
-                               <h1 className='training-offer'>{timeline}</h1>
-                            </div>
+                    <div className='row'>
+                        <div className='col-lg-4 border px-0'>
+                            <img src={trainingoffer} alt='' className='img-fluid' />
+                            <h1 className='training-offer'>{timeline}</h1>
                         </div>
                     </div>
- 
+                </div>
+
 
             )}
         </>

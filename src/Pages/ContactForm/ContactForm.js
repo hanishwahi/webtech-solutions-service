@@ -19,7 +19,7 @@ function ContactForm() {
                             </div>
 
                             <div className='d-flex  gap-2 contact-us'>
-                                <i class="fa-solid fa-location-dot"></i>
+                                <i className="fa-solid fa-location-dot"></i>
                                 <Link to='mailto:info@webtechsolutionsservice.com'>Bestech Business Tower<br />
                                     Office No: 412 Tower-A, 4th Floor, Sahibzada Ajit Singh Nagar, Punjab 160066</Link>
                             </div>
@@ -30,13 +30,13 @@ function ContactForm() {
                                 <Link to='mailto:info@webtechsolutionsservice.com'>info@webtechsolutionsservice.com</Link>
                             </div>
                             <div className='d-flex align-items-center gap-2 contact-us'>
-                            <i class="fa-solid fa-phone"></i>
+                            <i className="fa-solid fa-phone"></i>
                             <Link to='tel:+1(877)966-2244' target='_blank'>+1(877)966-2244 </Link>
                             <strong>(US, CANADA)</strong>
                             </div>
 
                             <div className='d-flex align-items-center gap-2 contact-us'>
-                                <i class="fa-brands fa-whatsapp" style={{ color: "green" }}></i>
+                                <i className="fa-brands fa-whatsapp" style={{ color: "green" }}></i>
                                 <Link to='https://wa.me/+918427682603?text=Welcome to webtech solutions' target='_blank'>+91 8427682603 </Link>
                                 <strong>(INDIA)</strong>
                             </div>
