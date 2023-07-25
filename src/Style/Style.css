@@ -949,6 +949,15 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 18px;
     margin: 10px;
 }
+.training-program h3{
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    font-style: normal;
+    color: #000;  
+    text-align: center;
+}
 
 /* graphic design  */
 .graphic-desg-heading h1 {

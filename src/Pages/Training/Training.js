@@ -7,6 +7,10 @@ import trainingImg from '../../Images/training-img.webp'
 import dm_rectangle from '../../Images/dm-rectangle 13.png'
 import TrainingCourses from './TrainingCourses'
 import ContactForm from '../ContactForm/ContactForm'
+import Students from '../../Images/training-icon1.png'
+import WorkingProfessionals from '../../Images/training-icon2.png'
+import jobseeker from '../../Images/training-icon3.png'
+import Entrepreneurs from '../../Images/training-icon4.png'
 
 function Training() {
     return (
@@ -33,7 +37,7 @@ function Training() {
                                     <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 graphic-desg-heading align-self-center'>
-                                    <h1>Training & Development</h1>
+                                    <h1>Digital Marketing Training & Development</h1>
                                 </div>
                             </div>
                             <div className='row'>
@@ -55,13 +59,40 @@ function Training() {
                 </div>
 
 
-            </div>
+            </div> 
             <div className='container-fluid'>
                 <div className='container-lg'>
                     <div className='row training-heading text-center '>
                         <h1 className='p-3'>Who Can Join Our Digital Marketing Course Program</h1>
                         <p>Everyone who has an interest in Digital learning and desires to upgrade technical skills may enroll for the online and office batches of Digital marketing at their convenience.</p>
                     </div>
+                    <div className='row py-3'>
+                        <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
+                            <div>
+                                <img width={140} src={Students} alt='' className='img-fluid'/>
+                                <h3>Students</h3>
+                            </div>
+                        </div>
+                        <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
+                            <div>
+                                <img width={140} src={WorkingProfessionals} alt='' className='img-fluid'/>
+                                <h3>Working Professionals</h3>
+                            </div>
+                        </div>
+                        <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
+                            <div>
+                                <img width={140} src={jobseeker} alt='' className='img-fluid'/>
+                                <h3>Jobseeker</h3>
+                            </div>
+                        </div>
+                        <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
+                            <div>
+                                <img width={140} src={Entrepreneurs} alt='' className='img-fluid'/>
+                                <h3>Entrepreneurs</h3>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className='row training-lists py-3'>
                         <div className='col'>
                             <ol>
