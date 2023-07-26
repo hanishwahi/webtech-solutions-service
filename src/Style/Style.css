@@ -967,6 +967,20 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     border-bottom: 5px solid #42ADE4; 
 
 }
+.training-button{
+    background-image: linear-gradient(to right, #018dd1, #42ADE4);
+    border-radius: 53px;
+    color: #fff;
+    padding: 11px 28px;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+}
+
+.downloadPDF a{
+    font-size: 20px;
+    color: red;
+}
 
 /* graphic design  */
 .graphic-desg-heading h1 {

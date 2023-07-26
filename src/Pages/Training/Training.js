@@ -1,17 +1,52 @@
-import React from 'react'
- import TrainingDevelopment from '../../Images/training-banner-main.webp'
+import React, { useState } from 'react'
+import TrainingDevelopment from '../../Images/training-banner-main.webp'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
-// import trainingImg from '../../Images/training-img.webp'
-import dm_rectangle from '../../Images/dm-rectangle 13.png'
+ import dm_rectangle from '../../Images/dm-rectangle 13.png'
 import TrainingCourses from './TrainingCourses'
- import Students from '../../Images/training-icon1.png'
+import Students from '../../Images/training-icon1.png'
 import WorkingProfessionals from '../../Images/training-icon2.png'
 import jobseeker from '../../Images/training-icon3.png'
 import Entrepreneurs from '../../Images/training-icon4.png'
 import TrainingForm from './TrainingForm'
+import pdf from '../../Images/dummy.pdf'
+import emailjs from 'emailjs-com';
+import { useRef } from 'react';
 
 function Training() {
+    const [pdfForm, setPdfForm] = useState(false)
+    const [pdfDownload, setPdfDownload] = useState(false)
+
+    const downloadPdf = () => {
+        setPdfForm(true)
+    }
+    const hidePDFDownload = () => {
+        setPdfDownload(false)
+    }
+
+
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_hmnkl0m', 'template_x63rd3m', e.target, 'DaUmEfgqFFS3JD4_d')
+            .then(
+                (result) => {
+                    console.log(result.text);
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+
+            );
+        setPdfForm(false)
+        setPdfDownload(true)
+        e.target.reset();
+    };
+
+    
+
     return (
         <>
             <Header />
@@ -26,12 +61,11 @@ function Training() {
             </div>
             <div className='container-fluid py-lg-5 py-3'>
                 <div className='container-lg'>
-                    <div className='row justify-content-center py-lg-5'>
-                        <div className='col-lg-6 col-sm-8 col-md-8 align-self-center'>
-                            <TrainingForm/>
-                            {/* <img width="100%" height="100%" src={trainingImg} alt='Best Training Service' className='img-fluid' /> */}
-                        </div>
-                        <div className='col-lg-6'>
+                    <div className='row justify-content-center'>
+                        <div className='col-lg-6 col-sm-8 col-md-8 align-self-center py-3'>
+                            <TrainingForm />
+                         </div>
+                        <div className='col-lg-6 py-3'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 text-end align-self-center'>
                                     <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
@@ -59,35 +93,38 @@ function Training() {
                 </div>
 
 
-            </div> 
-            <div className='container-fluid'>
+            </div>
+            <div className='container-fluid py-4'>
                 <div className='container-lg'>
                     <div className='row training-heading text-center '>
                         <h1 className='p-3'>Who Can Join Our Digital Marketing Course Program</h1>
                         <p>Everyone who has an interest in Digital learning and desires to upgrade technical skills may enroll for the online and office batches of Digital marketing at their convenience.</p>
                     </div>
+
+
+
                     <div className='row py-3'>
                         <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
                             <div>
-                                <img width={140} src={Students} alt='' className='img-fluid'/>
+                                <img width={140} src={Students} alt='' className='img-fluid' download />
                                 <h3>Students</h3>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
                             <div>
-                                <img width={140} src={WorkingProfessionals} alt='' className='img-fluid'/>
+                                <img width={140} src={WorkingProfessionals} alt='' className='img-fluid' />
                                 <h3>Working Professionals</h3>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
                             <div>
-                                <img width={140} src={jobseeker} alt='' className='img-fluid'/>
+                                <img width={140} src={jobseeker} alt='' className='img-fluid' />
                                 <h3>Jobseeker</h3>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
                             <div>
-                                <img width={140} src={Entrepreneurs} alt='' className='img-fluid'/>
+                                <img width={140} src={Entrepreneurs} alt='' className='img-fluid' />
                                 <h3>Entrepreneurs</h3>
                             </div>
                         </div>
@@ -104,12 +141,48 @@ function Training() {
                         </div>
 
                     </div>
+                    <div className='row py-3'>
+                        <div className='col'>
+                           <div className='text-center'> <button onClick={downloadPdf} className='training-button'>Download Brochure</button></div>
+                            {
+                                pdfForm &&
+                                <div className='row py-3'>
+                                    <form ref={form} onSubmit={sendEmail}>
+                                        <div className='row justify-content-between'>
+                                            <div className="form-outline col-12 col-sm-6 mb-4">
+                                                <label className="form-label fw-bold" htmlFor="form4Example1">*Name</label>
+                                                <input type="text" name="name" id="form4Example1" required className="form-control" placeholder='Full Name' />
+                                            </div>
+
+                                            <div className="form-outline col-12 col-sm-6 mb-4">
+                                                <label className="form-label fw-bold" htmlFor="form4Example2">*Phone</label>
+                                                <input type="number" name="phone" id="form4Example2" required className="form-control" placeholder='Enter your Phone number' />
+                                            </div>
+                                        </div>
+                                        <div className="form-outline mb-4">
+                                            <label className="form-label fw-bold" htmlFor="form4Example2">*Email address</label>
+                                            <input type="email" name="email" id="form4Example2" required className="form-control" placeholder='Enter your Email ID' />
+                                        </div>
+
+
+                                        <input className='form-Button' type="submit" value="Submit" />
+                                    </form>
+                                </div>
+                            }
+
+                            {pdfDownload && <div className='downloadPDF'> <a onClick={hidePDFDownload} href={pdf} download >
+                                Download File
+                            </a> </div>
+
+                            }
+                        </div>
+                    </div>
 
                 </div>
 
             </div>
             <TrainingCourses />
-             <Footer />
+            <Footer />
         </>
     )
 }

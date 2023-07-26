@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import TrainingOffer from './TrainingOffer'
+// import TrainingOffer from './TrainingOffer'
 
 function TrainingCourses() {
     return (
@@ -183,7 +183,7 @@ function TrainingCourses() {
                 </div>
 
             </div>
-            <TrainingOffer/>
+            {/* <TrainingOffer/> */}
         </>
     )
 }
