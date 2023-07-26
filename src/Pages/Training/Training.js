@@ -2,17 +2,17 @@ import React, { useState } from 'react'
 import TrainingDevelopment from '../../Images/training-banner-main.webp'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
- import dm_rectangle from '../../Images/dm-rectangle 13.png'
+import dm_rectangle from '../../Images/dm-rectangle 13.png'
 import TrainingCourses from './TrainingCourses'
 import Students from '../../Images/training-icon1.png'
 import WorkingProfessionals from '../../Images/training-icon2.png'
 import jobseeker from '../../Images/training-icon3.png'
 import Entrepreneurs from '../../Images/training-icon4.png'
 import TrainingForm from './TrainingForm'
-import pdf from '../../Images/dummy.pdf'
+import pdf from '../../Images/DIGITALMARKETINGCOURSE.pdf'
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
-
+ 
 function Training() {
     const [pdfForm, setPdfForm] = useState(false)
     const [pdfDownload, setPdfDownload] = useState(false)
@@ -45,7 +45,7 @@ function Training() {
         e.target.reset();
     };
 
-    
+
 
     return (
         <>
@@ -64,7 +64,7 @@ function Training() {
                     <div className='row justify-content-center'>
                         <div className='col-lg-6 col-sm-8 col-md-8 align-self-center py-3'>
                             <TrainingForm />
-                         </div>
+                        </div>
                         <div className='col-lg-6 py-3'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 text-end align-self-center'>
@@ -100,8 +100,6 @@ function Training() {
                         <h1 className='p-3'>Who Can Join Our Digital Marketing Course Program</h1>
                         <p>Everyone who has an interest in Digital learning and desires to upgrade technical skills may enroll for the online and office batches of Digital marketing at their convenience.</p>
                     </div>
-
-
 
                     <div className='row py-3'>
                         <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
@@ -143,7 +141,7 @@ function Training() {
                     </div>
                     <div className='row py-3'>
                         <div className='col'>
-                           <div className='text-center'> <button onClick={downloadPdf} className='training-button'>Download Brochure</button></div>
+                            <div className='text-center'> <button onClick={downloadPdf} className='training-button'>Download Brochure</button></div>
                             {
                                 pdfForm &&
                                 <div className='row py-3'>
@@ -166,6 +164,7 @@ function Training() {
 
 
                                         <input className='form-Button' type="submit" value="Submit" />
+                                        
                                     </form>
                                 </div>
                             }
