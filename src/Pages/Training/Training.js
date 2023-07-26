@@ -1,16 +1,15 @@
 import React from 'react'
-// import TrainingDevelopment from '../../Images/TrainingDevelopment.webp'
-import TrainingDevelopment from '../../Images/training-banner-main.webp'
+ import TrainingDevelopment from '../../Images/training-banner-main.webp'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
-import trainingImg from '../../Images/training-img.webp'
+// import trainingImg from '../../Images/training-img.webp'
 import dm_rectangle from '../../Images/dm-rectangle 13.png'
 import TrainingCourses from './TrainingCourses'
-import ContactForm from '../ContactForm/ContactForm'
-import Students from '../../Images/training-icon1.png'
+ import Students from '../../Images/training-icon1.png'
 import WorkingProfessionals from '../../Images/training-icon2.png'
 import jobseeker from '../../Images/training-icon3.png'
 import Entrepreneurs from '../../Images/training-icon4.png'
+import TrainingForm from './TrainingForm'
 
 function Training() {
     return (
@@ -29,7 +28,8 @@ function Training() {
                 <div className='container-lg'>
                     <div className='row justify-content-center py-lg-5'>
                         <div className='col-lg-6 col-sm-8 col-md-8 align-self-center'>
-                            <img width="100%" height="100%" src={trainingImg} alt='Best Training Service' className='img-fluid' />
+                            <TrainingForm/>
+                            {/* <img width="100%" height="100%" src={trainingImg} alt='Best Training Service' className='img-fluid' /> */}
                         </div>
                         <div className='col-lg-6'>
                             <div className='row mb-3'>
@@ -109,8 +109,7 @@ function Training() {
 
             </div>
             <TrainingCourses />
-            <ContactForm />
-            <Footer />
+             <Footer />
         </>
     )
 }

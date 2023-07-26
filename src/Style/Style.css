@@ -958,6 +958,15 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000;  
     text-align: center;
 }
+ 
+
+.border-new::after {
+    content: "";  
+     width: 13%; 
+        padding-top: 10px;  
+    border-bottom: 5px solid #42ADE4; 
+
+}
 
 /* graphic design  */
 .graphic-desg-heading h1 {
