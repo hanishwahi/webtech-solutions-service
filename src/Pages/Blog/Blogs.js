@@ -6,9 +6,6 @@ import { data } from './BlogsData'
 
 
 function Blogs() {
-  
-     
-      
     const items = [...data].reverse();
         
    

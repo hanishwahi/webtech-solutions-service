@@ -1,6 +1,6 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
-import { useRef } from 'react';
+import { useRef} from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -24,6 +24,8 @@ function TrainingForm() {
         e.target.reset();
         toast.success('Message sent Successfully!');
     };
+
+
     return (
         <>
             <div>

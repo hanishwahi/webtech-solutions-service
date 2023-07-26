@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import trainingoffer from '../../Images/trainingoffer.webp'
 
 function TrainingOffer() {
@@ -24,6 +24,9 @@ function TrainingOffer() {
             clearInterval(interval);
         };
     }, [timeline]);
+
+
+
 
 
 
