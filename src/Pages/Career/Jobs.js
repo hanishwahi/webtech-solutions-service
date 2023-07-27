@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
 
 function Jobs() {
-    return (
+     return (
         <>
             <div className='container-fluid my-5 px-0 py-lg-5 how-it-works-section'>
                 <div className='container-lg'>
@@ -13,15 +13,15 @@ function Jobs() {
                     <div className='row'>
 
                         <div className='col-lg-12 mb-4'>
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <div className="accordion" id="accordionExample">
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingOne">
+                                        <button className="accordion-button shadow-none fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             SEO Executive - Immediate Joining
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body pb-0">
+                                    <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div className="accordion-body pb-0">
                                             <div className='mb-3'>
                                                 <h1 className='h5'>Job description:</h1>
                                                 <p>We are searching for a passionate SEO Executive to join our team. The SEO Executive responsibilities include analyzing and identifying gaps in website content, optimizing pages for improved search results, building links, and supervising content creation. You should be able to identify marketing opportunities and come up with strategies to increase website traffic.</p>
@@ -46,6 +46,7 @@ function Jobs() {
                                                 <p className='mb-1'><strong>Interested Candidate call at :</strong><Link to="tel:+91 8427682603"> +91 8427682603</Link></p>
 
                                             </div>
+                                            
                                         </div>
                                         <div>
                                         </div>
