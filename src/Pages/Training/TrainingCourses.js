@@ -23,6 +23,8 @@ function TrainingCourses() {
                 </div>
 
             </div>
+
+           
             <div className='container-fluid my-5'>
                 <div className='container-lg'>
                     <div className='row'>
@@ -123,8 +125,8 @@ function TrainingCourses() {
                                 </h2>
                                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                    <p className='h6 training-faq-para'>There is a huge demand for digital marketers. It creates the right opportunity for you to make a name for yourself in the sector by learning Digital Marketing today.</p>
-                                        
+                                        <p className='h6 training-faq-para'>There is a huge demand for digital marketers. It creates the right opportunity for you to make a name for yourself in the sector by learning Digital Marketing today.</p>
+
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +138,7 @@ function TrainingCourses() {
                                 </h2>
                                 <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                    <p className='h6 training-faq-para'>All our trainers are working professional having more than 6 years of relevant industry experience.</p>
+                                        <p className='h6 training-faq-para'>All our trainers are working professional having more than 6 years of relevant industry experience.</p>
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +150,7 @@ function TrainingCourses() {
                                 </h2>
                                 <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                       <p className='h6 training-faq-para'> Yes, we provide you the assured placement. we have a dedicated team for placement assistance</p>
+                                        <p className='h6 training-faq-para'> Yes, we provide you the assured placement. we have a dedicated team for placement assistance</p>
                                     </div>
                                 </div>
                             </div>
@@ -160,8 +162,8 @@ function TrainingCourses() {
                                 </h2>
                                 <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                    <p className='h6 training-faq-para'>Yes, We provide a course completion certificate in web design & development. apart from this, there is 1 more certificate called “ Apponix Certified Professional in Digital marketing”
-                                        If you score more than 80% in the exam you will be awarded an “Apponix Certified Professional”</p>
+                                        <p className='h6 training-faq-para'>Yes, We provide a course completion certificate in web design & development. apart from this, there is 1 more certificate called “ Apponix Certified Professional in Digital marketing”
+                                            If you score more than 80% in the exam you will be awarded an “Apponix Certified Professional”</p>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +175,7 @@ function TrainingCourses() {
                                 </h2>
                                 <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                    <p className='h6 training-faq-para'>Yes, you surely will as our Digital Marketing Training course covers all aspects of Digital Marketing that will allow you to have the skills needed to secure a job in marketing firms, tech giants as well as SMEs.</p>
+                                        <p className='h6 training-faq-para'>Yes, you surely will as our Digital Marketing Training course covers all aspects of Digital Marketing that will allow you to have the skills needed to secure a job in marketing firms, tech giants as well as SMEs.</p>
                                     </div>
                                 </div>
                             </div>

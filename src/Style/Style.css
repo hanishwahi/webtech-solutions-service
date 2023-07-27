@@ -86,7 +86,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000 !important;
 }
 
-.dropdown-hover:hover > .dropdown-menu {
+.dropdown-hover:hover>.dropdown-menu {
     display: inline-block;
 }
 
@@ -836,13 +836,16 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 /* training page  */
-.training-bg{
+
+
+.training-bg {
     background-image: url('../Images/training-banner-2.webp');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
 }
-.training-heading h1 {
+
+.training-heading-001 h1 {
     font-family: 'inter', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -851,13 +854,47 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000;
     margin-bottom: 0;
 }
-.training-heading p {
+
+.training-heading-001 h2 {
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #42ADE4;
+}
+
+.training-heading-001 p {
+    font-family: 'inter', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.057em;
+    text-align: justify;
+    color: #000;
+}
+
+.training-heading-main-002 h1 {
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    font-style: normal;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.training-para-main-002 p {
     font-family: 'inter', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    line-height: 24px; 
-     color: #000;
+    line-height: 24px;
+    color: #000;
 }
+
+
+
+
+
 .training-callnow h1 {
     font-family: 'inter', sans-serif;
     font-weight: 700;
@@ -867,6 +904,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #fff;
     margin-bottom: 0;
 }
+
 .training-callnow p {
     font-family: 'inter', sans-serif;
     font-weight: 500;
@@ -876,41 +914,46 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #fff;
     margin-bottom: 0;
 }
+
 .training-lists ol li {
     font-family: 'inter', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    line-height: 24px; 
-     color: #000;
-     margin-bottom: 25px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 20px;
 }
 
-.training-box{
+.training-box {
     background-color: #E2F5FF;
     text-align: center;
     padding: 17px;
     min-height: 280px;
 }
-.training-box i{
+
+.training-box i {
     font-size: 44px;
     padding: 10px 0px;
 }
-.training-box h2{
+
+.training-box h2 {
     font-family: 'inter', sans-serif;
     font-size: 22px;
     font-weight: 700;
-    line-height: 24px; 
-     
+    line-height: 24px;
+
 }
+
 .training-box p {
     font-family: 'inter', sans-serif;
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
     font-style: normal;
-    color: #000; 
+    color: #000;
     padding: 7px;
 }
+
 .training-faq-heading h1 {
     font-family: 'inter', sans-serif;
     font-weight: 700;
@@ -920,7 +963,8 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000;
     margin-bottom: 0;
 }
-.training-faq-content{
+
+.training-faq-content {
     font-family: 'inter', sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -930,44 +974,48 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     margin-bottom: 0;
 
 }
-.training-faq-para{
+
+.training-faq-para {
     font-family: 'inter', sans-serif;
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
     font-style: normal;
-    color: #000;  
+    color: #000;
 
 }
-.training-offer{
+
+.training-offer {
     position: absolute;
-    top: 0; 
+    top: 0;
     color: #fff;
-    background-color:#0690d3;
+    background-color: #0690d3;
     padding: 8px 15px;
     border-radius: 50%;
     font-size: 18px;
     margin: 10px;
 }
-.training-program h3{
+
+.training-program h3 {
     font-family: 'inter', sans-serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
     font-style: normal;
-    color: #000;  
+    color: #000;
     text-align: center;
 }
- 
+
 
 .border-new::after {
-    content: "";  
-     width: 13%; 
-        padding-top: 10px;  
-    border-bottom: 5px solid #42ADE4; 
+    content: "";
+    width: 13%;
+    padding-top: 10px;
+    border-bottom: 5px solid #42ADE4;
 
 }
-.training-button{
+
+.training-button {
     background-image: linear-gradient(to right, #018dd1, #42ADE4);
     border-radius: 53px;
     color: #fff;
@@ -977,7 +1025,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     border: none;
 }
 
-.downloadPDF a{
+.downloadPDF a {
     font-size: 20px;
     color: red;
 }
@@ -1050,14 +1098,16 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     margin: 0 10px;
     list-style: disc;
 }
+
 /* seo page  */
 .seo-content h1 {
     font-family: 'inter', sans-serif;
-    font-size:24px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 30px;
     margin-bottom: 0;
 }
+
 .seo-content p {
     font-family: 'inter', sans-serif;
     font-size: 17px;
@@ -1163,6 +1213,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     line-height: 28px;
     letter-spacing: 1px
 }
+
 .we-grow-content h2 {
     font-family: 'inter', sans-serif;
     font-size: 22px;
@@ -1171,11 +1222,13 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     letter-spacing: 0;
     text-align: center;
 }
+
 /* smm page  */
 
 .transform {
     transform: scale(0.8);
 }
+
 .smm-content h2 {
     font-family: 'inter', sans-serif;
     font-size: 20px;
@@ -1193,6 +1246,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000;
     margin-bottom: 0;
 }
+
 .smo-content p {
     font-family: 'inter', sans-serif;
     font-size: 17px;
@@ -1202,21 +1256,25 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     text-align: justify;
     color: #000;
 }
+
 .smm-text h1 {
     font-family: 'inter', sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 55px;
 }
+
 .smm-box {
     min-height: 335px;
 }
+
 .smm-box h2 {
     font-family: 'inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 22px;
 }
+
 .smm-box p {
     font-family: 'inter', sans-serif;
     font-size: 16px;
@@ -1235,6 +1293,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000;
     margin-bottom: 0;
 }
+
 .smo-content p {
     font-family: 'inter', sans-serif;
     font-size: 17px;
@@ -1244,6 +1303,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     text-align: justify;
     color: #000;
 }
+
 .smo-content ol li {
     font-family: 'inter', sans-serif;
     margin-bottom: 20px;
@@ -1251,21 +1311,25 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-weight: 500;
     line-height: 20px;
 }
+
 .smo-text h1 {
     font-family: 'inter', sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 55px;
 }
+
 .smo-box {
     min-height: 275px;
 }
+
 .smo-box h2 {
     font-family: 'inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 22px;
 }
+
 .smo-box p {
     font-family: 'inter', sans-serif;
     font-size: 16px;
@@ -1273,6 +1337,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     line-height: 20px;
     margin-bottom: 0;
 }
+
 .smo-bg {
     background-color: #F2F2F2;
 }
@@ -1287,6 +1352,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000;
     margin-bottom: 0;
 }
+
 .orm-content p {
     font-family: 'inter', sans-serif;
     font-size: 17px;
@@ -1307,17 +1373,20 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000;
     margin-bottom: 0;
 }
+
 .orm-box {
     min-height: 350px;
 }
+
 .orm-box p {
     font-family: 'inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.057em; 
-     color: #000;
+    letter-spacing: 0.057em;
+    color: #000;
 }
+
 .orm-box h2 {
     font-family: 'inter', sans-serif;
     font-weight: 700;
@@ -1337,12 +1406,14 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     line-height: 55px;
     color: #000;
 }
+
 .content-marketing-text h3 {
     font-family: 'inter', sans-serif;
     font-size: 22px;
     font-weight: 700;
     line-height: 35px;
 }
+
 .content-marketing-text p {
     font-family: 'inter', sans-serif;
     font-size: 18px;
@@ -1353,12 +1424,14 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .content-marketing-box {
     min-height: 360px;
 }
+
 .content-marketing-box h2 {
     font-family: 'inter', sans-serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 22px;
 }
+
 .content-marketing-box p {
     font-family: 'inter', sans-serif;
     font-size: 16px;
@@ -1375,6 +1448,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     line-height: 55px;
     color: #000;
 }
+
 .career-001 p {
     font-size: 18px;
     font-family: 'inter', sans-serif;
@@ -2112,6 +2186,7 @@ input::-webkit-inner-spin-button {
     border-radius: 20px;
     text-decoration: none;
 }
+
 .work-together:hover {
     color: #fff;
 }
@@ -2149,6 +2224,7 @@ input::-webkit-inner-spin-button {
     border-radius: 50%;
     background-color: #8fc442;
 }
+
 .letSwork a {
     text-decoration: none;
     color: #fff;
@@ -2219,6 +2295,7 @@ input::-webkit-inner-spin-button {
     background-image: url('../Images//landing-bg.webp');
     height: auto;
 }
+
 .landing_page_content h1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -2229,6 +2306,7 @@ input::-webkit-inner-spin-button {
     text-transform: uppercase;
     color: #fff;
 }
+
 .landing_page_content p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -2239,19 +2317,20 @@ input::-webkit-inner-spin-button {
     color: #fff;
     text-align: justify;
 }
+
 .landing-form {
     background-color: #ebe6e6;
     border-radius: 30px;
 }
 
 /* blog page  */
-.blog-heading{
+.blog-heading {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
     line-height: 26px;
-    color: #000; 
+    color: #000;
     text-align: center;
 }
 
@@ -2260,9 +2339,10 @@ input::-webkit-inner-spin-button {
     /* background-color: #e6e5e5;  */
 }
 
-.blog-content a{
+.blog-content a {
     text-decoration: none;
 }
+
 .blog-content h5 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -2271,9 +2351,10 @@ input::-webkit-inner-spin-button {
     line-height: 26px;
     color: #42ade4;
     min-height: 50px;
-    text-decoration: none !important; 
+    text-decoration: none !important;
 }
-.blog-content p{
+
+.blog-content p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -2281,6 +2362,7 @@ input::-webkit-inner-spin-button {
     line-height: 26px;
     color: #000;
 }
+
 .blog-content h6 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -2289,6 +2371,7 @@ input::-webkit-inner-spin-button {
     line-height: 26px;
     color: #42ade4;
 }
+
 .blogs-button a {
     background-image: linear-gradient(to right, #018dd1, #42ADE4);
     border-radius: 53px;
@@ -2309,6 +2392,7 @@ input::-webkit-inner-spin-button {
     margin-bottom: 0px;
     color: #42ade4;
 }
+
 .blog-detail h1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -2328,6 +2412,7 @@ input::-webkit-inner-spin-button {
     line-height: 26px;
     color: #000;
 }
+
 .blog-detail-back-button a {
     background-image: linear-gradient(to right, #018dd1, #42ADE4);
     border-radius: 53px;
@@ -2337,10 +2422,12 @@ input::-webkit-inner-spin-button {
     font-size: 16px;
     text-decoration: none;
 }
-.blog-detail-001 a{
+
+.blog-detail-001 a {
     text-decoration: none;
 }
-.blog-detail-001 a h4{
+
+.blog-detail-001 a h4 {
     font-size: 17px;
     color: #000;
     font-family: 'Inter', sans-serif;
@@ -2348,10 +2435,12 @@ input::-webkit-inner-spin-button {
     font-weight: 600;
     margin-bottom: 18px;
 }
-.blog-detail-001 a h4:hover{
+
+.blog-detail-001 a h4:hover {
     color: rgb(126, 10, 10);
 }
-.blog-detail-001 li{
+
+.blog-detail-001 li {
     font-size: 17px;
     color: #000;
     font-family: 'Inter', sans-serif;
@@ -2359,10 +2448,12 @@ input::-webkit-inner-spin-button {
     font-weight: 600;
     margin-bottom: 5px;
 }
-.blog-detail-001 a li:hover{
+
+.blog-detail-001 a li:hover {
     color: rgb(126, 10, 10);
 }
-.blog-detail-001 h1{
+
+.blog-detail-001 h1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -2371,7 +2462,8 @@ input::-webkit-inner-spin-button {
     margin-bottom: 0px;
     color: #42ade4;
 }
-.blog-detail-002 h1{
+
+.blog-detail-002 h1 {
     font-family: 'inter', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -2382,21 +2474,22 @@ input::-webkit-inner-spin-button {
     margin-bottom: 0;
     text-align: center;
 }
- 
-.blog-list li{
+
+.blog-list li {
     font-family: 'inter', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 24px; 
+    line-height: 24px;
     font-style: normal;
-    color: #000; 
-    padding: 8px 0px;   
+    color: #000;
+    padding: 8px 0px;
 }
-.blog-list p{
+
+.blog-list p {
     font-family: 'inter', sans-serif;
     font-weight: 400;
     font-size: 17px;
-    line-height: 24px; 
+    line-height: 24px;
     font-style: normal;
-    color: #000;  
+    color: #000;
 }

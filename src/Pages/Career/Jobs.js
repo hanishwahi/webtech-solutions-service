@@ -52,8 +52,6 @@ function Jobs() {
 
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
@@ -61,17 +59,15 @@ function Jobs() {
                 </div>
 
             </div>
-            <div className='container-fluid my-5 py-lg-5 py-3' style={{
-                backgroundColor: "#F3F3F3"
-            }}>
+            <div className='container-fluid my-5 py-lg-5 py-3'>
                 < div className='container-lg' >
                     <div className='row career-001 text-center'>
-                        <h1>Don’t see  a suitable position?</h1>
-                        <p>We are for everyone. Write to us to  <Link className='text-decoration-none' to='mailto:career@webtechsolutionsservice.com'>career@webtechsolutionsservice.com</Link></p>
+                        <div className='col'>
+                            <h1>Don’t see  a suitable position?</h1>
+                            <p>We are for everyone. Write to us to  <Link className='text-decoration-none' to='mailto:career@webtechsolutionsservice.com'>career@webtechsolutionsservice.com</Link></p>
+                        </div>
                     </div>
-
                 </div >
-
             </div >
         </>
     )

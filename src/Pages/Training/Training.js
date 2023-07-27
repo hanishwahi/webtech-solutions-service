@@ -12,7 +12,7 @@ import TrainingForm from './TrainingForm'
 import pdf from '../../Images/DIGITALMARKETINGCOURSE.pdf'
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
- 
+
 function Training() {
     const [pdfForm, setPdfForm] = useState(false)
     const [pdfDownload, setPdfDownload] = useState(false)
@@ -70,18 +70,18 @@ function Training() {
                                 <div className='col-lg-1 col-1 text-end align-self-center'>
                                     <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
-                                <div className='col-11 graphic-desg-heading align-self-center'>
+                                <div className='col-11 training-heading-001 align-self-center'>
                                     <h1>Digital Marketing Training & Development</h1>
                                 </div>
                             </div>
                             <div className='row'>
                                 <div className='col-1'></div>
                                 <div className='col-11'>
-                                    <div className='graphic-desg-content'>
+                                    <div className='training-heading-001'>
                                         <h2>Online & Offline Digital Marketing Training Courses in Chandigarh/Mohali</h2>
                                         <p>WebTech Solutions is a perfect place for the greatest and highest-quality Digital Marketing Training in Chandigarh/Mohali. If this describes your needs, read on. Our highly-rated experienced instructors provide live training on real time projects.
 
-                                            You can land a top position in an MNC, build a successful career, become a freelancer or promote your own business if you take advantage of WebTech Solutions comprehensive learning opportunities at the best digital marketing training institute in Chandigarh/Mohali.
+                                            You can land a top position in an MNC, build a successful career, become a freelancer or promote your own business if you take advantage of WebTech Solutions comprehensive learning opportunities at the best digital marketing training institute in Chandigarh/Mohali. <br /><br /> This course in WebTech Solutions will teach you the online marketing skills you would need to ace as a digital marketer. This is a hands-on course that is also available in the online class format.
                                         </p>
                                     </div>
 
@@ -94,9 +94,38 @@ function Training() {
 
 
             </div>
+
+            <div className='container-fluid py-4 how-it-works-section'>
+                <div className='container-lg'>
+                    <div className='row training-heading-main-002 training-para-main-002'>
+                        <h1 className='py-3'>Benefits of learning digital marketing</h1>
+                        <p>With digital marketing training, you will be able to secure a job in the marketing sector pretty easily.<br /><br />
+
+                            Furthermore, you can even one day find yourself working for tech giants like Twitter, Facebook, and Amazon.<br /><br />
+
+                            If you are a fresher then with our digital marketing courses with certificates you will be able to easily begin by applying for job roles at small startups and marketing firms.</p>
+                    </div>
+                    <div className='row training-heading-main-002 training-para-main-002'>
+                        <div className='col training-lists'>
+                            <h1 className='py-3'>Related job roles</h1>
+                            <p>Enroll with our digital marketing training institute and you can see yourself become–</p>
+
+                            <ol>
+                                <li>Digital marketing executive</li>
+                                <li>Digital marketing manager</li>
+                                <li>SEO specialist</li>
+                                <li>Social media marketing expert</li>
+                                <li>SEO Analyst </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
             <div className='container-fluid py-4'>
                 <div className='container-lg'>
-                    <div className='row training-heading text-center '>
+                    <div className='row training-heading-main-002 training-para-main-002 text-center '>
                         <h1 className='p-3'>Who Can Join Our Digital Marketing Course Program</h1>
                         <p>Everyone who has an interest in Digital learning and desires to upgrade technical skills may enroll for the online and office batches of Digital marketing at their convenience.</p>
                     </div>
@@ -148,23 +177,23 @@ function Training() {
                                     <form ref={form} onSubmit={sendEmail}>
                                         <div className='row justify-content-between'>
                                             <div className="form-outline col-12 col-sm-6 mb-4">
-                                                <label className="form-label fw-bold" htmlFor="form4Example1"><span style={{color:"red"}}>*</span>Name</label>
+                                                <label className="form-label fw-bold" htmlFor="form4Example1"><span style={{ color: "red" }}>*</span>Name</label>
                                                 <input type="text" name="name" id="form4Example1" required className="form-control" placeholder='Full Name' />
                                             </div>
 
                                             <div className="form-outline col-12 col-sm-6 mb-4">
-                                                <label className="form-label fw-bold" htmlFor="form4Example2"><span style={{color:"red"}}>*</span>Phone</label>
+                                                <label className="form-label fw-bold" htmlFor="form4Example2"><span style={{ color: "red" }}>*</span>Phone</label>
                                                 <input type="number" name="phone" id="form4Example2" required className="form-control" placeholder='Enter your Phone number' />
                                             </div>
                                         </div>
                                         <div className="form-outline mb-4">
-                                            <label className="form-label fw-bold" htmlFor="form4Example2"><span style={{color:"red"}}>*</span>Email address</label>
+                                            <label className="form-label fw-bold" htmlFor="form4Example2"><span style={{ color: "red" }}>*</span>Email address</label>
                                             <input type="email" name="email" id="form4Example2" required className="form-control" placeholder='Enter your Email ID' />
                                         </div>
 
 
                                         <input className='form-Button' type="submit" value="Submit" />
-                                        
+
                                     </form>
                                 </div>
                             }
@@ -180,6 +209,7 @@ function Training() {
                 </div>
 
             </div>
+
             <TrainingCourses />
             <Footer />
         </>
