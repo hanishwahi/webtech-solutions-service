@@ -168,7 +168,7 @@ function Training() {
                         </div>
 
                     </div>
-                    <div className='row py-3'>
+                    <div className='row pb-3'>
                         <div className='col'>
                             <div className='text-center'> <button onClick={downloadPdf} className='training-button'>Download Brochure</button></div>
                             {
@@ -205,6 +205,7 @@ function Training() {
                             }
                         </div>
                     </div>
+                   
 
                 </div>
 

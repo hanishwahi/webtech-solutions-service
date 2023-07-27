@@ -24,41 +24,44 @@ function TrainingCourses() {
 
             </div>
 
-           
-            <div className='container-fluid my-5'>
+
+            <div className='container-fluid mt-5'>
                 <div className='container-lg'>
+                    <div className='row training-heading-main-002 text-center py-lg-5 py-3'>
+                        <h1>Why Learn Digital Marketing Course with WebTech Solutions</h1>
+                    </div>
                     <div className='row'>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-user" style={{color:"#37a7e1"}}></i>
+                                <i className="fa-solid fa-user" style={{ color: "#37a7e1" }}></i>
                                 <h2>Expert Trainer</h2>
                                 <p>Our expert trainers are experienced professionals who are passionate about teaching and will provide you with in-depth knowledge of digital marketing.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-headphones" style={{color:"red"}}></i>
+                                <i className="fa-solid fa-headphones" style={{ color: "red" }}></i>
                                 <h2>Doubt- Clearing Sessions</h2>
                                 <p>Doubt-clearing sessions ensure that you have a thorough understanding of the material and can confidently apply it in real-world situations.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-video"style={{color:"#06c506"}}></i>
+                                <i className="fa-solid fa-video" style={{ color: "#06c506" }}></i>
                                 <h2>Interactive Live Classes</h2>
                                 <p>Our interactive live classes provide a collaborative learning experience, allowing you to engage with the material and your classmates in real-time.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-laptop" style={{color:"orange"}}></i>
+                                <i className="fa-solid fa-laptop" style={{ color: "orange" }}></i>
                                 <h2>Completely Practical</h2>
                                 <p>Our courses are completely practical, giving you hands-on experience with digital marketing tools and techniques to prepare you for real-world scenarios.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-graduation-cap" style={{color:"purple"}}></i>
+                                <i className="fa-solid fa-graduation-cap" style={{ color: "purple" }}></i>
                                 <h2>100% Job Assistance</h2>
                                 <p>We provide 100% job assistance to
                                     help you find the right job or
@@ -68,10 +71,19 @@ function TrainingCourses() {
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-certificate" style={{color:"#fdfd0e"}}></i>
+                                <i className="fa-solid fa-certificate" style={{ color: "#fdfd0e" }}></i>
                                 <h2>Digital Marketing Certificate</h2>
                                 <p>You will receive a digital marketing certificate upon completion of our course, which will validate your skills and make you stand out in the job market.</p>
                             </div>
+                        </div>
+                    </div>
+                    <div className='row py-3 justify-content-center'>
+                        <div className='col'>
+                            <p className='training-box-para'>Our mentor, with a wealth of hands-on experience, has navigated the ever-changing tides of digital marketing, achieving remarkable success for numerous businesses. They are now eager to share their profound insights with you, providing personalized guidance to suit your unique goals and challenges.<br /><br />
+
+                                From mastering the art of social media marketing to optimizing search engine visibility and crafting captivating email campaigns, our mentor will equip you with the tools to thrive in the digital realm. As the digital landscape evolves, our mentor remains at the forefront of industry trends, ensuring you stay ahead of the competition.<br /><br />
+
+                                Discover the true potential of digital marketing and its profound impact on your brand's growth. With our experienced digital marketing mentor by your side, you'll gain the confidence to navigate the complexities of the digital world, unlocking limitless opportunities for success. Embrace the future of marketing with us, and together, let's revolutionize your business through the power of digital marketing.</p>
                         </div>
                     </div>
                 </div>
