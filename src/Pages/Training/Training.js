@@ -148,17 +148,17 @@ function Training() {
                                     <form ref={form} onSubmit={sendEmail}>
                                         <div className='row justify-content-between'>
                                             <div className="form-outline col-12 col-sm-6 mb-4">
-                                                <label className="form-label fw-bold" htmlFor="form4Example1">*Name</label>
+                                                <label className="form-label fw-bold" htmlFor="form4Example1"><span style={{color:"red"}}>*</span>Name</label>
                                                 <input type="text" name="name" id="form4Example1" required className="form-control" placeholder='Full Name' />
                                             </div>
 
                                             <div className="form-outline col-12 col-sm-6 mb-4">
-                                                <label className="form-label fw-bold" htmlFor="form4Example2">*Phone</label>
+                                                <label className="form-label fw-bold" htmlFor="form4Example2"><span style={{color:"red"}}>*</span>Phone</label>
                                                 <input type="number" name="phone" id="form4Example2" required className="form-control" placeholder='Enter your Phone number' />
                                             </div>
                                         </div>
                                         <div className="form-outline mb-4">
-                                            <label className="form-label fw-bold" htmlFor="form4Example2">*Email address</label>
+                                            <label className="form-label fw-bold" htmlFor="form4Example2"><span style={{color:"red"}}>*</span>Email address</label>
                                             <input type="email" name="email" id="form4Example2" required className="form-control" placeholder='Enter your Email ID' />
                                         </div>
 

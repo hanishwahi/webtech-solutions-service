@@ -31,7 +31,7 @@ function TrainingForm() {
                         onSubmit={sendEmail}>
                         <div className='row justify-content-between'>
                             <div className="form-outline col-12 col-sm-6 mb-4">
-                                <label className="form-label fw-bold" htmlFor="form4Example1">*Name</label>
+                                <label className="form-label fw-bold" htmlFor="form4Example1">Name</label>
                                 <input type="text" name="name" id="form4Example1" required className="form-control" placeholder='Full Name'/>
                             </div>
 
