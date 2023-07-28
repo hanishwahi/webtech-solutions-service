@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 // import TrainingOffer from './TrainingOffer'
 
 function TrainingCourses() {
+    
     return (
         <>
 
@@ -33,35 +34,50 @@ function TrainingCourses() {
                     <div className='row'>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-user" style={{ color: "#37a7e1" }}></i>
+                                <i className="fa-solid fa-user"
+                                    style={
+                                        { color: "#37a7e1" }
+                                    }></i>
                                 <h2>Expert Trainer</h2>
                                 <p>Our expert trainers are experienced professionals who are passionate about teaching and will provide you with in-depth knowledge of digital marketing.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-headphones" style={{ color: "red" }}></i>
+                                <i className="fa-solid fa-headphones"
+                                    style={
+                                        { color: "red" }
+                                    }></i>
                                 <h2>Doubt- Clearing Sessions</h2>
                                 <p>Doubt-clearing sessions ensure that you have a thorough understanding of the material and can confidently apply it in real-world situations.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-video" style={{ color: "#06c506" }}></i>
+                                <i className="fa-solid fa-video"
+                                    style={
+                                        { color: "#06c506" }
+                                    }></i>
                                 <h2>Interactive Live Classes</h2>
                                 <p>Our interactive live classes provide a collaborative learning experience, allowing you to engage with the material and your classmates in real-time.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-laptop" style={{ color: "orange" }}></i>
+                                <i className="fa-solid fa-laptop"
+                                    style={
+                                        { color: "orange" }
+                                    }></i>
                                 <h2>Completely Practical</h2>
                                 <p>Our courses are completely practical, giving you hands-on experience with digital marketing tools and techniques to prepare you for real-world scenarios.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-graduation-cap" style={{ color: "purple" }}></i>
+                                <i className="fa-solid fa-graduation-cap"
+                                    style={
+                                        { color: "purple" }
+                                    }></i>
                                 <h2>100% Job Assistance</h2>
                                 <p>We provide 100% job assistance to
                                     help you find the right job or
@@ -71,7 +87,10 @@ function TrainingCourses() {
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-certificate" style={{ color: "#fdfd0e" }}></i>
+                                <i className="fa-solid fa-certificate"
+                                    style={
+                                        { color: "#fdfd0e" }
+                                    }></i>
                                 <h2>Digital Marketing Certificate</h2>
                                 <p>You will receive a digital marketing certificate upon completion of our course, which will validate your skills and make you stand out in the job market.</p>
                             </div>
@@ -98,7 +117,8 @@ function TrainingCourses() {
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingOne">
                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <h2 className='h5 m-0 training-faq-content'> Exam & certification on digital marketing</h2>
+                                        <h2 className='h5 m-0 training-faq-content'>
+                                            Exam & certification on digital marketing</h2>
                                     </button>
                                 </h2>
                                 <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -119,13 +139,14 @@ function TrainingCourses() {
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingTwo">
                                     <button className="accordion-button collapsed h3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <h2 className='h5 m-0 training-faq-content'  >Should a person know to code if they want to learn SEO?</h2>
+                                        <h2 className='h5 m-0 training-faq-content'>Should a person know to code if they want to learn SEO?</h2>
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
 
-                                        <p className='h6 training-faq-para'> No, you do not need to know to code when you want to learn SEO.</p>
+                                        <p className='h6 training-faq-para'>
+                                            No, you do not need to know to code when you want to learn SEO.</p>
                                     </div>
                                 </div>
                             </div>
@@ -162,7 +183,8 @@ function TrainingCourses() {
                                 </h2>
                                 <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                        <p className='h6 training-faq-para'> Yes, we provide you the assured placement. we have a dedicated team for placement assistance</p>
+                                        <p className='h6 training-faq-para'>
+                                            Yes, we provide you the assured placement. we have a dedicated team for placement assistance</p>
                                     </div>
                                 </div>
                             </div>
@@ -197,8 +219,8 @@ function TrainingCourses() {
                 </div>
 
             </div>
-            {/* <TrainingOffer/> */}
-        </>
+            {/* <TrainingOffer/>  */}
+            </>
     )
 }
 
