@@ -11,17 +11,17 @@ function TrainingOffer() {
 
         const interval = setInterval(() => {
             if (timeline === 1) {
-                setTimeline(0); // Reset the timer when timeline reaches 1
+                setTimeline(timeline); // Reset the timer when timeline reaches 1
                 setShow(false);
             } else {
-                setTimeline((prevTimeline) => prevTimeline - 1);
+                setTimeline((timeline) => timeline - 1);
             }
         }, 1000);
 
         return () => {
             clearInterval(interval);
         };
-    }, []);
+    }, [timeline]);
 
     const closeAd = () => {
         setShow(false);

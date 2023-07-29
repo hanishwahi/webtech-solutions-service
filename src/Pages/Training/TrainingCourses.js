@@ -6,7 +6,6 @@ function TrainingCourses() {
     
     return (
         <>
-
             <div className='container-fluid training-bg py-5'>
                 <div className='container-lg py-lg-5'>
                     <div className='row training-callnow text-center py-3'>
