@@ -133,7 +133,7 @@ function Training() {
                     <div className='row py-3'>
                         <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
                             <div>
-                                <img width={140} src={Students} alt='' className='img-fluid' download />
+                                <img width={140} src={Students} alt='' className='img-fluid' />
                                 <h3>Students</h3>
                             </div>
                         </div>
@@ -205,7 +205,7 @@ function Training() {
                             }
                         </div>
                     </div>
-                   
+
 
                 </div>
 
