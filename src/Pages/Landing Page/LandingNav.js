@@ -22,10 +22,6 @@ function LandingNav() {
                     <div className="col-lg-10 col-lg-9 col-8 Landing-contact-button text-end  align-self-center">
                     <Link  to="tel:+91 8427682603"><i class="fa-solid fa-phone"></i>  +91 8427682603</Link>
                     </div>
-
-                     
-
-                    
                 </div>
             </div>
         </div>
