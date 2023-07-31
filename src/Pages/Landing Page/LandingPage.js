@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import Faq from '../Home/FAQ'
 import HowWeWork from '../Home/HowWeWork'
 import Testimonial from '../Clients/Testmonial'
@@ -6,46 +6,19 @@ import LandingNav from './LandingNav';
 import LandingFooter from './LandingFooter';
 import LandingContact from './LandingContact';
 import LandingServices from './LandingServices'
-import { Helmet } from 'react-helmet';
+import ReactGA from 'react-ga';
 
 
 function LandingPage() {
 
-
+  useEffect(() => {
+    // Track the page view
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
 
   return (
     <>
-      <Helmet>
-        <head>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11163670422"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)}
-            gtag('js', new Date());
-
-            gtag('config', 'AW-11163670422');
-          </script>
-          {/* Google tag (gtag.js)  */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11163670422"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)}
-            gtag('js', new Date());
-
-            gtag('config', 'AW-11163670422');
-          </script>
-            {/* Event snippet for Webtech_Leads conversion page   */}
-          <script>
-            gtag('event', 'conversion', {{'send_to': 'AW-11163670422/-DTiCPmi9soYEJavoMsp'}})
-          </script>
-
-        </head>
-      </Helmet>
-
-
-
-      
       <LandingNav />
       <div className='container-fluid px-0 landing_page'>
         <div className='container align-self-center'>
