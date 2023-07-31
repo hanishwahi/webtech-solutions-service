@@ -24,6 +24,7 @@ function Service() {
                         <h3 className="service-tools-heading">Our Services</h3>
                         <p className="service-home-text">Webtech Solutions Service is India’s top digital marketing and SEO services company. From conceptualization to final-stage execution, we implement the entire digital marketing strategy. Though we adopt a 360° approach to digital marketing, our expertise lies in SEO services – from Enterprise SEO to local SEO, from App SEO to Video SEO and everything in between. With 15 years as leaders in SEO in India, we are on a mission to deliver transformational growth to 250 customers in 2025. If you’re serious about your digital performance, you've found the right partner. We’ll help you meet your marketing objectives and help your business achieve the growth you've always wanted.</p>
                     </div>
+                    
                     <div className="features-tools-grid">
                         <div className="features-tools-grid-contain row">
                             <div className="features-tools-grid-cell col-lg-4 col-md-4 col-sm-6 border-right border-bottom1 pb-3">
@@ -100,6 +101,7 @@ function Service() {
                 </div>
             </div>
         </>
+        
     )
 }
 

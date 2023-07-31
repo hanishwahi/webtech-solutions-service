@@ -6,15 +6,46 @@ import LandingNav from './LandingNav';
 import LandingFooter from './LandingFooter';
 import LandingContact from './LandingContact';
 import LandingServices from './LandingServices'
+import { Helmet } from 'react-helmet';
 
 
 function LandingPage() {
 
-  
+
 
 
   return (
     <>
+      <Helmet>
+        <head>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11163670422"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)}
+            gtag('js', new Date());
+
+            gtag('config', 'AW-11163670422');
+          </script>
+          {/* Google tag (gtag.js)  */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11163670422"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)}
+            gtag('js', new Date());
+
+            gtag('config', 'AW-11163670422');
+          </script>
+            {/* Event snippet for Webtech_Leads conversion page   */}
+          <script>
+            gtag('event', 'conversion', {{'send_to': 'AW-11163670422/-DTiCPmi9soYEJavoMsp'}})
+          </script>
+
+        </head>
+      </Helmet>
+
+
+
+      
       <LandingNav />
       <div className='container-fluid px-0 landing_page'>
         <div className='container align-self-center'>
@@ -31,7 +62,7 @@ function LandingPage() {
         </div>
       </div>
 
-      <div className='py-3'><LandingServices/></div>
+      <div className='py-3'><LandingServices /></div>
       <div className='my-5'><HowWeWork /></div>
       <Faq />
       <div className='how-it-works-section mb-5'>
