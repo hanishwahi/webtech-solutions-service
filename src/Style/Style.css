@@ -2313,6 +2313,20 @@ input::-webkit-inner-spin-button {
 
 
 /* landing page  */
+.Landing-contact-button a {
+    background-image: linear-gradient(to right, #018dd1, #42ADE4);
+    border-radius: 53px;
+    color: #fff;
+    padding: 10px 14px;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.Landing-contact-button a:hover {
+    background-color: #8fc442;
+    color: #fff;
+}
 .landing_page {
     background-image: url('../Images//landing-bg.webp');
     height: auto;
