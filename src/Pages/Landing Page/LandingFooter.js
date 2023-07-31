@@ -4,12 +4,7 @@ import LandingContact from './LandingContact'
 
 
 function LandingFooter() {
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        })
-    }
+    
     return (
         <>
             <div className="footer wf-section">

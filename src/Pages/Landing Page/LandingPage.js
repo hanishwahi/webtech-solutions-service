@@ -1,8 +1,5 @@
 import React from 'react'
-import emailjs from 'emailjs-com';
-import { useRef } from 'react';
-import 'react-toastify/dist/ReactToastify.css';
-import { useNavigate } from 'react-router-dom';
+ 
 import Service from '../Home/Service'
 import Faq from '../Home/FAQ'
 import HowWeWork from '../Home/HowWeWork'
@@ -14,24 +11,7 @@ import LandingContact from './LandingContact';
 
 function LandingPage() {
 
-  const form = useRef();
-
-  const Navigate = useNavigate();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_hmnkl0m', 'template_512smz8', e.target, 'DaUmEfgqFFS3JD4_d').then((result) => {
-      console.log(result.text);
-    }, (error) => {
-      console.log(error.text);
-    });
-
-    e.target.reset();
-    Navigate('/thankyou')
-  };
-
-
+  
 
 
   return (
