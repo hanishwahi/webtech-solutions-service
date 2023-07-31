@@ -44,7 +44,7 @@ function App() {
         <Route path='/blog/category/:category' element={<BlogCategory />} />
         <Route path='/services' element={<Service />} />
         <Route path='/clients' element={<Clients />} />
-        <Route index path='/landing-page' element={<LandingPage />} />
+        <Route index path='/digital-marketing-service' element={<LandingPage />} />
         <Route path='/digital-marketing' element={<DigitalMarketing />} />
         <Route path='/web-development' element={<WebDevelopment />} />
         <Route path='/app-development' element={<AppDevelopment />} />
