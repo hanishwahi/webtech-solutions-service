@@ -20,7 +20,7 @@ function LandingNav() {
                     </div>
                    
                     <div className="col-lg-10 col-lg-9 col-8 Landing-contact-button text-end  align-self-center">
-                        <Link onClick={scrollToHome} to='/contact-us' className="btn">Free Consultation</Link>
+                    <Link  to="tel:+91 8427682603"><i class="fa-solid fa-phone"></i>  +91 8427682603</Link>
                     </div>
 
                      

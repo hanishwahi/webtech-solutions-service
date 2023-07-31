@@ -1,12 +1,11 @@
 import React from 'react'
- 
-import Service from '../Home/Service'
 import Faq from '../Home/FAQ'
 import HowWeWork from '../Home/HowWeWork'
 import Testimonial from '../Clients/Testmonial'
 import LandingNav from './LandingNav';
 import LandingFooter from './LandingFooter';
 import LandingContact from './LandingContact';
+import LandingServices from './LandingServices'
 
 
 function LandingPage() {
@@ -32,7 +31,7 @@ function LandingPage() {
         </div>
       </div>
 
-      <div className='py-3'><Service /></div>
+      <div className='py-3'><LandingServices/></div>
       <div className='my-5'><HowWeWork /></div>
       <Faq />
       <div className='how-it-works-section mb-5'>
