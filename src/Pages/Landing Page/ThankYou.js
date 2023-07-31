@@ -20,7 +20,7 @@ import { Link } from 'react-router-dom'
                 <div className="text-center">
                     <h1>Thank You for Contacting Us !</h1>
                     <p>We will get in touch with you soon</p>
-                    <Link className='backTohome' to='/landing-page'>Back to home</Link>
+                    <Link className='backTohome' to='/digital-marketing-service'>Back to home</Link>
                 </div>
             </div>
         </div>
