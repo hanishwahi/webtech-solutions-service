@@ -28,10 +28,8 @@ function AppDevelopment() {
 
                 Twitter Card tags
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Hire the best Mobile App Developers | App Development Company in Chandigarh, INDIA
-" />
-                <meta name="twitter:description" content="Webtech Solutions Service build a mobile app that takes your business to the next level. Now generate skyrocketed revenues with mobile app services. Get Started!
-"/>
+                <meta name="twitter:title" content="Hire the best Mobile App Developers | App Development Company in Chandigarh, INDIA"/>
+                <meta name="twitter:description" content="Webtech Solutions Service build a mobile app that takes your business to the next level. Now generate skyrocketed revenues with mobile app services. Get Started!"/>
                 <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
 
                 Canonical tag
