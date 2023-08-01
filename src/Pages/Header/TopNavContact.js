@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function TopNavContact() {
     return (
         <>
-            <div className='container-fluid top-nav-hide top-nav-bg py-2 py-sm-0 py-lg-0'>
+            <div className='container-fluid top-nav-hide top-nav-bg     py-2 py-sm-0 py-lg-0'>
                 <div className='container-lg'>
                     <div className='row'>
                         <div className='col-lg-7 col-md-6 col-sm-12 align-self-center py-sm-2 py-md-0'>
