@@ -115,7 +115,7 @@ function Testmonial() {
                                 style={{ width: "150px" }} />
                             <div className="row d-flex justify-content-center">
                                 <div className="col-lg-8 col-8 col-sm-9">
-                                    <h5 className="mb-3">Car Parts</h5>
+                                    <h5 className="mb-3">StartUp Khata</h5>
 
                                     <p className="text-muted">
                                         <i className="fas fa-quote-left pe-2"></i>
