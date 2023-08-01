@@ -3,6 +3,8 @@ import Tabburajput from '../../Images/tabbu-rajput.webp'
 import Nucosmetic from '../../Images/nucosmetic.webp'
 import Rapidtax from '../../Images/rapidtax.webp'
  import Carparts from '../../Images/car-parts.png'
+ import StartUPKhata from '../../Images/StartupKhatalogo.png'
+
 
 function Testmonial() {
     return (
@@ -96,6 +98,28 @@ function Testmonial() {
                                     <p className="text-muted">
                                         <i className="fas fa-quote-left pe-2"></i>
                                         I recently had the pleasure of using the services offered by WebTech Solutions, and I must say, I am thoroughly impressed. From start to finish, my experience was nothing short of exceptional.
+                                    </p>
+                                </div>
+                            </div>
+                            <ul className="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                <li><i className="fas fa-star fa-sm"></i></li>
+                                <li><i className="fas fa-star fa-sm"></i></li>
+                                <li><i className="fas fa-star fa-sm"></i></li>
+                                <li><i className="fas fa-star fa-sm"></i></li>
+                                <li><i className="fas fa-star fa-sm"></i></li>
+                            </ul>
+                        </div>
+                        <div className="carousel-item">
+                            <img className="rounded-circle border shadow-1-strong mb-4"
+                                src={StartUPKhata} alt="Client Reviews"
+                                style={{ width: "150px" }} />
+                            <div className="row d-flex justify-content-center">
+                                <div className="col-lg-8 col-8 col-sm-9">
+                                    <h5 className="mb-3">Car Parts</h5>
+
+                                    <p className="text-muted">
+                                        <i className="fas fa-quote-left pe-2"></i>
+                                        Absolutely thrilled with the website developed by WebTech Solutions Services. They perfectly captured our vision and delivered a user-friendly site that exceeded our expectations. Highly recommend their expertise and professionalism!"
                                     </p>
                                 </div>
                             </div>
