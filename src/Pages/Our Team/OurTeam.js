@@ -8,8 +8,7 @@ import Simar from '../../Images/simar.jpg'
 import Anuj from '../../Images/anuj.jpg'
 import Teambanner from '../../Images/our-team-banner.webp'
 import Ankit_Mishra from '../../Images/ankit_mishra.webp'
-import deepak_sharma from '../../Images/deepak-sharma.webp'
-import Header from '../Header/Header'
+ import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import { Helmet } from 'react-helmet'
 
@@ -161,21 +160,6 @@ function OurTeam() {
                                     <h5 className="card-title">Shamse Alam</h5>
                                     <p className="card-text">
                                         Wordpress Developer
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div className="col">
-                            <div className="card">
-                                <img src={deepak_sharma}
-                                    className="card-img-top"
-                                    alt="Skyscrapers" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Deepak Sharma</h5>
-                                    <p className="card-text">
-                                        Multimedia Designer
                                     </p>
                                 </div>
                             </div>

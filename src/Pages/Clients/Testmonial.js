@@ -2,8 +2,7 @@ import React from 'react'
 import Tabburajput from '../../Images/tabbu-rajput.webp'
 import Nucosmetic from '../../Images/nucosmetic.webp'
 import Rapidtax from '../../Images/rapidtax.webp'
-import Lawyer from '../../Images/Lawyer-Logo2.png'
-import Carparts from '../../Images/car-parts.png'
+ import Carparts from '../../Images/car-parts.png'
 
 function Testmonial() {
     return (
@@ -85,28 +84,7 @@ function Testmonial() {
                                 <li><i className="fas fa-star fa-sm"></i></li>
                             </ul>
                         </div>
-                        <div className="carousel-item">
-                            <img className="rounded-circle border shadow-1-strong mb-4"
-                                src={Lawyer} alt="Client Reviews"
-                                style={{ width: "150px" }} />
-                            <div className="row d-flex justify-content-center">
-                                <div className="col-lg-8 col-8 col-sm-9">
-                                    <h5 className="mb-3">Ajay Chauhan</h5>
-
-                                    <p className="text-muted">
-                                        <i className="fas fa-quote-left pe-2"></i>
-                                        The range of services offered by Webtech Solutions is extensive and caters to a wide variety of needs.  
-                                    </p>
-                                </div>
-                            </div>
-                            <ul className="list-unstyled d-flex justify-content-center text-warning mb-0">
-                                <li><i className="fas fa-star fa-sm"></i></li>
-                                <li><i className="fas fa-star fa-sm"></i></li>
-                                <li><i className="fas fa-star fa-sm"></i></li>
-                                <li><i className="fas fa-star fa-sm"></i></li>
-                                <li><i className="fas fa-star fa-sm"></i></li>
-                            </ul>
-                        </div>
+                        
                         <div className="carousel-item">
                             <img className="rounded-circle border shadow-1-strong mb-4"
                                 src={Carparts} alt="Client Reviews"
