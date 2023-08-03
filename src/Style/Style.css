@@ -241,7 +241,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .create-website-heading h1 {
     font-family: 'inter', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 34px;
     letter-spacing: 0.057em;
     font-style: normal;
@@ -1195,8 +1195,8 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .ppc-marketing h1 {
     font-family: 'inter', sans-serif;
     font-weight: 700;
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 26px;
+    line-height: 36px;
     font-style: normal;
     color: #000;
     margin: 25px 0;
@@ -1222,9 +1222,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .we-grow-content h1 {
     font-family: 'inter', sans-serif;
-    font-size: 34px;
+    font-size: 26px;
     font-weight: 700;
-    line-height: 39px;
+    line-height: 36px;
     margin-bottom: 20px;
 }
 
@@ -1700,7 +1700,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .card-text {
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 
@@ -2322,8 +2322,8 @@ input::-webkit-inner-spin-button {
     color: red; 
  }
 .landing_page {
-    background-image: url('../Images//landing-bg.webp');
-    height: auto;
+    background-image: url('../Images/landing-bg.webp');
+     height: auto;
 }
 
 .landing_page_content h1 {

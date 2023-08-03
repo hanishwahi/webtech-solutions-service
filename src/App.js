@@ -57,7 +57,7 @@ function App() {
         <Route path='/smo-service' element={<SMO />} />
         <Route path='/orm-service' element={<ORM />} />
         <Route path='/smm-service' element={<SMM />} />
-        <Route path='/training-development' element={<Training/>} /> 
+        <Route path='/training-development' element={<Training />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
       <LetsWorkTogether />

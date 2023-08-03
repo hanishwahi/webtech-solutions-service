@@ -1,5 +1,5 @@
 import React from 'react'
- import banner1 from '../../Images/Home-banner-1.webp'
+ import banner1 from '../../Images/home -banner-2.webp'
  import banner2 from '../../Images/home-banner-new.webp'
  
 function Banner() {

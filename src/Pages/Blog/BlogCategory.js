@@ -31,8 +31,7 @@ function BlogCategory() {
    }, []);
 
    const SelectedCategory = categorizedData[newCategory] || [];
-  
-  const SelectedCategoryData= [...SelectedCategory].reverse();
+   const SelectedCategoryData= [...SelectedCategory].reverse();
 
   return (
     <>

@@ -13,8 +13,7 @@ function BlogDetails() {
   const { title } = useParams();
   const currentTitle = title.replace(/-/g, ' ');
 
-
-
+ 
   useEffect(() => {
     // Extract unique categories from JSON data
     const uniqueTitle = [...new Set(data.map(item => item.title))];
@@ -27,7 +26,7 @@ function BlogDetails() {
     setCategorizedData(categorized);
   }, []);
 
-  
+
   const latestUniqueTitle = categorizedData[currentTitle] || [];
   const latestUniqueTitle1 = latestUniqueTitle[0] 
     // back button 
@@ -46,6 +45,9 @@ function BlogDetails() {
     const pickedDataReverse = pickedData.reverse()
     setRecentPost(pickedDataReverse);
   }, []);
+
+  // to show the unique category 
+
 
   useEffect(() => {
     // Extract unique categories from JSON data
