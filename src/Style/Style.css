@@ -642,9 +642,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .new-height-content h1 {
     font-family: 'inter', sans-serif;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 30px;
     letter-spacing: 0.057em;
 }
 
@@ -669,7 +669,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .call-now-content h2 {
     color: #fff;
     font-family: 'inter', sans-serif;
-    font-size: 34px;
+    font-size: 26px;
     margin-bottom: 30px;
 }
 
@@ -712,9 +712,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .androidIOS h1 {
     font-family: 'inter', sans-serif;
-    font-size: 34px;
+    font-size: 26px;
     font-weight: 700;
-    line-height: 42px;
+    line-height: 30px;
     letter-spacing: 0.057em;
     text-align: left;
 
@@ -748,8 +748,8 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .web-devp-heading h1 {
     font-family: 'inter', sans-serif;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 34px;
+    font-size: 26px;
+    line-height: 30px;
     font-style: normal;
     color: #000;
     margin-bottom: 0;
@@ -799,7 +799,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .web-devp h1 {
     font-family: 'inter', sans-serif;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
     margin-bottom: 0;
     line-height: 26px;
@@ -817,9 +817,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .growth-business-text p {
     font-family: 'inter', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 28px;
     text-align: center;
     color: #fff;
 }
@@ -1099,9 +1099,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .GraphicSolution-content h1 {
     font-family: 'inter', sans-serif;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 700;
-    line-height: 38px;
+    line-height: 30px;
 }
 
 .GraphicSolution-content h3 {
@@ -1858,7 +1858,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .why-us-heading h1 {
-    font-size: 34px;
+    font-size: 26px;
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Inter', sans-serif;

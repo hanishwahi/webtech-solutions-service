@@ -1,5 +1,4 @@
-'use client'
-import React from 'react'
+ import React from 'react'
  import createbanner from '../../Images/create-website-img.webp'
 import Rectangle from '../../Images/Rectangle 7.png'
 
