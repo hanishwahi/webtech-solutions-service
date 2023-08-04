@@ -5,22 +5,24 @@ import MainNewlogo from '../../Images/newlogo.webp'
 
 function Navbar() {
 
-     const scrollToHome = () => {
+    const scrollToHome = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
 
     };
-    
+
     return (
         <>
-              <div className="container-fluid border-bottom sticky-top bg-white py-2">
+
+           
+            <div className="container-fluid border-bottom sticky-top bg-white py-2">
                 <div className="container-xl">
                     <div className="row">
-                        <div className="col-lg-2 col-md-3 col-4 text-start px-0" style={{ transform: "scale(0.8" }}>
+                        <div className="col-lg-2 col-md-3 col-4 text-start px-0  nav-009" style={{ transform: "scale(0.8" }}>
                             <Link onClick={scrollToHome} to='/'>
-                                <img width= "100%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
+                                <img width="100%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
 
                             </Link>
-                         </div>
+                        </div>
                         <div className="col-lg-8 align-self-center navbar-001-hide">
                             <nav className="navbar-001">
                                 <Link onClick={scrollToHome} to="/" aria-current="page" className="nav-link w-nav-link ">Home</Link>
@@ -29,7 +31,7 @@ function Navbar() {
                                 <Link onClick={scrollToHome} to="/clients" className="nav-link w-nav-link">Clients</Link>
                                 <Link onClick={scrollToHome} to="/career" className="nav-link w-nav-link">Careers</Link>
                                 <Link onClick={scrollToHome} to="/blogs" className="nav-link w-nav-link">Blog</Link>
-                                 <Link onClick={scrollToHome} to="/our-team" className="nav-link w-nav-link">Our Team</Link>
+                                <Link onClick={scrollToHome} to="/our-team" className="nav-link w-nav-link">Our Team</Link>
 
                             </nav>
                         </div>
@@ -47,7 +49,7 @@ function Navbar() {
                             <div className="offcanvas-header">
                                 <div className="col-6">
                                     <Link onClick={scrollToHome} to="/">
-                                        <img width= "100%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
+                                        <img width="100%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
 
                                     </Link>
                                 </div>
@@ -69,6 +71,7 @@ function Navbar() {
                 </div>
             </div>
 
+           
         </>
     );
 }

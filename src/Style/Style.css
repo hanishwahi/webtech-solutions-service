@@ -838,12 +838,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 /* training page  */
 
 
-.training-bg {
-    background-image: url('../Images/training-banner-2.webp');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+ 
 
 .training-heading-001 h1 {
     font-family: 'inter', sans-serif;
@@ -1771,46 +1766,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 
 /* aboutus  */
-.aboutus-banner {
-    background-image: url('../Images/about-us-banner.webp');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 550px;
-    width: 100%;
-    display: flex;
-}
-
-.about-banner-heading h1 {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 38px;
-    line-height: 44px;
-    letter-spacing: 0.057em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    letter-spacing: 0.057em;
-    text-align: center;
-
-}
-
-
-.about-banner-heading span {
-    color: #42ADE4;
-}
-
-
-.about-banner-text p {
-    color: #fff;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 29px;
-    letter-spacing: 0.057em;
-}
+ 
 
 .about-mission-heading h1 {
     font-family: 'Inter', sans-serif;
@@ -2034,47 +1990,8 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 
 /* service main  */
-.services-main-banner {
-    background-image: url('../Images/services-main-banner.webp');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 550px;
-    width: 100%;
-    display: flex;
-}
-
-.services-main-banner-heading h1 {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 38px;
-    line-height: 44px;
-    letter-spacing: 0.057em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    letter-spacing: 0.057em;
-    text-align: center;
-
-}
-
-
-.services-main-banner-heading span {
-    color: #42ADE4;
-}
-
-
-.services-main-banner-text p {
-    color: #fff;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 29px;
-    letter-spacing: 0.057em;
-}
-
+ 
+ 
 .service-list-head a {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
@@ -2523,3 +2440,21 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     color: #000;
 }
+
+
+.nav-009{
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+ 
