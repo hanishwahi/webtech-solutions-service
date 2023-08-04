@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import ReactGA from 'react-ga';
+ 
 
 // Initialize Google Analytics with your tracking ID
 ReactGA.initialize('AW-11163670422');
@@ -14,8 +15,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>
-
+   </BrowserRouter>
+ 
 
 );
 
