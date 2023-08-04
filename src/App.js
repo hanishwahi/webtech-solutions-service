@@ -29,43 +29,14 @@ import BlogDetails from './Pages/Blog/BlogDetails';
 import Blogs from './Pages/Blog/Blogs';
 import BlogCategory from './Pages/Blog/BlogCategory';
 import Training from './Pages/Training/Training';
-import React, { useState, useEffect } from 'react';
-
+ 
 
 function App() {
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-
-  }, []);
+   
+  
   return (
     <>
        
-        {loading ? (
-
-          <>
-            {/* <div className="loader-container">
-              <div className="spinner">
-              </div> 
-            </div> */}
-
-             
-                <div class="wrapper">
-                <svg>
-                  <text x="50%" y="50%" dy=".35em" text-anchor="middle">
-                    WEBTECH SOLUTIONS
-                  </text>
-                </svg>
-              </div>
-               
-
-          </>
-
-
-        ) :
           <>
             <Routes>
               <Route path='/' element={<Home />} />
@@ -96,8 +67,7 @@ function App() {
             </Routes>
             <LetsWorkTogether />
             <ScrollToTop /></>
-        }
-       
+        
     </>
   );
 }

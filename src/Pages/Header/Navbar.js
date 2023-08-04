@@ -17,7 +17,7 @@ function Navbar() {
             <div className="container-fluid border-bottom sticky-top bg-white py-2">
                 <div className="container-xl">
                     <div className="row">
-                        <div className="col-lg-2 col-md-3 col-4 text-start px-0  nav-009" style={{ transform: "scale(0.8" }}>
+                        <div className="col-lg-2 col-md-3 col-4 text-start px-0  nav-009">
                             <Link onClick={scrollToHome} to='/'>
                                 <img width="100%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
 
