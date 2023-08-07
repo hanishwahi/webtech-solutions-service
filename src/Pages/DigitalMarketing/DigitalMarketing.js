@@ -13,29 +13,21 @@ import { Helmet } from 'react-helmet'
 function DigitalMarketing() {
     return (
         <>
-
-            
                 <Helmet>
-                    <title>Best Digital Marketing Company & Agency in Chandigarh, India
-</title>
-                    <meta name="description" content="Boost your online presence, attract targeted traffic, and achieve your marketing goals with the help of our best seo, sem, smm, smo, sms, whatsapp, email marketing or any other digital marketing techniques today!
-" />
+                    <title>Best Digital Marketing Company & Agency in Chandigarh, India</title>
+                    <meta name="description" content="Boost your online presence, attract targeted traffic, and achieve your marketing goals with the help of our best seo, sem, smm, smo, sms, whatsapp, email marketing or any other digital marketing techniques today!" />
 
                     {/* Open Graph (OG) tags  */}
-                    <meta property="og:title" content="Best Digital Marketing Company & Agency in Chandigarh, India
-" />
-                    <meta property="og:description" content="Boost your online presence, attract targeted traffic, and achieve your marketing goals with the help of our best seo, sem, smm, smo, sms, whatsapp, email marketing or any other digital marketing techniques today!
-" />
+                    <meta property="og:title" content="Best Digital Marketing Company & Agency in Chandigarh, India" />
+                    <meta property="og:description" content="Boost your online presence, attract targeted traffic, and achieve your marketing goals with the help of our best seo, sem, smm, smo, sms, whatsapp, email marketing or any other digital marketing techniques today!" />
                     <meta property="og:url" content="https://webtechsolutionsservice.com/digital-marketing" />
                     <meta property="og:type" content="website" />
                     <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />  Replace with the actual image URL
 
                     {/* Twitter Card tags  */}
                     <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content="Best Digital Marketing Company & Agency in Chandigarh, India
-" />
-                    <meta name="twitter:description" content="Boost your online presence, attract targeted traffic, and achieve your marketing goals with the help of our best seo, sem, smm, smo, sms, whatsapp, email marketing or any other digital marketing techniques today!
-" />
+                    <meta name="twitter:title" content="Best Digital Marketing Company & Agency in Chandigarh, India"/>
+                    <meta name="twitter:description" content="Boost your online presence, attract targeted traffic, and achieve your marketing goals with the help of our best seo, sem, smm, smo, sms, whatsapp, email marketing or any other digital marketing techniques today!  "/>
                     <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
                     {/* Canonical tag  */}
                     <link rel="canonical" href="https://webtechsolutionsservice.com/digital-marketing" />

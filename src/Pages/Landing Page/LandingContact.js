@@ -12,7 +12,7 @@ function LandingContact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_hmnkl0m', 'template_512smz8', e.target, 'DaUmEfgqFFS3JD4_d').then((result) => {
+        emailjs.sendForm("service_hmnkl0m","template_512smz8", e.target, 'DaUmEfgqFFS3JD4_d').then((result) => {
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
@@ -52,6 +52,10 @@ function LandingContact() {
                             <option value="Graphic Designing">Graphic Designing</option>
                         </select>
 
+                    </div>
+                    <div className="form-outline mb-4">
+                        <label className="form-label text-dark fw-bold" htmlFor="form4Example2">Website</label>
+                        <input type="url" name="website" id="form4Example2" className="form-control" placeholder='Optional' />
                     </div>
 
                     <div className="form-outline mb-4">
