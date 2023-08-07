@@ -26,7 +26,7 @@ function LandingContact() {
         <>
             <div>
                 <form className='landing-form  p-3 ' ref={form}
-                    onSubmit={sendEmail}>
+                    onSubmit={sendEmail} autocomplete="off">
                     <div className='row justify-content-between '>
                         <div className="form-outline col-12 col-sm-6 mb-4">
                             <label className="form-label text-dark fw-bold" htmlFor="form4Example1">*Name</label>

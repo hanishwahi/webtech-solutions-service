@@ -116,7 +116,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .navbar-001 a:focus {
-    color: #42ADE4;
+    color: #42ADE4 !important;
 }
 
 .contact-button a {
