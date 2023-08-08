@@ -63,6 +63,10 @@ function InputForm() {
                     </select>
 
                 </div>
+                <div className="form-outline mb-4">
+                    <label className="form-label fw-bold" htmlFor="form4Example2">Website</label>
+                    <input type="url" name="website" id="form4Example2" required className="form-control" placeholder='Optional' />
+                </div>
 
                 <div className="form-outline mb-4">
                     <label className="form-label fw-bold" htmlFor="form4Example3">*Message</label>
