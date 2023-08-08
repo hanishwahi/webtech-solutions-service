@@ -16,9 +16,21 @@ function LandingPage() {
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
-
+  const injectGA = () => {
+    if (typeof window == 'undefined') {
+      return;
+    }
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+  
+    gtag('config', 'G-4403Q50DT8');
+  };
   return (
     <>
+    <script>{injectGA()}</script>
       <LandingNav />
       <div className='container-fluid px-0 landing_page'>
         <div className='container align-self-center'>
