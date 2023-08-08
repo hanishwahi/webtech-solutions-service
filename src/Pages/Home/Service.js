@@ -1,8 +1,8 @@
 import React from 'react'
-import SEO from '../../Images/SEO1.png'
+import SEO from '../../Images/SEO.png'
 import PPC from '../../Images/PPC1.png'
 import WEBDEVELOPMENT from '../../Images/WEBDEVELOPMENT.png'
-import Graphicdesign from '../../Images/ORM.png'
+import Graphicdesign from '../../Images/GraphicDesgining-icon.png'
 import AppDevelopment from '../../Images/AppDevelopment.png'
 import Content_Marketing from '../../Images/Content_Marketing.png'
 import { Link } from 'react-router-dom'
@@ -30,7 +30,7 @@ function Service() {
                             <div className="features-tools-grid-cell col-lg-4 col-md-4 col-sm-6 border-right border-bottom1 pb-3">
                                 <Link className="text-decoration-none" to='/seo-service' onClick={scrollToHome}>
                                     <div className='mb-3'>
-                                        <img width={80} height='100%' src={SEO} loading="lazy" alt="seo-service" className="tools-grid-image   mb-0 box" />
+                                        <img width={70} height='100%' src={SEO} loading="lazy" alt="seo-service" className="tools-grid-image   mb-0 box" />
                                     </div>
                                     <h5 className="tools-grid-heading">Search Engine Optimization</h5>
                                     <div className="service-grid-text1">
@@ -41,7 +41,7 @@ function Service() {
                             <div className="features-tools-grid-cell col-lg-4 col-md-4 col-sm-6 border-right border-bottom1 pb-3">
                                 <Link className="text-decoration-none" to='/ppc-service' onClick={scrollToHome}>
                                     <div className='mb-3'>
-                                        <img width={80} height='100%' src={PPC} loading="lazy" alt="ppc-service" className="tools-grid-image   mb-0 box" />
+                                        <img width={70} height='100%' src={PPC} loading="lazy" alt="ppc-service" className="tools-grid-image   mb-0 box" />
                                     </div>
                                     <h5 className="tools-grid-heading">Pay Per Click</h5>
                                     <div className="service-grid-text1"><p>
@@ -51,7 +51,7 @@ function Service() {
                             <div className="features-tools-grid-cell col-lg-4 col-md-4 col-sm-6 pb-3 border-bottom1">
                                 <Link className="text-decoration-none" to='/content-marketing' onClick={scrollToHome}   >
                                     <div className='mb-3'>
-                                        <img width={80} height='100%' src={Content_Marketing} loading="lazy" alt="content-marketing" className="tools-grid-image   mb-0 box box" />
+                                        <img width={70} height='100%' src={Content_Marketing} loading="lazy" alt="content-marketing" className="tools-grid-image   mb-0 box box" />
                                     </div>
                                     <h5 className="tools-grid-heading">Content Marketing</h5>
                                     <div className="service-grid-text1"><p>
@@ -61,7 +61,7 @@ function Service() {
                             <div className="features-tools-grid-cell col-lg-4 col-md-4 col-sm-6 border-right pb-3">
                                 <Link className='text-decoration-none' to='/graphic-design'  onClick={scrollToHome}>
                                     <div className='mb-3'>
-                                        <img width={80} height='100%' src={Graphicdesign} loading="lazy" alt="graphic-design" className="tools-grid-image   mb-0 box" />
+                                        <img width={70} height='100%' src={Graphicdesign} loading="lazy" alt="graphic-design" className="tools-grid-image   mb-0 box" />
                                     </div>
                                     <h5 className="tools-grid-heading">Graphic Design</h5>
                                     <div className="service-grid-text1"><p>
@@ -72,7 +72,7 @@ function Service() {
                             <div className="features-tools-grid-cell col-lg-4 col-md-4 col-sm-6 pb-3 border-right">
                                 <Link className='text-decoration-none' to='/web-development'  onClick={scrollToHome}>
                                     <div className='mb-3'>
-                                        <img width={80} height='100%' src={WEBDEVELOPMENT} loading="lazy" alt="web-development" className="tools-grid-image   mb-0 box" />
+                                        <img width={70} height='100%' src={WEBDEVELOPMENT} loading="lazy" alt="web-development" className="tools-grid-image   mb-0 box" />
                                     </div>
                                     <h5 className="tools-grid-heading">Web Development</h5>
                                     <div className="service-grid-text1"><p>
@@ -83,7 +83,7 @@ function Service() {
                             <div className="features-tools-grid-cell col-lg-4 col-md-4 col-sm-6 pb-3">
                                 <Link className='text-decoration-none' to='/app-development'  onClick={scrollToHome}>
                                     <div className='mb-3'>
-                                        <img width={80} height='100%' src={AppDevelopment} loading="lazy" alt="app-development" className="tools-grid-image   mb-0 box" />
+                                        <img width={70} height='100%' src={AppDevelopment} loading="lazy" alt="app-development" className="tools-grid-image   mb-0 box" />
                                     </div>
                                     <h5 className="tools-grid-heading">App Development</h5>
                                     <div className="service-grid-text1"><p>

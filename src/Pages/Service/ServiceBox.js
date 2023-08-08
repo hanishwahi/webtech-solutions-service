@@ -1,10 +1,10 @@
 import React from 'react'
-import SEO from '../../Images/SEO1.png'
+import SEO from '../../Images/SEO.png'
 import PPC from '../../Images/PPC1.png'
-import WEBDEVELOPMENT from '../../Images/WEBDEVELOPMENT.png'
+import SMM from '../../Images/SMM.png'
+import SMO from '../../Images/SMO-icon.png'
 import ORM from '../../Images/ORM.png'
-import AppDevelopment from '../../Images/AppDevelopment.png'
-import Content_Marketing from '../../Images/Content_Marketing.png'
+ import Content_Marketing from '../../Images/Content_Marketing.png'
 import { Link } from 'react-router-dom'
 function ServiceBox() {
     const scrollToHome = () => {
@@ -59,7 +59,7 @@ function ServiceBox() {
                                     <div className='mb-3'>
                                         <img
                                             width={80}
-                                            src={WEBDEVELOPMENT}
+                                            src={SMO}
                                             loading="lazy" alt="smo-service" className="tools-grid-image   mb-0 box" />
                                     </div>
                                     <h5 className="tools-grid-heading">SMO</h5>
@@ -92,7 +92,7 @@ function ServiceBox() {
                                     <div className='mb-3'>
                                         <img
                                             width={80}
-                                            src={AppDevelopment}
+                                            src={SMM}
                                             loading="lazy" alt="smm-service" className="tools-grid-image   mb-0 box" />
                                     </div>
                                     <h5 className="tools-grid-heading">SMM</h5>

@@ -1,10 +1,10 @@
 import React from 'react'
 import bt_nav_digital_marketing from '../../Images/bt-nav-digital-marketing-icon.png'
-import SEO from '../../Images/SEO1.png'
+import SEO from '../../Images/SEO.png'
  import PPC from '../../Images/PPC1.png'
 import Web_development from '../../Images/WEBDEVELOPMENT.png'
 import App_development from '../../Images/AppDevelopment.png'
-import Graphicdesign from '../../Images/ORM.png'
+import Graphicdesign from '../../Images/GraphicDesgining-icon.png'
 
 import { Link } from 'react-router-dom'
 

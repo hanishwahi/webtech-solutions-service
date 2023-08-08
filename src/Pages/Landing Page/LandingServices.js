@@ -1,5 +1,5 @@
 import React from 'react'
-import SEO from '../../Images/SEO1.png'
+import SEO from '../../Images/SEO.png'
 import PPC from '../../Images/PPC1.png'
 import WEBDEVELOPMENT from '../../Images/WEBDEVELOPMENT.png'
 import Graphicdesign from '../../Images/ORM.png'

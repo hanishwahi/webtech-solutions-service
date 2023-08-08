@@ -1,5 +1,5 @@
 import React from 'react'
-import Tabburajput from '../../Images/tabbu-rajput.webp'
+import Tabburajput from '../../Images/tabbu-rajput.png'
 import Nucosmetic from '../../Images/nucosmetic.webp'
 import Rapidtax from '../../Images/rapidtax.webp'
  import Carparts from '../../Images/car-parts.png'
