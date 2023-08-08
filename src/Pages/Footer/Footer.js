@@ -77,7 +77,7 @@ function Footer() {
                                 <Link to="https://www.linkedin.com/company/webtechsolutionsservice/" target="_blank" className="footer-link"><i className="fa-brands fa-linkedin"></i></Link>
                                 <Link to="https://www.instagram.com/webtechsolutionsservice/" target="_blank" className="footer-link"><i className="fa-brands fa-instagram"></i></Link>
                                 <Link to="https://www.facebook.com/webtechsolutionsservice" target="_blank" className="footer-link"><i className="fa-brands fa-square-facebook"></i></Link>
-                                <Link to="https://twitter.com/webtechpvtltd" target="_blank" className="footer-link"><i className="fa-brands fa-twitter"></i></Link>
+                                <Link to="https://twitter.com/webtechpvtltd" target="_blank" className="footer-link"><i class="fa-brands fa-square-x-twitter"></i></Link>
                                 <Link to="https://in.pinterest.com/webtechsolutionsservice/" target="_blank" className="footer-link"><i className="fa-brands fa-pinterest-p"></i></Link>
                                 <Link to="https://www.youtube.com/@webtechsolutionsservice" target="_blank" className="footer-link"><i className="fa-brands fa-youtube"></i></Link>
                             </div>

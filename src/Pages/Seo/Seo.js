@@ -1,6 +1,6 @@
 import React from 'react'
 import SEObanner from '../../Images/seo-banner.webp'
-import GraphicdesignImg from '../../Images/graphic-design-img.webp'
+import SEOImg from '../../Images/SEO-img.webp'
 import dm_rectangle from '../../Images/dm-rectangle 13.png'
 import SeoService from './SeoService'
 import ContactForm from '../ContactForm/ContactForm'
@@ -48,7 +48,7 @@ function Seo() {
                 <div className='container-lg'>
                     <div className='row justify-content-center py-lg-5'>
                         <div className='col-lg-6 col-sm-8 col-md-8 align-self-center'>
-                            <img width="100%" height="100%" src={GraphicdesignImg} alt='Best SEO Service' className='img-fluid' />
+                            <img width="100%" height="100%" src={SEOImg} alt='Best SEO Service' className='img-fluid' />
                         </div>
                         <div className='col-lg-6'>
                             <div className='row mb-3'>
