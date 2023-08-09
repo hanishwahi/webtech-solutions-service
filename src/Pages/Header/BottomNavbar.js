@@ -14,8 +14,8 @@ function BottomNavbar() {
         <>
             <div className='container-fluid bt-nav-hide border-bottom'>
                 <div className='container-lg'>
-                    <div className='row'>
-                        <div className='col-lg-2 bt-nav-main'>
+                    <div className='row justify-content-around'>
+                        <div className='col-lg-3 bt-nav-main'>
                             <Link to='/digital-marketing'>
                             <div className='d-flex gap-2 justify-content-center align-items-center'>
                               <img height={45}  src={bt_nav_digital_marketing} alt=''/>
@@ -23,7 +23,7 @@ function BottomNavbar() {
                             </div>
                             </Link>
                         </div>
-                        <div className='col-lg-2 bt-nav-main'>
+                        {/* <div className='col-lg-3 bt-nav-main'>
                             <Link to='/seo-service'>
                             <div className='d-flex gap-2 justify-content-center align-items-center'>
                               <img height={45}  src={SEO} alt=''/>
@@ -32,15 +32,15 @@ function BottomNavbar() {
                             </Link>
                         </div>
                        
-                        <div className='col-lg-2 bt-nav-main'>
+                        <div className='col-lg-3 bt-nav-main'>
                             <Link to='/ppc-service'>
                             <div className='d-flex gap-2 justify-content-center align-items-center'>
                               <img height={45}  src={PPC} alt=''/>
                                <h6>PPC</h6> 
                             </div>
                             </Link>
-                        </div>
-                        <div className='col-lg-2 bt-nav-main'>
+                        </div> */}
+                        <div className='col-lg-3 bt-nav-main'>
                             <Link to='/graphic-design'>
                             <div className='d-flex gap-2 justify-content-center align-items-center'>
                               <img height={45}  src={Graphicdesign} alt=''/>
@@ -48,7 +48,7 @@ function BottomNavbar() {
                             </div>
                             </Link>
                         </div>
-                        <div className='col-lg-2 bt-nav-main'>
+                        <div className='col-lg-3 bt-nav-main'>
                             <Link to='/web-development'>
                             <div className='d-flex gap-2 justify-content-center align-items-center'>
                               <img height={45}  src={Web_development} alt=''/>
@@ -56,7 +56,7 @@ function BottomNavbar() {
                             </div>
                             </Link>
                         </div>
-                        <div className='col-lg-2 bt-nav-main'>
+                        <div className='col-lg-3 bt-nav-main'>
                             <Link to='/app-development'>
                             <div className='d-flex gap-2 justify-content-center align-items-center'>
                               <img height={45}  src={App_development} alt=''/>

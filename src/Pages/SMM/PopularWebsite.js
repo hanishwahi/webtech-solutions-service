@@ -52,7 +52,7 @@ function PopularWebsite() {
                                     <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 smm-heading align-self-center'>
-                                    <h1>Time to write yoursocial media success story</h1>
+                                    <h1>Time to write your social media success story</h1>
                                 </div>
                             </div>
                             <div className='row'>

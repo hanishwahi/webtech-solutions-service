@@ -40,8 +40,8 @@ function App() {
           <>
             <Routes>
               <Route path='/' element={<Home />} />
-              <Route path='/our-team' element={<OurTeam />} />
-              <Route path='/about-us' element={<About />} />
+              <Route path='/team' element={<OurTeam />} />
+              <Route path='/about' element={<About />} />
               <Route path='/contact-us' element={<ContactForm />} />
               <Route path='/blogs' element={<Blogs />} />
               <Route path='/blog/:title' element={<BlogDetails />} />

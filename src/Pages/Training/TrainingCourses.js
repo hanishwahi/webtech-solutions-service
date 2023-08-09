@@ -115,7 +115,7 @@ function TrainingCourses() {
                         <div className="accordion" id="accordionExample">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingOne">
-                                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <button className="accordion-button shadow-none shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         <h2 className='h5 m-0 training-faq-content'>
                                             Exam & certification on digital marketing</h2>
                                     </button>
@@ -137,7 +137,7 @@ function TrainingCourses() {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingTwo">
-                                    <button className="accordion-button collapsed h3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <button className="accordion-button shadow-none collapsed h3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <h2 className='h5 m-0 training-faq-content'>Should a person know to code if they want to learn SEO?</h2>
                                     </button>
                                 </h2>
@@ -151,7 +151,7 @@ function TrainingCourses() {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingThree">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <button className="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         <h2 className='h5 m-0 training-faq-content'>What is the scope in India after learning Digital Marketing?</h2>
                                     </button>
                                 </h2>
@@ -164,7 +164,7 @@ function TrainingCourses() {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingFour">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <button className="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         <h2 className='h5 m-0 training-faq-content'>Who is my instructor?</h2>
                                     </button>
                                 </h2>
@@ -176,7 +176,7 @@ function TrainingCourses() {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingFive">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <button className="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                         <h2 className='h5 m-0 training-faq-content'>Can you provide guaranteed placement after the course?</h2>
                                     </button>
                                 </h2>
@@ -189,7 +189,7 @@ function TrainingCourses() {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingSix">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    <button className="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                         <h2 className='h5 m-0 training-faq-content'>Can I get certification after completing the course?</h2>
                                     </button>
                                 </h2>
@@ -202,7 +202,7 @@ function TrainingCourses() {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingSeven">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    <button className="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                         <h2 className='h5 m-0 training-faq-content'>Will I get a job after doing this course?</h2>
                                     </button>
                                 </h2>

@@ -8,7 +8,7 @@
     font-weight: 400;
     margin-bottom: 0;
     font-family: 'inter', sans-serif;
-    
+
     color: #fff;
     text-decoration: none;
 }
@@ -31,8 +31,9 @@
 
 .bt-nav-main h6 {
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 0;
+    font-family: 'inter', sans-serif;
 }
 
 .bt-nav-main {
@@ -106,7 +107,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 17px;
     line-height: 26px;
     color: #000 !important;
-    
+
 }
 
 .navbar-001 a:hover {
@@ -325,7 +326,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-weight: 400;
     font-size: 17px;
     line-height: 26px;
-    
+
     text-align: center;
     color: #000000;
 }
@@ -365,8 +366,8 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     background-color: #42ADE4;
     color: #fff;
     width: auto;
-    border: 1px solid #ccc;
-    text-transform: uppercase;
+     text-transform: uppercase;
+    border-radius: 20px;
 }
 
 .ViewAllServices:hover {
@@ -681,7 +682,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     padding: 7px 25px;
     text-transform: uppercase;
     font-weight: 500;
-    
+
     border-radius: 20px;
 }
 
@@ -760,7 +761,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    
+
     text-align: left;
 }
 
@@ -837,12 +838,12 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 /* training page  */
 
-.training-bg{
+.training-bg {
     background-image: url('../Images/trainingbg.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} 
+}
 
 .training-heading-001 h1 {
     font-family: 'inter', sans-serif;
@@ -875,7 +876,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .training-heading-main-002 h1 {
     font-family: 'inter', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 36px;
     font-style: normal;
     color: #000;
@@ -962,8 +963,8 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .training-faq-heading h1 {
     font-family: 'inter', sans-serif;
     font-weight: 700;
-    font-size: 34px;
-    line-height: 28px;
+    font-size: 26px;
+    line-height: 38px;
     font-style: normal;
     color: #000;
     margin-bottom: 0;
@@ -1144,7 +1145,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
-    
+
     text-align: center;
     min-height: 52px;
     margin-bottom: 0;
@@ -1155,7 +1156,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 17px;
     font-weight: 400;
     line-height: 22px;
-    
+
     text-align: center;
 }
 
@@ -1206,7 +1207,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 22px;
     font-weight: 700;
     line-height: 32px;
-    
+
     text-align: center;
 }
 
@@ -1215,7 +1216,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    
+
     text-align: center;
 }
 
@@ -1232,7 +1233,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    
+
 }
 
 .we-grow-content h2 {
@@ -1240,7 +1241,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 22px;
     font-weight: 700;
     line-height: 32px;
-    
+
     text-align: center;
 }
 
@@ -1541,7 +1542,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 14px;
     line-height: 234%;
     font-weight: 600;
-    
+
 }
 
 .footer-divider {
@@ -1705,10 +1706,12 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .nav-link {
     display: block;
-    /* padding: .5rem 1rem; */
     padding: 8px 12px;
+    font-size: 18px;
     color: #000000;
     text-decoration: none;
+    font-weight: 700;
+    font-family: 'inter', sans-serif;
 }
 
 
@@ -2018,7 +2021,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 32px;
     font-weight: 700;
     line-height: 76px;
-    
+
     text-align: center;
 }
 
@@ -2067,14 +2070,14 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 30px;
     font-weight: 600;
     line-height: 42px;
-    
+
 }
 
 .contact-us p {
     font-family: 'inter', sans-serif;
     font-size: 17px;
     font-weight: 400;
-    
+
 }
 
 .contact-us i {
@@ -2087,7 +2090,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 17px;
     font-weight: 500;
     line-height: 25px;
-    
+
     margin-bottom: 0;
     text-decoration: none;
     color: #000;
@@ -2445,13 +2448,13 @@ input::-webkit-inner-spin-button {
     color: #000;
 }
 
-.nav-009 img{
+.nav-009 img {
     width: 145px;
 }
 
 .nav-009 {
     animation: myAnim 1s ease 0s 1 normal forwards;
- }
+}
 @keyframes myAnim {
     0% {
         opacity: 0;
@@ -2463,9 +2466,3 @@ input::-webkit-inner-spin-button {
         transform: translateX(0);
     }
 }
-
- 
-
-
- 
- 

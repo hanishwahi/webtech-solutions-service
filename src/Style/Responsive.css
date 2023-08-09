@@ -166,7 +166,7 @@
     font-size: 15px;
   }
   .contact-us h1 {
-    font-size: 26px;
+    font-size: 24px;
   }
   .contact-us p {
     font-size: 17px;
@@ -205,11 +205,19 @@
     line-height: 28px;
   }
   .graphic-desg-heading h1 {
-    font-size: 26px;
+    font-size: 24px;
   }
+  .training-heading-main-002 h1 { 
+    font-size: 24px;
+    line-height: 28px; 
+}
   .graphic-desg-content p {
     text-align: left;
   }
+  .training-faq-heading h1 { 
+    font-size: 24px;
+    line-height: 30px; 
+}
   .top-Nav-contact-hide {
     display: none !important;
   }
@@ -310,7 +318,7 @@
     text-align: left;
   }
   .career-001 h1 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 27px;
   }
   .blogs a { 
@@ -335,6 +343,9 @@
 .training-callnow p { 
   font-size: 16px;
   line-height: 24px; 
+}
+.blog-heading { 
+  font-size: 30px; 
 }
 }
 
