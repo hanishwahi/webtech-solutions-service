@@ -837,6 +837,12 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 /* training page  */
 
+.training-bg{
+    background-image: url('../Images/trainingbg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
 
 .training-heading-001 h1 {
     font-family: 'inter', sans-serif;
