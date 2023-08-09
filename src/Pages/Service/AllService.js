@@ -44,7 +44,7 @@ function AllService() {
             <Header />
             <div className='container-fluid px-0'>
                 <div className='container-xxl px-0'>
-                    <img className='img-fluid' src={serviceBanner} alt="" />
+                     <img loading="lazy" className='img-fluid' src={serviceBanner} alt="" />
                 </div>
             </div>
             <ServiceList />

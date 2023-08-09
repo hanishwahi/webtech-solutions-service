@@ -38,7 +38,7 @@ function Seo() {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
-                        <img className='overflow-hidden px-0 img-fluid'
+                         <img loading="lazy" className='overflow-hidden px-0 img-fluid'
                             src={SEObanner}
                             alt='SEO Company in Chandigarh' />
                     </div>
@@ -48,12 +48,12 @@ function Seo() {
                 <div className='container-lg'>
                     <div className='row justify-content-center py-lg-5'>
                         <div className='col-lg-6 col-sm-8 col-md-8 align-self-center'>
-                            <img width="100%" height="100%" src={SEOImg} alt='Best SEO Service' className='img-fluid' />
+                             <img loading="lazy" width="100%" height="100%" src={SEOImg} alt='Best SEO Service' className='img-fluid' />
                         </div>
                         <div className='col-lg-6'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 text-end align-self-center'>
-                                    <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                                     <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 graphic-desg-heading align-self-center'>
                                     <h1>SEO</h1>

@@ -25,7 +25,7 @@ function SeoService() {
                     <div className='row'>
                         <div className='col-lg-3 col-sm-6 mb-3'>
                             <div className='shadow p-4 text-center seo-box'>
-                                <img className='mb-3' width={140} src={Keyword_search} alt='' />
+                                 <img loading="lazy" className='mb-3' width={140} src={Keyword_search} alt='' />
                                 <h2>Keyword Search</h2>
                                 <p>Your SEO keywords are the keywords and phrases in your web content that make it possible for people to find your site via search engines. </p>
                             </div>
@@ -33,7 +33,7 @@ function SeoService() {
                         </div>
                         <div className='col-lg-3 col-sm-6 mb-3'>
                             <div className='shadow p-4 text-center seo-box'>
-                                <img className='mb-3' width={140} src={CompetitiveAnalysis} alt='' />
+                                 <img loading="lazy" className='mb-3' width={140} src={CompetitiveAnalysis} alt='' />
                                 <h2>Competitive Analysis</h2>
                                 <p>SEO competitive analysis involves researching your direct search competitors to understand their target keywords, content strategy, backlink profile, and more</p>
                             </div>
@@ -41,7 +41,7 @@ function SeoService() {
                         </div>
                         <div className='col-lg-3 col-sm-6 mb-3'>
                             <div className='shadow p-4 text-center seo-box'>
-                                <img className='mb-3' width={140} src={Link_Building} alt='' />
+                                 <img loading="lazy" className='mb-3' width={140} src={Link_Building} alt='' />
                                 <h2>Link Building</h2>
                                 <p>Link building refers to the marketing efforts to get links from other websites to your website. It's seen as one of the most powerful tools to achieve higher rankings.</p>
                             </div>
@@ -49,7 +49,7 @@ function SeoService() {
                         </div>
                         <div className='col-lg-3 col-sm-6 mb-3'>
                             <div className='shadow p-4 text-center seo-box'>
-                                <img className='mb-3' width={140} src={Web_Marketing_Analytics} alt='' />
+                                 <img loading="lazy" className='mb-3' width={140} src={Web_Marketing_Analytics} alt='' />
                                 <h2>Web Marketing Analytics</h2>
                                 <p>Digital marketing analytics consists of processes and technologies that enable marketers to evaluate the success of their digital marketing initiatives.</p>
                             </div>
@@ -65,7 +65,7 @@ function SeoService() {
                             <p>Imagine you`ve positioned as plenty paintings as you could into making your internet site the right platform, and it`s simply now no longer enough. what takes place whilst you`ve carried out as plenty of the natural search engine optimization (search engine optimization) paintings as you could in your own? when you`ve stranded your self withinside the ui`s of a 1/2 of dozen search engine optimization tools, now no longer even positive when you have the evaluation the records right. it`s now no longer simply frustrating, it`s a danger in your business. what you`re doing incorrect together along with your search engine optimization can fee you money. it doesn`t make feel to take the dangers whilst outsourcing natural search engine optimization consulting offerings has such a lot of advantages.</p>
                         </div>
                         <div className='col-lg-4 text-center'>
-                            <img className='img-fluid' src={seo_img_2} alt='SEO Consultations' />
+                             <img loading="lazy" className='img-fluid' src={seo_img_2} alt='SEO Consultations' />
                         </div>
                     </div>
                 </div>

@@ -17,25 +17,25 @@ function WeGrow() {
                     <div className='row pb-5'>
                         <div className='col-lg-3 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center we-grow-content'>
-                                <img className='mb-3'  width={80} src={more_leads_icon} alt='Lead Generation Service' />
+                                 <img loading="lazy" className='mb-3'  width={80} src={more_leads_icon} alt='Lead Generation Service' />
                                 <h2>More Leads</h2>
                             </div>
                         </div>
                         <div className='col-lg-3 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center we-grow-content'>
-                                <img className='mb-3'  width={80} src={boost_traffic} alt='Boost Your Traffic Advice' />
+                                 <img loading="lazy" className='mb-3'  width={80} src={boost_traffic} alt='Boost Your Traffic Advice' />
                                 <h2>Boost Traffic</h2>
                             </div>
                         </div>
                         <div className='col-lg-3 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center we-grow-content'>
-                                <img className='mb-3'  width={80} src={target_audience} alt='Best Target Audience Strategy' />
+                                 <img loading="lazy" className='mb-3'  width={80} src={target_audience} alt='Best Target Audience Strategy' />
                                 <h2>Target Audience</h2>
                             </div>
                         </div>
                         <div className='col-lg-3 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center we-grow-content'>
-                                <img className='mb-3'  width={80} src={Increase_Sale} alt='Increase your sale' />
+                                 <img loading="lazy" className='mb-3'  width={80} src={Increase_Sale} alt='Increase your sale' />
                                 <h2>Increase Sale</h2>
                             </div>
                         </div>

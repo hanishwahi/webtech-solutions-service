@@ -8,7 +8,7 @@ function WhyChooseDevp() {
                 <div className='container-xxl'>
                     <div className='row mb-3'>
                         <div className='col-1 col-md-1 text-end align-self-center'>
-                            <img src={dm_rectangle} alt='' />
+                             <img loading="lazy" src={dm_rectangle} alt='' />
                         </div>
                         <div className='col-11 col-md-11 col-lg-11  web-devp-heading align-self-center'>
                             <h1>Why Choose Us for your Website Development?</h1>
@@ -26,7 +26,7 @@ function WhyChooseDevp() {
                             <div className='web-devp-bg'>
                                 <div className='row mb-2 align-items-center'>
                                     <div className='col-1 col-sm-1 col-md-1 col-lg-1 px-sm-0 text-end'>
-                                        <img src={dm_rectangle} alt='' />
+                                         <img loading="lazy" src={dm_rectangle} alt='' />
                                     </div>
                                     <div className='col-11 col-md-11 col-lg-11 col-sm-11  web-devp'>
                                         <h1>Top-tier Developers</h1>
@@ -43,7 +43,7 @@ function WhyChooseDevp() {
                             <div className='web-devp-bg'>
                                 <div className='row mb-2 align-items-center'>
                                     <div className='col-1 col-sm-1 col-md-1 col-lg-1 px-sm-0 text-end'>
-                                        <img src={dm_rectangle} alt='' />
+                                         <img loading="lazy" src={dm_rectangle} alt='' />
                                     </div>
                                     <div className='col-11 col-md-11 col-lg-11 col-sm-11 web-devp'>
                                         <h1>Responsive Design</h1>
@@ -63,7 +63,7 @@ function WhyChooseDevp() {
                             <div className='web-devp-bg'>
                                 <div className='row mb-2 align-items-center'>
                                     <div className='col-1 col-sm-1 col-md-1 col-lg-1 px-sm-0 text-end'>
-                                        <img src={dm_rectangle} alt='' />
+                                         <img loading="lazy" src={dm_rectangle} alt='' />
                                     </div>
                                     <div className='col-11 col-md-11 col-lg-11 col-sm-11 web-devp'>
                                         <h1>Scalable Backend</h1>
@@ -83,7 +83,7 @@ function WhyChooseDevp() {
                             <div className='web-devp-bg'>
                                 <div className='row mb-2 align-items-center'>
                                     <div className='col-1 col-sm-1 col-md-1 col-lg-1 px-sm-0 text-end'>
-                                        <img src={dm_rectangle} alt='' />
+                                         <img loading="lazy" src={dm_rectangle} alt='' />
                                     </div>
                                     <div className='col-11 col-md-11 col-lg-11 col-sm-11 web-devp'>
                                         <h1>Custom WordPress Web Design</h1>
@@ -103,7 +103,7 @@ function WhyChooseDevp() {
                             <div className='web-devp-bg'>
                                 <div className='row mb-2 align-items-center'>
                                     <div className='col-1 col-sm-1 col-md-1 col-lg-1 px-sm-0 text-end'>
-                                        <img src={dm_rectangle} alt='' />
+                                         <img loading="lazy" src={dm_rectangle} alt='' />
                                     </div>
                                     <div className='col-11 col-md-11 col-lg-11 col-sm-11 web-devp'>
                                         <h1>Ecommerce Web Design</h1>
@@ -123,7 +123,7 @@ function WhyChooseDevp() {
                             <div className='web-devp-bg'>
                                 <div className='row mb-2 align-items-center'>
                                     <div className='col-1 col-sm-1 col-md-1 col-lg-1 px-sm-0 text-end'>
-                                        <img src={dm_rectangle} alt='' />
+                                         <img loading="lazy" src={dm_rectangle} alt='' />
                                     </div>
                                     <div className='col-11 col-md-11 col-lg-11 col-sm-11 web-devp'>
                                         <h1>Shopify Web Design</h1>
@@ -143,7 +143,7 @@ function WhyChooseDevp() {
                             <div className='web-devp-bg'>
                                 <div className='row mb-2 align-items-center'>
                                     <div className='col-1 col-sm-1 col-md-1 col-lg-1 px-sm-0 text-end'>
-                                        <img src={dm_rectangle} alt='' />
+                                         <img loading="lazy" src={dm_rectangle} alt='' />
                                     </div>
                                     <div className='col-11 col-md-11 col-lg-11 col-sm-11 web-devp'>
                                         <h1>UI/UX Designing</h1>

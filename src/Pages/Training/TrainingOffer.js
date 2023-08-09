@@ -34,7 +34,7 @@ function TrainingOffer() {
                     <div className='row'>
                         <Link> {/* Specify the destination URL */}
                             <div className='col-lg-7 border px-0 position-main'>
-                                <img src={trainingoffer} alt='' className='img-fluid' />
+                                 <img loading="lazy" src={trainingoffer} alt='' className='img-fluid' />
                                 <div className='border px-0'>
                                     <h1 className='training-offer'>{timeline}</h1>
                                     <h3 onClick={closeAd} className='training-cross'>

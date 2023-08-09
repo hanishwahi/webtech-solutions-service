@@ -17,7 +17,7 @@ function GrowBusiness() {
               <div className="features-tools-grid-cell col-lg-3 col-md-4 col-sm-6 ">
                 <div className='py-5 px-3 ' >
                   <div className='tool-images mb-3'>
-                  <img
+                  <img 
                     width={140}
                     src={Projectcomp}
                     loading="lazy" alt="" className="tools-grid-image mb-0" />

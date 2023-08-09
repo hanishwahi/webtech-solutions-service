@@ -17,7 +17,7 @@ function ContentMarketing() {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
-                        <img className='overflow-hidden px-0 img-fluid'
+                         <img loading="lazy" className='overflow-hidden px-0 img-fluid'
                             src={content_marketing_banner}
                             alt='' />
                     </div>
@@ -40,28 +40,28 @@ function ContentMarketing() {
                     <div className='row py-4'>
                         <div className='col-lg-3 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center content-marketing-box'>
-                                <img className='mb-3' width={120} src={CONTENT_FIRST_DIGITAL} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={CONTENT_FIRST_DIGITAL} alt='' />
                                 <h2>CONTENT-FIRST DIGITAL MARKETING</h2>
                                 <p>We build digital growth engines powered by content marketing and SEO – a process we mastered through 5 years.</p>
                             </div>
                         </div>
                         <div className='col-lg-3 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center content-marketing-box'>
-                                <img className='mb-3' width={120} src={INBOUNDDIGITALCAMPAIGNS} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={INBOUNDDIGITALCAMPAIGNS} alt='' />
                                 <h2>INBOUND DIGITAL CAMPAIGNS</h2>
                                 <p>We design wildly successful digital campaigns that lead to online brand visibility, connected audiences, organic traffic and ROI.</p>
                             </div>
                         </div>
                         <div className='col-lg-3 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center content-marketing-box'>
-                                <img className='mb-3' width={120} src={anSeocontent} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={anSeocontent} alt='' />
                                 <h2>AN SEO + CONTENT WRITING AGENCY</h2>
                                 <p>Content and SEO works hand-in-hand. We know that and that is why our team specialises in content and SEO – the core of content marketing.</p>
                             </div>
                         </div>
                         <div className='col-lg-3 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center content-marketing-box'>
-                                <img className='mb-3' width={120} src={partner_industry} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={partner_industry} alt='' />
                                 <h2>A PARTNER WHO HAS INDUSTRY EXPERIENCE</h2>
                                 <p>We have worked 11 years with B2B & B2C brands, SMEs, medium & large enterprises, global & desi brands, and almost every vertical.</p>
                             </div>

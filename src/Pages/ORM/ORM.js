@@ -14,7 +14,7 @@ function ORM() {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
-                        <img className='overflow-hidden px-0 img-fluid'
+                         <img loading="lazy" className='overflow-hidden px-0 img-fluid'
                             src={ormbanner}
                             alt='' />
                     </div>
@@ -24,12 +24,12 @@ function ORM() {
                 <div className='container-lg'>
                     <div className='row justify-content-center align-items-center'>
                         <div className='col-lg-6 col-sm-8 col-md-6 align-self-center'>
-                            <img width="100%" height="100%" src={ormImg} alt='' className='img-fluid' />
+                             <img loading="lazy" width="100%" height="100%" src={ormImg} alt='' className='img-fluid' />
                         </div>
                         <div className='col-lg-6'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 text-end'>
-                                    <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                                     <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 orm-content'>
                                     <h1>Measuring Monitoring, And
@@ -70,7 +70,7 @@ function ORM() {
                         <div className='col-lg-4 col-md-4 col-sm-6'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 col-md-2 col-sm-2 text-end'>
-                                    <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                                     <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 col-md-10 col-sm-10 orm-content'>
                                     <h3>Influencing SERP results to deal with negative posts</h3>
@@ -80,7 +80,7 @@ function ORM() {
                         <div className='col-lg-4 col-md-4 col-sm-6'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 col-md-2 col-sm-2 text-end'>
-                                    <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                                     <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 col-md-10 col-sm-10 orm-content'>
                                     <h3>Promoting the brand image for a positive impact</h3>
@@ -90,7 +90,7 @@ function ORM() {
                         <div className='col-lg-4 col-md-4 col-sm-6'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 col-md-2 col-sm-2 text-end'>
-                                    <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                                     <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 col-md-10 col-sm-10 orm-content'>
                                     <h3>Enhancing interactions with the customers</h3>
@@ -100,7 +100,7 @@ function ORM() {
                         <div className='col-lg-4 col-md-4 col-sm-6'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 col-md-2 col-sm-2 text-end'>
-                                    <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                                     <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 col-md-10 col-sm-10 orm-content'>
                                     <h3>Monitoring the online reputation consistently</h3>

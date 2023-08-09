@@ -14,7 +14,7 @@ function LandingNav() {
                 <div className="row">
                     <div className="col-lg-2 col-md-3 col-4 text-start px-0" style={{ transform: "scale(0.8" }}>
                         <Link onClick={scrollToHome}>
-                            <img width="100%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
+                             <img loading="lazy" width="100%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
 
                         </Link>
                     </div>

@@ -9,7 +9,7 @@ function NewHeights() {
                 <div className='container-lg py-5'>
                     <div className='row align-items-center'>
                             <div className='col-1 text-end'>
-                                <img className='img-fluid' src={dm_rectangle} alt=''/>
+                                 <img loading="lazy" className='img-fluid' src={dm_rectangle} alt=''/>
                             </div>
                             <div className='col-11 new-height-content'>
                                 <h1>Our Digital Marketing Services will take your<br/> business to new heights!</h1>

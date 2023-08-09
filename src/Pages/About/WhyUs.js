@@ -26,7 +26,7 @@ function WhyUs() {
                     </div>
                 </div>
                 <div className='col-lg-5 col-md-4 col-sm-7 '> 
-                    <img src={Whyus} alt='' className='img-fluid'/> 
+                    <img loading="lazy" src={Whyus} alt='' className='img-fluid'/> 
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ function Banner() {
         <>
             <div className='container-fluid px-0'>
                 <div className='container-xxl px-0'>
-                    <img className='img-fluid' src={aboutUsBanner} alt="" />
+                    <img loading="lazy" className='img-fluid' src={aboutUsBanner} alt="" />
                 </div>
             </div>
         </>

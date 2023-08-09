@@ -12,7 +12,7 @@ function AppServices() {
                         <div className='col-lg-6'>
                             <div className='row'>
                                 <div className='col-1'>
-                                    <img className='img-fluid' src={dm_rectangle} alt='' />
+                                    <img loading="lazy" className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 androidIOS'>
                                     <h1>Mobile Application <br />Development Services</h1>
@@ -36,7 +36,7 @@ function AppServices() {
                             </div>
                         </div>
                         <div className='col-lg-6'>
-                            <img width="100%" height="100%" className='img-fluid' src={app_service_img} alt='Mobile App Development' />
+                            <img loading="lazy" width="100%" height="100%" className='img-fluid' src={app_service_img} alt='Mobile App Development' />
                         </div>
                     </div>
                 </div>

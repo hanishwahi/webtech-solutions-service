@@ -22,7 +22,7 @@ function Testmonial() {
                 <div id="carouselExampleControls" className="carousel slide text-center carousel-dark" data-mdb-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img width="100%" height='100%' className="rounded-circle border shadow-1-strong mb-4"
+                             <img loading="lazy" width="100%" height='100%' className="rounded-circle border shadow-1-strong mb-4"
                                 src={Tabburajput} alt="Client Reviews"
                                 style={{ width: "150px" }} />
                             <div className="row d-flex justify-content-center">
@@ -43,7 +43,7 @@ function Testmonial() {
                             </ul>
                         </div>
                         <div className="carousel-item">
-                            <img className="rounded-circle border shadow-1-strong mb-4"
+                             <img loading="lazy" className="rounded-circle border shadow-1-strong mb-4"
                                 src={Nucosmetic} alt="Client Reviews"
                                 style={{ width: "150px" }} />
                             <div className="row d-flex justify-content-center">
@@ -65,7 +65,7 @@ function Testmonial() {
                             </ul>
                         </div>
                         <div className="carousel-item">
-                            <img className="rounded-circle border shadow-1-strong mb-4"
+                             <img loading="lazy" className="rounded-circle border shadow-1-strong mb-4"
                                 src={Rapidtax} alt="Client Reviews"
                                 style={{ width: "150px" }} />
                             <div className="row d-flex justify-content-center">
@@ -88,7 +88,7 @@ function Testmonial() {
                         </div>
                         
                         <div className="carousel-item">
-                            <img className="rounded-circle border shadow-1-strong mb-4"
+                             <img loading="lazy" className="rounded-circle border shadow-1-strong mb-4"
                                 src={Carparts} alt="Client Reviews"
                                 style={{ width: "150px" }} />
                             <div className="row d-flex justify-content-center">
@@ -110,7 +110,7 @@ function Testmonial() {
                             </ul>
                         </div>
                         <div className="carousel-item">
-                            <img className="rounded-circle border shadow-1-strong mb-4"
+                             <img loading="lazy" className="rounded-circle border shadow-1-strong mb-4"
                                 src={StartUPKhata} alt="Client Reviews"
                                 style={{ width: "150px" }} />
                             <div className="row d-flex justify-content-center">

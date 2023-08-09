@@ -16,21 +16,21 @@ function PopularWebsite() {
                     <div className='row py-4'>
                         <div className='col-lg-4 col-sm-6 mb-3 '>
                             <div className='shadow p-4 text-center smm-box'>
-                                <img className='mb-3' width={120} src={facebook_icon} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={facebook_icon} alt='' />
                                 <h2>Facebook</h2>
                                 <p>Boasting a user count of 2.29 billion active users daily, Facebook cannot be ignored when it comes to social media marketing. A well-set-up Facebook page helps improve brand awareness and generates traffic to your website.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3 '>
                             <div className='shadow p-4 text-center smm-box'>
-                                <img className='mb-3' width={120} src={Instagram_icon} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={Instagram_icon} alt='' />
                                 <h2>Instagram</h2>
                                 <p>Instagram, the fifth most-visited website in the world, can be a great way to market your brand with the right strategy. The favorite platform for influencers comes with a multitude of ways to promote your brand.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3 '>
                             <div className='shadow p-4 text-center smm-box'>
-                                <img className='mb-3' width={120} src={YouTube_icon} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={YouTube_icon} alt='' />
                                 <h2>Youtube</h2>
                                 <p>The popular video-sharing platform, YouTube, has over 2.6 billion users as of 2023. With the right strategies, your brand can get maximum exposure when advertised on YouTube.</p>
                             </div>
@@ -49,7 +49,7 @@ function PopularWebsite() {
                         <div className='col-lg-6 align-self-center'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 text-end align-self-center'>
-                                    <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                                     <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 smm-heading align-self-center'>
                                     <h1>Time to write your social media success story</h1>
@@ -68,7 +68,7 @@ function PopularWebsite() {
                             </div>
                         </div>
                         <div className='col-lg-6 col-sm-8 col-md-8 align-self-center'>
-                            <img width="100%" height="100%" src={yoursocial} alt='' className='img-fluid transform' />
+                             <img loading="lazy" width="100%" height="100%" src={yoursocial} alt='' className='img-fluid transform' />
                         </div>
 
                     </div>

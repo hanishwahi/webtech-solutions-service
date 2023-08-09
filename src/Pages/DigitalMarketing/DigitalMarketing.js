@@ -37,18 +37,18 @@ function DigitalMarketing() {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
-                        <img width="100%" height="100%" className='overflow-hidden px-0 img-fluid' src={Digitalmarketing} alt='Digital Marketing Agency in Chandigarh' />
+                         <img loading="lazy" width="100%" height="100%" className='overflow-hidden px-0 img-fluid' src={Digitalmarketing} alt='Digital Marketing Agency in Chandigarh' />
                     </div>
                 </div>
                 <div className='container-lg'>
                     <div className='row py-md-5 py-3 align-items-center justify-content-center'>
                         <div className='col-lg-6 col-md-5 col-sm-8 p-0 mb-4 mb-md-0'>
-                            <img width="100%" height="100%" className='img-fluid' src={DigitalmarktingImg} alt='Digital Marketing Company' />
+                             <img loading="lazy" width="100%" height="100%" className='img-fluid' src={DigitalmarktingImg} alt='Digital Marketing Company' />
                         </div>
                         <div className='col-lg-6 col-md-7 ps-md-4 mb-4 '>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 text-end align-self-center'>
-                                    <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                                     <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 create-website-heading align-self-center'>
                                     <h1>Digital Marketing</h1>

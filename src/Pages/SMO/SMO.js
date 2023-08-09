@@ -22,7 +22,7 @@ function SMO() {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
-                        <img className='overflow-hidden px-0 img-fluid'
+                         <img loading="lazy" className='overflow-hidden px-0 img-fluid'
                             src={smo_banner}
                             alt='' />
                     </div>
@@ -32,12 +32,12 @@ function SMO() {
                 <div className='container-lg'>
                     <div className='row justify-content-center align-items-center'>
                         <div className='col-lg-6 col-sm-8 col-md-6 align-self-center mb-3'>
-                            <img width="100%" height="100%" src={smo_img} alt='' className='img-fluid' />
+                             <img loading="lazy" width="100%" height="100%" src={smo_img} alt='' className='img-fluid' />
                         </div>
                         <div className='col-lg-6'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 text-end align-self-center'>
-                                    <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                                     <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 smo-heading align-self-center'>
                                     <h1>A glimpse of your SMO agency</h1>
@@ -72,42 +72,42 @@ function SMO() {
                     <div className='row py-4'>
                         <div className='col-lg-4 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center smo-box'>
-                                <img className='mb-3' width={120} src={Account_Management} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={Account_Management} alt='' />
                                 <h2>Account Management</h2>
                                 <p>We manage all your social media accounts to reach niche target audience.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center smo-box'>
-                                <img className='mb-3' width={120} src={Content_Strategy} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={Content_Strategy} alt='' />
                                 <h2>Content Strategy</h2>
                                 <p>Web Tech Solutions Services creates content unique content strategies for brand.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center smo-box'>
-                                <img className='mb-3' width={120} src={Profile_Optimization} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={Profile_Optimization} alt='' />
                                 <h2>Profile Optimization</h2>
                                 <p>We optimize social media profiles to create powerful impact on the visitors.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center smo-box'>
-                                <img className='mb-3' width={120} src={Trending_Copywriting} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={Trending_Copywriting} alt='' />
                                 <h2>Trending Copywriting</h2>
                                 <p>Our expert team makes sure all business’s social media profile are safe from compromising.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center smo-box'>
-                                <img className='mb-3' width={120} src={Identifying_hashtags} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={Identifying_hashtags} alt='' />
                                 <h2>Identifying hashtags</h2>
                                 <p>Web tech Solutions Services makes perfect use of analyzing and using hashtags to get exposure.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3 '>
                             <div className='shadow bg-white p-4 text-center smo-box'>
-                                <img className='mb-3' width={120} src={Social_Media} alt='' />
+                                 <img loading="lazy" className='mb-3' width={120} src={Social_Media} alt='' />
                                 <h2>Social Media Marketing</h2>
                                 <p>Web tech provides social media marketing services across all leading social media platforms.</p>
                             </div>

@@ -17,7 +17,7 @@ function PPCTeam() {
 
                         </div>
                         <div className='col-lg-6 col-md-8 align-self-center'>
-                            <img width="100%" height="100%" src={PPCTeamimg} alt='PPC Experts' className='img-fluid' />
+                             <img loading="lazy" width="100%" height="100%" src={PPCTeamimg} alt='PPC Experts' className='img-fluid' />
                         </div>
 
                     </div>

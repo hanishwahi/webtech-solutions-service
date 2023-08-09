@@ -40,7 +40,7 @@ function OurTeam() {
             <div className='container-fluid'>
                 <div className='row our-team-main'>
                     <div className='col px-0'>
-                        <img className='img-fluid px-0'
+                         <img loading="lazy" className='img-fluid px-0'
                             src={Teambanner}
                             alt='Hire + Service Name + Expert or Specialist' />
                     </div>
@@ -56,7 +56,7 @@ function OurTeam() {
                     <div className="row row-cols-1 row-cols-md-3 g-4 pb-5">
                         <div className="col">
                             <div className="card">
-                                <img src={Ankit_Mishra}
+                                 <img loading="lazy" src={Ankit_Mishra}
                                     className="card-img-top"
                                     alt="Hollywood Sign on The Hill" />
                                 <div className="card-body">
@@ -70,7 +70,7 @@ function OurTeam() {
                         </div>
                         <div className="col">
                             <div className="card">
-                                <img src={Simar}
+                                 <img loading="lazy" src={Simar}
                                     className="card-img-top"
                                     alt="Hollywood Sign on The Hill" />
                                 <div className="card-body">
@@ -84,7 +84,7 @@ function OurTeam() {
                         </div>
                         <div className="col">
                             <div className="card">
-                                <img src={Kuldeep}
+                                 <img loading="lazy" src={Kuldeep}
                                     className="card-img-top"
                                     alt="Palm Springs Road" />
                                 <div className="card-body">
@@ -97,7 +97,7 @@ function OurTeam() {
                         </div>
                         <div className="col">
                             <div className="card">
-                                <img src={Hanish}
+                                 <img loading="lazy" src={Hanish}
                                     className="card-img-top"
                                     alt="Los Angeles Skyscrapers" />
                                 <div className="card-body">
@@ -109,7 +109,7 @@ function OurTeam() {
 
                         <div className="col">
                             <div className="card">
-                                <img src={Param}
+                                 <img loading="lazy" src={Param}
                                     className="card-img-top"
                                     alt="Skyscrapers" />
                                 <div className="card-body">
@@ -125,7 +125,7 @@ function OurTeam() {
 
                         <div className="col">
                             <div className="card">
-                                <img src={Nidhi}
+                                 <img loading="lazy" src={Nidhi}
                                     className="card-img-top"
                                     alt="Skyscrapers" />
                                 <div className="card-body">
@@ -139,7 +139,7 @@ function OurTeam() {
 
                         <div className="col">
                             <div className="card">
-                                <img src={Anuj}
+                                 <img loading="lazy" src={Anuj}
                                     className="card-img-top"
                                     alt="Skyscrapers" />
                                 <div className="card-body">
@@ -153,7 +153,7 @@ function OurTeam() {
 
                         <div className="col">
                             <div className="card">
-                                <img src={Shamse}
+                                 <img loading="lazy" src={Shamse}
                                     className="card-img-top"
                                     alt="Skyscrapers" />
                                 <div className="card-body">

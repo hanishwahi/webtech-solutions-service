@@ -53,7 +53,7 @@ function Training() {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
-                        <img className='overflow-hidden px-0 img-fluid'
+                         <img loading="lazy" className='overflow-hidden px-0 img-fluid'
                             src={TrainingDevelopment}
                             alt='Training Company in Chandigarh' />
                     </div>
@@ -68,7 +68,7 @@ function Training() {
                         <div className='col-lg-6 py-3'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 text-end align-self-center'>
-                                    <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                                     <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 training-heading-001 align-self-center'>
                                     <h1>Digital Marketing Training & Development</h1>
@@ -133,25 +133,25 @@ function Training() {
                     <div className='row py-3'>
                         <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
                             <div>
-                                <img width={140} src={Students} alt='' className='img-fluid' />
+                                 <img loading="lazy" width={140} src={Students} alt='' className='img-fluid' />
                                 <h3>Students</h3>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
                             <div>
-                                <img width={140} src={WorkingProfessionals} alt='' className='img-fluid' />
+                                 <img loading="lazy" width={140} src={WorkingProfessionals} alt='' className='img-fluid' />
                                 <h3>Working Professionals</h3>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
                             <div>
-                                <img width={140} src={jobseeker} alt='' className='img-fluid' />
+                                 <img loading="lazy" width={140} src={jobseeker} alt='' className='img-fluid' />
                                 <h3>Jobseeker</h3>
                             </div>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6 training-program text-center'>
                             <div>
-                                <img width={140} src={Entrepreneurs} alt='' className='img-fluid' />
+                                 <img loading="lazy" width={140} src={Entrepreneurs} alt='' className='img-fluid' />
                                 <h3>Entrepreneurs</h3>
                             </div>
                         </div>

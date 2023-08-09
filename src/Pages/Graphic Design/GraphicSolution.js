@@ -26,7 +26,7 @@ function GraphicSolution() {
             <div className='container-fluid my-3 my-lg-5'>
                 <div className='row'>
                     <div className='col px-0'>
-                        <img className='overflow-hidden px-0 img-fluid'
+                         <img loading="lazy" className='overflow-hidden px-0 img-fluid'
                             src={graphicDsign1}
                             alt='Graphic Designing Services' />
                     </div>

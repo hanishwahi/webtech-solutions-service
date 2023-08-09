@@ -64,7 +64,7 @@ function ServiceList() {
                         </div>
                       
                         <div className='col-lg-7 col-md-6'>
-                            <img width="100%" height="100%" className='img-fluid' src={serviceListimg} alt='Web Tech Solutions Service' />
+                             <img loading="lazy" width="100%" height="100%" className='img-fluid' src={serviceListimg} alt='Web Tech Solutions Service' />
                         </div>
                     </div>
                 </div>

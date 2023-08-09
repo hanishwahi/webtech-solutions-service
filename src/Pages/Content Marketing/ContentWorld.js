@@ -12,12 +12,12 @@ function ContentWorld() {
                     </div>
                     <div className='row py-3 py-lg-5 justify-content-center'>
                         <div className='col-lg-6 col-sm-8 col-md-8 align-self-center mb-3'>
-                            <img width="100%" height="100%" src={content_marketing} alt='' className='img-fluid' />
+                             <img loading="lazy" width="100%" height="100%" src={content_marketing} alt='' className='img-fluid' />
                         </div>
                         <div className='col-lg-6'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 text-end align-self-center'>
-                                    <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                                     <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 ppc-heading align-self-center'>
                                     <h1>Why Content Marketing Needs
