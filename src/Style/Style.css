@@ -8,7 +8,6 @@
     font-weight: 400;
     margin-bottom: 0;
     font-family: 'poppins';
-
     color: #fff;
     text-decoration: none;
 }
@@ -515,7 +514,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .how-it-works-header-text {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-family: 'poppins';
     font-style: normal;
@@ -607,7 +606,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .how-it-works-point-heading {
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 20px;
     color: #42ade3;
     font-weight: 700;
     font-family: 'poppins';
@@ -822,7 +821,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .growth-business-text p {
     font-family: 'poppins';
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 28px;
     text-align: center;
@@ -1714,10 +1713,10 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .nav-link {
     display: block;
     padding: 8px 12px;
-    font-size: 18px;
+    font-size: 17px;
     color: #000000;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
     font-family: 'poppins';
 }
 
@@ -2313,7 +2312,7 @@ input::-webkit-inner-spin-button {
 .blog-content h5 {
     font-family: 'poppins';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 26px;
     color: #42ade4;
@@ -2324,7 +2323,7 @@ input::-webkit-inner-spin-button {
 .blog-content p {
     font-family: 'poppins';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 15px;
     line-height: 26px;
     color: #000;
@@ -2364,7 +2363,7 @@ input::-webkit-inner-spin-button {
     font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 32px;
     margin-bottom: 0;
     color: #42ade4;
@@ -2375,7 +2374,7 @@ input::-webkit-inner-spin-button {
     font-family: 'poppins';
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 26px;
     color: #000;
 }
@@ -2399,7 +2398,7 @@ input::-webkit-inner-spin-button {
     color: #000;
     font-family: 'poppins';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 18px;
 }
 
@@ -2412,7 +2411,7 @@ input::-webkit-inner-spin-button {
     color: #000;
     font-family: 'poppins';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 5px;
 }
 
@@ -2423,8 +2422,8 @@ input::-webkit-inner-spin-button {
 .blog-detail-001 h1 {
     font-family: 'poppins';
     font-style: normal;
-    font-weight: 600;
-    font-size: 26px;
+    font-weight: 500;
+    font-size: 24px;
     line-height: 26px;
     margin-bottom: 0;
     color: #42ade4;
