@@ -55,7 +55,8 @@ function DigitalMarketing() {
                                 </div>
                             </div>
                             <div className='row'>
-                                <div className='col create-website-text'>
+                                <div className="col-1"></div>
+                                <div className='col-11 create-website-text'>
                                     <p>Web Tech Solutions Services provides high-caliber,
                                         goal-oriented digital marketing services for your company. Our Google-certified experts offer dynamic and adaptable marketing solutions, from organic strategies to paid advertising, to ensure that you achieve the desired business growth. Our marketing methods will make sure that you build your brand, reach more people, and produce real business leads—all at affordable costs. They do this with the aid of SEO, SMO, PPC, and other tools.
                                         platforms. It’s a fantastic approach to boost traffic and consumer interaction.</p>

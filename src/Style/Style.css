@@ -104,7 +104,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-family: math;
     font-style: normal;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 26px;
     color: #000 !important;
 
@@ -648,7 +648,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .new-height-content h1 {
     font-family: 'poppins';
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 30px;
 
@@ -675,7 +675,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .call-now-content h2 {
     color: #fff;
     font-family: 'poppins';
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 30px;
 }
 
@@ -709,16 +709,16 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .app-devp-content p {
     font-family: 'poppins';
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 24px;
 
-    text-align: justify;
+    text-align: left;
     color: #000;
 }
 
 .androidIOS h1 {
     font-family: 'poppins';
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 30px;
 
@@ -754,7 +754,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .web-devp-heading h1 {
     font-family: 'poppins';
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 30px;
     font-style: normal;
     color: #000;
@@ -763,7 +763,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .web-devp-list li {
     font-family: 'poppins';
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 24px;
 
@@ -781,10 +781,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .web-devp-content p {
     font-family: 'poppins';
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 24px;
-
-    text-align: justify;
+    text-align: left;
     color: #000;
 }
 
@@ -805,7 +804,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .web-devp h1 {
     font-family: 'poppins';
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 0;
     line-height: 26px;
@@ -1078,10 +1077,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .graphic-desg-content p {
     font-family: 'poppins';
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 24px;
-
-    text-align: justify;
+    text-align: left;
     color: #000;
 }
 
@@ -1091,7 +1089,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     padding: 13px 0;
     border-radius: 20px;
     font-family: 'poppins';
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
 
 }
@@ -1103,7 +1101,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .GraphicSolution-content h1 {
     font-family: 'poppins';
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 30px;
 }
@@ -1111,9 +1109,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .GraphicSolution-content h3 {
     font-family: 'poppins';
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 27px;
-    color: #42ADE4;
+    color: #000;
 }
 
 .GraphicSolution-content ul li {
@@ -1469,7 +1467,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 /* career page  */
 .career-001 h1 {
     font-family: 'poppins';
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 55px;
     color: #000;
@@ -1690,7 +1688,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 
 .OurTeam-inner-heading p {
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'poppins';
     font-style: normal;
     font-weight: 400;
@@ -1700,13 +1698,14 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .card-title {
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'poppins';
     font-weight: 700;
 
 }
 
 .card-text {
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 500;
 }
@@ -1828,7 +1827,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .why-us-heading h1 {
-    font-size: 26px;
+    font-size: 24px;
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'poppins';
@@ -1836,7 +1835,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .why-us-list ol li {
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'poppins';
     font-weight: 400;
     line-height: 34px;
@@ -2011,7 +2010,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     text-decoration: none;
     color: #000;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 55px;
 }
 
@@ -2025,7 +2024,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 /* services overview  */
 .services-overview h1 {
     font-family: 'poppins';
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 700;
     line-height: 76px;
 
@@ -2034,10 +2033,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .services-overview p {
     font-family: 'poppins';
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 28px;
-
     text-align: center;
 
 }
@@ -2049,6 +2047,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     text-decoration: none;
     padding: 8px 12px;
     border-radius: 20px;
+    font-family: 'poppins';
 }
 
 .readMore a:hover {
@@ -2074,7 +2073,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .contact-us h1 {
     font-family: 'poppins';
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 600;
     line-height: 42px;
 
