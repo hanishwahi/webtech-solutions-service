@@ -44,8 +44,8 @@
   }
 
   .create-website-heading h1 {
-    line-height: 28px;
-    font-size: 26px;
+    line-height: 26px;
+    font-size: 20px;
   }
   .web-devp-content p {
     text-align: left;
@@ -86,11 +86,14 @@
     font-size: 26px;
   }
   .how-it-works-point-heading {
-    font-size: 22px;
+    font-size: 18px;
   }
   .how-it-works-point-text {
     font-size: 17px;
   }
+  .faq-heading { 
+    font-size: 22px; 
+}
   .about-banner-heading h1 {
     font-size: 32px;
   }
@@ -105,15 +108,15 @@
     margin: 0px;
   }
   .unique h1 {
-    font-size: 26px;
-    line-height: 29px;
+    font-size: 22px;
+    line-height: 28px;
   }
   .unique p {
     text-align: center;
     font-size: 17px;
   }
   .why-us-heading h1 {
-    font-size: 26px;
+    font-size: 22px;
     text-align: center;
   }
   .why-us-list ol li {
@@ -136,7 +139,7 @@
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 26px;
-    text-align: justify;
+    text-align: left;
   }
   .blob {
     width: auto;
@@ -172,7 +175,7 @@
     font-size: 17px;
   }
   .services-overview h1 {
-    font-size: 30px;
+    font-size: 24px;
   }
   .services-overview p {
     font-size: 17px;
@@ -208,7 +211,7 @@
     font-size: 24px;
   }
   .training-heading-main-002 h1 { 
-    font-size: 24px;
+    font-size: 22px;
     line-height: 28px; 
 }
   .graphic-desg-content p {
@@ -318,9 +321,12 @@
     text-align: left;
   }
   .career-001 h1 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 27px;
   }
+  .training-heading-001 h1 { 
+    font-size: 22px; 
+}
   .blogs a { 
     font-size: 14px; 
 }
@@ -337,7 +343,7 @@
   line-height: 28px;  
 }
 .training-callnow h1 { 
-  font-size: 19px;
+  font-size: 16px;
   line-height: 25px; 
 }
 .training-callnow p { 
@@ -574,7 +580,7 @@
     font-size: 34px;
   }
   .create-website-heading h1 {
-    font-size: 27px;
+    font-size: 20px;
     line-height: 30px;
   }
   .create-website-text p {
