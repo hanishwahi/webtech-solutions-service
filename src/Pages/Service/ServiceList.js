@@ -58,8 +58,6 @@ function ServiceList() {
                                         </div>
                                     </Link >
                                 </div>
-                                 
-
                             </ol>
                         </div>
                       

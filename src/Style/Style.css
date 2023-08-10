@@ -106,7 +106,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 18px;
     line-height: 26px;
     color: #000 !important;
-
 }
 
 .navbar-001 a:hover {
@@ -182,10 +181,8 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-weight: 500;
     font-size: 38px;
     line-height: 44px;
-
     text-transform: uppercase;
     color: #FFFFFF;
-
 }
 
 .banner-heading span {
@@ -198,7 +195,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .banner-text p {
     color: #fff;
-
     text-align: justify;
     font-family: 'poppins';
     font-style: normal;
@@ -243,7 +239,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-
     font-style: normal;
     color: #000;
     margin-bottom: 0;
@@ -256,7 +251,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-weight: 400;
     line-height: 146%;
     text-align: left;
-
     color: #000000;
 }
 
@@ -327,7 +321,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-weight: 400;
     font-size: 17px;
     line-height: 26px;
-
     text-align: center;
     color: #000000;
 }
@@ -521,7 +514,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-weight: 400;
     line-height: 123.5%; 
     color: #000000;
-
 }
 
 .how-it-works-content-wrap {
@@ -650,7 +642,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
-
 }
 
 .new-height-content p {
@@ -686,7 +677,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     padding: 7px 25px;
     text-transform: uppercase;
     font-weight: 500;
-
     border-radius: 20px;
 }
 
@@ -710,7 +700,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-
     text-align: left;
     color: #000;
 }
@@ -720,9 +709,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
-
     text-align: left;
-
 }
 
 .androidIOS-bg {
@@ -744,7 +731,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 17px;
     font-weight: 400;
     line-height: 34px;
-
     text-align: left;
 }
 
@@ -765,7 +751,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-
     text-align: left;
 }
 
@@ -798,7 +783,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-
 }
 
 .web-devp h1 {
@@ -949,7 +933,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
-
 }
 
 .training-box p {
@@ -980,7 +963,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-style: normal;
     color: #000;
     margin-bottom: 0;
-
 }
 
 .training-faq-para {
@@ -1090,7 +1072,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-family: 'poppins';
     font-size: 14px;
     font-weight: 600;
-
 }
 
 .graphic-list p:hover {
@@ -1188,7 +1169,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
-
     text-align: justify;
     color: #000;
 }
@@ -1381,7 +1361,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
-
     text-align: justify;
     color: #000;
 }
@@ -1678,7 +1657,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .footer {
-
     z-index: 99;
     background-color: #0d0e10;
 }
@@ -1700,7 +1678,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 20px;
     font-family: 'poppins';
     font-weight: 700;
-
 }
 
 .card-text {
@@ -1725,7 +1702,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .top-to-btm {
     position: relative;
     cursor: pointer;
-
 }
 
 .icon-position {
@@ -1752,7 +1728,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     background: #fff;
     color: #42ADE4;
     border: 2px solid #42ADE4;
-
 }
 
 @keyframes movebtn {
@@ -1779,15 +1754,12 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 
 /* aboutus  */
-
-
 .about-mission-heading h1 {
     font-family: 'poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 44px;
-
     text-transform: uppercase;
     color: #000;
 
@@ -1799,7 +1771,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-
     color: #000;
 }
 
@@ -2002,8 +1973,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 
 /* service main  */
-
-
 .service-list-head a {
     font-family: 'poppins';
     text-decoration: none;
@@ -2026,7 +1995,6 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 34px;
     font-weight: 700;
     line-height: 76px;
-
     text-align: center;
 }
 
