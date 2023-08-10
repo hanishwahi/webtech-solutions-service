@@ -7,20 +7,20 @@
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 0;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
 
     color: #fff;
     text-decoration: none;
 }
 
 .top-nav-content h4 {
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     margin: 0;
     background: #8fc442;
     padding: 7px;
     align-self: center;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
 }
 
 /* bottom nav bar  */
@@ -30,10 +30,10 @@
 }
 
 .bt-nav-main h6 {
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 500;
     margin-bottom: 0;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
 }
 
 .bt-nav-main {
@@ -178,7 +178,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .banner-heading h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 38px;
@@ -201,7 +201,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #fff;
 
     text-align: justify;
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -240,10 +240,10 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .create-website-heading h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
-    font-size: 26px;
-    line-height: 34px;
+    font-size: 24px;
+    line-height: 32px;
 
     font-style: normal;
     color: #000;
@@ -251,19 +251,21 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .create-website-text p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 146%;
-    text-align: justify;
+    text-align: left;
 
     color: #000000;
 }
 
 .create-website-text h6 {
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 20px;
+    font-family: 'poppins';
+    font-weight: 600;
 }
 
 
@@ -293,10 +295,10 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .record-004 h2 {
     margin-bottom: 0;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
     line-height: 24px;
     color: #000;
     min-height: 48px;
@@ -311,7 +313,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .service-tools-heading {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -321,7 +323,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .service-home-text {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -340,7 +342,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .service-grid-text p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -351,7 +353,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .service-grid-text1 p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -363,6 +365,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 
 .ViewAllServices {
+    font-family: 'poppins';
     background-color: #42ADE4;
     color: #fff;
     width: auto;
@@ -398,7 +401,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .features-tools-heading {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -408,7 +411,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .features-tools-header-text {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -434,6 +437,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .features-tools-grid-cell h5 {
     font-size: 18px;
+    font-family: 'poppins';
+    font-weight: 600;
+    line-height: 25px;
 }
 
 .features-tools-grid-cell {
@@ -448,7 +454,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .tools-grid-heading {
     margin-bottom: 8px;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -459,7 +465,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 
 .tools-grid-text {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -500,8 +506,8 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .how-it-works-heading {
     margin-bottom: 20px;
     text-align: center;
-    font-size: 36px;
-    font-family: 'inter', sans-serif;
+    font-size: 34px;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 700;
     line-height: 123.5%;
@@ -511,11 +517,10 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .how-it-works-header-text {
     font-size: 20px;
     text-align: center;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 400;
-    line-height: 123.5%;
-    text-align: center;
+    line-height: 123.5%; 
     color: #000000;
 
 }
@@ -602,19 +607,19 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .how-it-works-point-heading {
     margin-bottom: 10px;
-    font-size: 26px;
+    font-size: 24px;
     color: #42ade3;
     font-weight: 700;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     line-height: 123.5%;
 }
 
 .how-it-works-point-text {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 123.5%;
     color: #000000;
 }
@@ -642,7 +647,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 /* Digital marketing  */
 
 .new-height-content h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 26px;
     font-weight: 700;
     line-height: 30px;
@@ -650,7 +655,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .new-height-content p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -669,7 +674,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .call-now-content h2 {
     color: #fff;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 26px;
     margin-bottom: 30px;
 }
@@ -694,7 +699,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 /* app development  */
 .app-devp-content h2 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
@@ -702,7 +707,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .app-devp-content p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -712,7 +717,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .androidIOS h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 26px;
     font-weight: 700;
     line-height: 30px;
@@ -728,7 +733,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .androidIOS p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -736,7 +741,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .androidIOS ul li {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 400;
     line-height: 34px;
@@ -747,7 +752,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 /* web development  */
 
 .web-devp-heading h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 26px;
     line-height: 30px;
@@ -757,7 +762,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .web-devp-list li {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -766,7 +771,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .web-devp-content h2 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
@@ -774,7 +779,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .web-devp-content p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -791,7 +796,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .web-devp p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -799,7 +804,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .web-devp h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 0;
@@ -817,7 +822,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .growth-business-text p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -846,7 +851,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .training-heading-001 h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -856,7 +861,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .training-heading-001 h2 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
@@ -864,38 +869,37 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .training-heading-001 p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 24px;
-
-    text-align: justify;
+    text-align: left;
     color: #000;
 }
 
 .training-heading-main-002 h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 24px;
+    line-height: 34px;
     font-style: normal;
     color: #000;
     margin-bottom: 0;
 }
 
 .training-para-main-002 p {
-    font-family: 'inter', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
+    font-family: 'poppins';
+    font-size: 17px;
+    font-weight: 400;
     line-height: 24px;
     color: #000;
 }
 
 
 .training-callnow h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 32px;
     font-style: normal;
     color: #fff;
@@ -903,9 +907,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .training-callnow p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     font-style: normal;
     color: #fff;
@@ -913,17 +917,17 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .training-lists ol li {
-    font-family: 'inter', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
+    font-family: 'poppins';
+    font-size: 17px;
+    font-weight: 400;
     line-height: 24px;
     color: #000;
     margin-bottom: 20px;
 }
 .training-box-para {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 24px;
     font-style: normal;
     color: #000;
@@ -943,15 +947,15 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .training-box h2 {
-    font-family: 'inter', sans-serif;
-    font-size: 22px;
+    font-family: 'poppins';
+    font-size: 20px;
     font-weight: 700;
     line-height: 24px;
 
 }
 
 .training-box p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
@@ -961,7 +965,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .training-faq-heading h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 26px;
     line-height: 38px;
@@ -971,7 +975,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .training-faq-content {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -982,7 +986,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .training-faq-para {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
@@ -1020,10 +1024,10 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .training-program h3 {
-    font-family: 'inter', sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 28px;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
     font-style: normal;
     color: #000;
 }
@@ -1054,9 +1058,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 /* graphic design  */
 .graphic-desg-heading h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 28px;
     font-style: normal;
     color: #000;
@@ -1064,7 +1068,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .graphic-desg-content h2 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
@@ -1072,7 +1076,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .graphic-desg-content p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -1086,7 +1090,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     text-align: center;
     padding: 13px 0;
     border-radius: 20px;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 15px;
     font-weight: 600;
 
@@ -1098,14 +1102,14 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .GraphicSolution-content h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 26px;
     font-weight: 700;
     line-height: 30px;
 }
 
 .GraphicSolution-content h3 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
@@ -1113,7 +1117,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .GraphicSolution-content ul li {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -1123,7 +1127,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 /* seo page  */
 .seo-content h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
@@ -1131,7 +1135,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .seo-content p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -1141,7 +1145,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .seo-box h2 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
@@ -1152,7 +1156,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .seo-box p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 400;
     line-height: 22px;
@@ -1162,7 +1166,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 /* ppc page  */
 .ppc-heading h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 26px;
     line-height: 28px;
@@ -1172,7 +1176,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .ppc-content h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 26px;
     line-height: 28px;
@@ -1183,7 +1187,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 
 .ppc-content p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -1193,7 +1197,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .ppc-marketing h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 26px;
     line-height: 36px;
@@ -1203,7 +1207,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .ppc-marketing-box h2 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 22px;
     font-weight: 700;
     line-height: 32px;
@@ -1212,7 +1216,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .ppc-marketing-box p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -1221,7 +1225,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .we-grow-content h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 26px;
     font-weight: 700;
     line-height: 36px;
@@ -1229,7 +1233,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .we-grow-content p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -1237,7 +1241,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .we-grow-content h2 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 22px;
     font-weight: 700;
     line-height: 32px;
@@ -1252,7 +1256,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .smm-content h2 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
@@ -1260,7 +1264,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .smm-heading h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 26px;
     line-height: 28px;
@@ -1270,7 +1274,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .smo-content p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -1280,7 +1284,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .smm-text h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 28px;
     font-weight: 700;
     line-height: 55px;
@@ -1291,14 +1295,14 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .smm-box h2 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 20px;
     font-weight: 700;
     line-height: 22px;
 }
 
 .smm-box p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -1307,7 +1311,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 /* smo page  */
 .smo-heading h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 26px;
     line-height: 28px;
@@ -1317,7 +1321,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .smo-content p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -1327,7 +1331,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .smo-content ol li {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     margin-bottom: 20px;
     font-size: 17px;
     font-weight: 500;
@@ -1335,7 +1339,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .smo-text h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 28px;
     font-weight: 700;
     line-height: 55px;
@@ -1346,14 +1350,14 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .smo-box h2 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 20px;
     font-weight: 700;
     line-height: 22px;
 }
 
 .smo-box p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -1366,7 +1370,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 /* orm page  */
 .orm-content h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 26px;
     line-height: 28px;
@@ -1376,7 +1380,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .orm-content p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -1387,7 +1391,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 
 .orm-content h3 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
@@ -1401,7 +1405,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .orm-box p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -1410,7 +1414,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .orm-box h2 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 22px;
     line-height: 24px;
@@ -1422,7 +1426,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 /* content marketing  */
 .content-marketing-text h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 34px;
     font-weight: 700;
     line-height: 55px;
@@ -1430,14 +1434,14 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .content-marketing-text h3 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 22px;
     font-weight: 700;
     line-height: 35px;
 }
 
 .content-marketing-text p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -1448,14 +1452,14 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .content-marketing-box h2 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 700;
     line-height: 22px;
 }
 
 .content-marketing-box p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -1464,17 +1468,17 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 /* career page  */
 .career-001 h1 {
-    font-family: 'inter', sans-serif;
-    font-size: 30px;
+    font-family: 'poppins';
+    font-size: 34px;
     font-weight: 700;
     line-height: 55px;
     color: #000;
 }
 
 .career-001 p {
-    font-size: 18px;
-    font-family: 'inter', sans-serif;
-    font-family: 400;
+    font-size: 17px;
+    font-family: 'poppins';
+    font-weight: 400;
     color: #000;
     margin-bottom: 0;
 }
@@ -1501,7 +1505,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 .footer-right-text {
     color: #f3f3f3;
     line-height: 169%;
-    font-size: 17px;
+    font-size: 15px;
+    font-family: 'poppins';
+    font-weight: 400;
 }
 
 .footer-column {
@@ -1529,6 +1535,8 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #fff;
     text-decoration: none;
     line-height: 39px;
+    font-family: 'poppins';
+    font-size: 15px;
 }
 
 .footer-links-contain a:hover {
@@ -1683,7 +1691,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .OurTeam-inner-heading p {
     font-size: 18px;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 400;
     line-height: 123.5%;
@@ -1693,7 +1701,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .card-title {
     font-size: 22px;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
 
 }
@@ -1711,7 +1719,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000000;
     text-decoration: none;
     font-weight: 700;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
 }
 
 
@@ -1776,10 +1784,10 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 
 .about-mission-heading h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 26px;
     line-height: 44px;
 
     text-transform: uppercase;
@@ -1788,9 +1796,9 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .our-mission-text {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 17px;
     line-height: 24px;
 
@@ -1799,7 +1807,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 
 .unique h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
@@ -1808,11 +1816,10 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .unique p {
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-family: 'poppins';
+    font-size: 17px;
     font-weight: 400;
     line-height: 28px;
-
     text-align: center;
 }
 
@@ -1824,13 +1831,13 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-size: 26px;
     text-transform: uppercase;
     font-weight: 600;
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
 
 }
 
 .why-us-list ol li {
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 400;
     line-height: 34px;
 
@@ -1911,10 +1918,10 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .faq-heading {
     margin-bottom: 35px;
-    font-size: 32px;
+    font-size: 34px;
     color: #000;
     font-weight: 700;
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
 }
 
 .faq-card {
@@ -2000,7 +2007,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 
 .service-list-head a {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     text-decoration: none;
     color: #000;
     font-weight: 500;
@@ -2017,7 +2024,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 /* services overview  */
 .services-overview h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 32px;
     font-weight: 700;
     line-height: 76px;
@@ -2026,7 +2033,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .services-overview p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -2066,7 +2073,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .contact-us h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 30px;
     font-weight: 600;
     line-height: 42px;
@@ -2074,7 +2081,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .contact-us p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 400;
 
@@ -2086,7 +2093,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 }
 
 .contact-us a {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-size: 17px;
     font-weight: 500;
     line-height: 25px;
@@ -2182,7 +2189,7 @@ input::-webkit-inner-spin-button {
 }
 
 .backTohome {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     color: #fff;
     text-decoration: none;
     font-size: 20px;
@@ -2201,7 +2208,7 @@ input::-webkit-inner-spin-button {
 /* testimonial  */
 
 .testimonial h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -2229,12 +2236,12 @@ input::-webkit-inner-spin-button {
     color: #000;
 }
 
-.accordion-button:not(.collapsed) {
-    color: #42ade4;
-    background-color: #e7f1ff;
-    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+ 
+.accordion-button{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'poppins';
 }
-
 
 /* landing page  */
 .Landing-contact-button a {
@@ -2251,7 +2258,7 @@ input::-webkit-inner-spin-button {
 }
 
 .landing_page_content h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -2262,7 +2269,7 @@ input::-webkit-inner-spin-button {
 }
 
 .landing_page_content p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -2277,9 +2284,16 @@ input::-webkit-inner-spin-button {
     border-radius: 30px;
 }
 
+.text-muted{
+    color: #000 !important;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+
 /* blog page  */
 .blog-heading {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -2298,7 +2312,7 @@ input::-webkit-inner-spin-button {
 }
 
 .blog-content h5 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -2309,7 +2323,7 @@ input::-webkit-inner-spin-button {
 }
 
 .blog-content p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -2318,7 +2332,7 @@ input::-webkit-inner-spin-button {
 }
 
 .blog-content h6 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -2338,7 +2352,7 @@ input::-webkit-inner-spin-button {
 
 /* blog detail page  */
 .blog-detail h2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -2348,7 +2362,7 @@ input::-webkit-inner-spin-button {
 }
 
 .blog-detail h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -2359,7 +2373,7 @@ input::-webkit-inner-spin-button {
 
 
 .blog-detail p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -2384,7 +2398,7 @@ input::-webkit-inner-spin-button {
 .blog-detail-001 a h4 {
     font-size: 17px;
     color: #000;
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
     margin-bottom: 18px;
@@ -2397,7 +2411,7 @@ input::-webkit-inner-spin-button {
 .blog-detail-001 li {
     font-size: 17px;
     color: #000;
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
     margin-bottom: 5px;
@@ -2408,7 +2422,7 @@ input::-webkit-inner-spin-button {
 }
 
 .blog-detail-001 h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
@@ -2418,7 +2432,7 @@ input::-webkit-inner-spin-button {
 }
 
 .blog-detail-002 h1 {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 30px;
     line-height: 34px;
@@ -2430,7 +2444,7 @@ input::-webkit-inner-spin-button {
 }
 
 .blog-list li {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
@@ -2440,7 +2454,7 @@ input::-webkit-inner-spin-button {
 }
 
 .blog-list p {
-    font-family: 'inter', sans-serif;
+    font-family: 'poppins';
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;

@@ -1,6 +1,6 @@
 import React from 'react'
 import createbanner from '../../Images/create-website-img.webp'
-import Rectangle from '../../Images/Rectangle 7.png'
+import dm_rectangle from '../../Images/dm-rectangle 13.png'
 
 
 function CreateWebsite() {
@@ -15,7 +15,7 @@ function CreateWebsite() {
                         <div className='col-lg-7 col-md-7 ps-md-4 mb-4 '>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 text-end align-self-center'>
-                                    <img loading="lazy" width={10} className='img-fluid' src={Rectangle} alt='Web Designing Company' />
+                                    <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='Web Designing Company' />
                                 </div>
                                 <div className='col-11 create-website-heading align-self-center'>
                                     <h1>Create a Attractive Website with Stunning Themes and Cutting-Edge Solutions</h1>

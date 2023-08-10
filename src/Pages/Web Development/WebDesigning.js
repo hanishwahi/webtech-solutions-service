@@ -10,7 +10,7 @@ function WebDesigning() {
                 <div className='container-xxl'>
                     <div className='row mb-3'>
                         <div className='col-1 col-md-1 text-end align-self-lg-center'>
-                            <img src={dm_rectangle} alt='' />
+                             <img loading="lazy" src={dm_rectangle} alt='' />
                         </div>
                         <div className='col-11 col-md-11 col-lg-11  web-devp-heading align-self-center'>
                             <h1>Get ready for a digital transformation that takes you to new heights. <br />
@@ -27,7 +27,7 @@ function WebDesigning() {
                         <div className='col-lg-6'>
                             <div className='row mb-3'>
                                 <div className='col-lg-1 col-1 text-end align-self-center'>
-                                    <img width={10} className='img-fluid' src={dm_rectangle} alt='' />
+                                     <img loading="lazy" width={10} className='img-fluid' src={dm_rectangle} alt='' />
                                 </div>
                                 <div className='col-11 create-website-heading align-self-center'>
                                     <h1>Website Designing</h1>
@@ -47,7 +47,7 @@ function WebDesigning() {
                             </div>
                         </div>
                         <div className='col-lg-6 col-sm-8 col-md-6'>
-                            <img width="100%" height="100%" src={web_design_img} alt='Web Designing Agency' className='img-fluid' />
+                             <img loading="lazy" width="100%" height="100%" src={web_design_img} alt='Web Designing Agency' className='img-fluid' />
                         </div>
 
                     </div>
