@@ -1,6 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 // import TrainingOffer from './TrainingOffer'
+import ExpertTrainer from '../../Images/Expert Trainer.png'
+import DoubtClear from '../../Images/Doubt Clear Sessions.png'
+import Interactive from '../../Images/Interactive Live Classes.png'
+import CompletelyPractical from '../../Images/Completely Practical.png'
+import JobAssistance from '../../Images/Job Assistance.png'
+import Certificate from '../../Images/Digital Marketing Certificate.png'
 
 function TrainingCourses() {
     
@@ -33,50 +39,35 @@ function TrainingCourses() {
                     <div className='row'>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-user"
-                                    style={
-                                        { color: "#37a7e1" }
-                                    }></i>
+                                <img height={70} src={ExpertTrainer} alt=""  className='mb-3'/>
                                 <h2>Expert Trainer</h2>
                                 <p>Our expert trainers are experienced professionals who are passionate about teaching and will provide you with in-depth knowledge of digital marketing.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-headphones"
-                                    style={
-                                        { color: "red" }
-                                    }></i>
+                            <img height={70} src={DoubtClear} alt=""  className='mb-3'/>
                                 <h2>Doubt- Clearing Sessions</h2>
                                 <p>Doubt-clearing sessions ensure that you have a thorough understanding of the material and can confidently apply it in real-world situations.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-video"
-                                    style={
-                                        { color: "#06c506" }
-                                    }></i>
+                            <img height={70} src={Interactive} alt=""  className='mb-3'/>
                                 <h2>Interactive Live Classes</h2>
                                 <p>Our interactive live classes provide a collaborative learning experience, allowing you to engage with the material and your classmates in real-time.</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-laptop"
-                                    style={
-                                        { color: "orange" }
-                                    }></i>
+                            <img height={70} src={CompletelyPractical} alt=""  className='mb-3'/>
                                 <h2>Completely Practical</h2>
                                 <p>Our courses are completely practical, giving you hands-on experience with digital marketing tools and techniques to prepare you for real-world scenarios.</p>
                             </div>
-                        </div>
+                        </div> 
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-graduation-cap"
-                                    style={
-                                        { color: "purple" }
-                                    }></i>
+                            <img height={70} src={JobAssistance} alt=""  className='mb-3'/>
                                 <h2>100% Job Assistance</h2>
                                 <p>We provide 100% job assistance to
                                     help you find the right job or
@@ -86,10 +77,7 @@ function TrainingCourses() {
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 mb-3'>
                             <div className='training-box'>
-                                <i className="fa-solid fa-certificate"
-                                    style={
-                                        { color: "#fdfd0e" }
-                                    }></i>
+                            <img height={70} src={Certificate} alt=""  className='mb-3'/>
                                 <h2>Digital Marketing Certificate</h2>
                                 <p>You will receive a digital marketing certificate upon completion of our course, which will validate your skills and make you stand out in the job market.</p>
                             </div>

@@ -3,15 +3,15 @@ import trainingoffer from '../../Images/trainingoffer.webp';
 import { Link } from 'react-router-dom';
 
 function TrainingOffer() {
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(true);
     const [timeline, setTimeline] = useState(5);
 
     useEffect(() => {
-        setShow(true);
+        
 
         const interval = setInterval(() => {
             if (timeline === 1) {
-                setTimeline(timeline); // Reset the timer when timeline reaches 1
+                setTimeline(timeline);
                 setShow(false);
             } else {
                 setTimeline((timeline) => timeline - 1);
@@ -32,13 +32,13 @@ function TrainingOffer() {
             {show && (
                 <div className='container-fluid fixed-bottom'>
                     <div className='row'>
-                        <Link> {/* Specify the destination URL */}
+                        <Link>  
                             <div className='col-lg-7 border px-0 position-main'>
                                  <img loading="lazy" src={trainingoffer} alt='' className='img-fluid' />
                                 <div className='border px-0'>
                                     <h1 className='training-offer'>{timeline}</h1>
                                     <h3 onClick={closeAd} className='training-cross'>
-                                        {/* Use className for applying classes */}
+                                       
                                         <i className="fa-solid fa-xmark"></i>
                                     </h3>
                                 </div>

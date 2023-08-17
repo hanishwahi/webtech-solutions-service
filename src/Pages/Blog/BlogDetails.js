@@ -90,7 +90,7 @@ function BlogDetails() {
               <div className='row blog-detail'>
                 {latestUniqueTitle1 && <h1 className='mb-3' style={{ color: '#42ade4' }}>{latestUniqueTitle1.title}
                 </h1>}
-                {latestUniqueTitle1 && <Link to={latestUniqueTitle1.url} className='text-decoration-none'><p className='h6'> {latestUniqueTitle1.description}</p></Link> }
+                {latestUniqueTitle1 && <p to={latestUniqueTitle1.url} className='text-decoration-none h6'>  {latestUniqueTitle1.description}</p> }
                   
 
                </div>
