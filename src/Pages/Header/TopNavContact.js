@@ -15,7 +15,7 @@ function TopNavContact() {
                                 </div>
                                 <div className='col-lg-7 col-md-12 col-sm-6 col-12 top-Nav-contact top-Nav-contact-hide1 d-flex gap-2 align-items-center px-0 justify-content-sm-start justify-content-center'>
                                 <i className="fa-solid fa-envelope" style= {{color:"#cf2e2e"}}></i>
-                                     <Link to="mailto:sales@webtechsolutionsservice.com">sales@webtechsolutionsservice.com</Link> 
+                                     <Link to="mailto:sales@webtechsolutionsservice.com">info@webtechsolutionsservice.com</Link> 
                                 </div>
                             </div>
                         </div>
