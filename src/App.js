@@ -26,9 +26,13 @@ import SMO from './Pages/SMO/SMO';
 import ORM from './Pages/ORM/ORM';
 import SMM from './Pages/SMM/SMM';
 import BlogDetails from './Pages/Blog/BlogDetails';
-import Blogs from './Pages/Blog/Blogs';
+// import Blogs from './Pages/Blog/Blogs';
 import BlogCategory from './Pages/Blog/BlogCategory';
 import Training from './Pages/Training/Training';
+import BlogPage from './Pages/Blog-New/BlogPage';
+import Blog1 from './Pages/Blog-New/blog-detail/blog-1';
+import Blog2 from './Pages/Blog-New/blog-detail/Blog-2';
+import Blog3 from './Pages/Blog-New/blog-detail/Blog-3';
  
 
 function App() {
@@ -43,7 +47,7 @@ function App() {
               <Route path='/team' element={<OurTeam />} />
               <Route path='/about' element={<About />} />
               <Route path='/contact-us' element={<ContactForm />} />
-              <Route path='/blogs' element={<Blogs />} />
+              {/* <Route path='/blogs' element={<Blogs />} /> */}
               <Route path='/blog/:title' element={<BlogDetails />} />
               <Route path='/blog/category/:category' element={<BlogCategory />} />
               <Route path='/services' element={<Service />} />
@@ -64,6 +68,11 @@ function App() {
               <Route path='/smm-service' element={<SMM />} />
               <Route path='/training-development' element={<Training />} />
               <Route path='*' element={<PageNotFound />} />
+              <Route path='/blogs' element={<BlogPage/>} />
+              <Route path='/blogs/Golden-Rules-for-Elevating-Your-Creative-Vision' element={<Blog1/>} />
+              <Route path='/blogs/How-to-Improve-Your-Website-Visibility' element={<Blog2/>} />
+              <Route path='/blogs/Exploring-the-Future-of-Website-Development' element={<Blog3/>} />
+
             </Routes>
             <LetsWorkTogether />
             <ScrollToTop /></>
