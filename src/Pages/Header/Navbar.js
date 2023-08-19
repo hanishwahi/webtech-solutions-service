@@ -32,6 +32,7 @@ function Navbar() {
                                 <Link onClick={scrollToHome} to="/career" className="nav-link w-nav-link">Careers</Link>
                                 <Link onClick={scrollToHome} to="/training-development" className="nav-link w-nav-link">Training</Link>
                                 <Link onClick={scrollToHome} to="/blogs" className="nav-link w-nav-link">Blog</Link>
+                                <Link onClick={scrollToHome} to="/portfolio" className="nav-link w-nav-link">Portfolio</Link>
                                 <Link onClick={scrollToHome} to="/team" className="nav-link w-nav-link">Team</Link>
 
                             </nav>
@@ -62,8 +63,9 @@ function Navbar() {
                                 <Link onClick={scrollToHome} to="/services" className="nav-link w-nav-link">Services</Link>
                                 <Link onClick={scrollToHome} to="/clients" className="nav-link w-nav-link">Clients</Link>
                                 <Link onClick={scrollToHome} to="/career" className="nav-link w-nav-link">Careers</Link>
-                                <Link onClick={scrollToHome} to="/blogs" className="nav-link w-nav-link">Blog</Link>
                                 <Link onClick={scrollToHome} to="/training-development" className="nav-link w-nav-link">Training</Link>
+                                <Link onClick={scrollToHome} to="/blogs" className="nav-link w-nav-link">Blog</Link>
+                                <Link onClick={scrollToHome} to="/portfolio" className="nav-link w-nav-link">Portfolio</Link>
                                 <Link onClick={scrollToHome} to="/team" className="nav-link w-nav-link">Team</Link>
                                 <Link onClick={scrollToHome} to="/contact-us" className="nav-link w-nav-link">Contact Us</Link>
                             </div>
