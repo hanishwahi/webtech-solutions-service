@@ -41,9 +41,9 @@ function Clients() {
       <div className='container-fluid'>
         <div className='row'>
           <div className='col px-0'>
-            <img className='overflow-hidden px-0 img-fluid'
+            <img className='overflow-hidden px-0'
               src={client_banner}
-              alt='' />
+              alt='' width="100%"/>
           </div>
         </div>
       </div>

@@ -40,8 +40,9 @@ function OurTeam() {
             <div className='container-fluid'>
                 <div className='row our-team-main'>
                     <div className='col px-0'>
-                         <img loading="lazy" className='img-fluid px-0'
+                         <img loading="lazy" className='px-0'
                             src={Teambanner}
+                            width="100%"
                             alt='Hire + Service Name + Expert or Specialist' />
                     </div>
 

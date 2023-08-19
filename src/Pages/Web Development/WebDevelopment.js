@@ -40,7 +40,7 @@ function WebDevelopment() {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
-                         <img loading="lazy" width="100%" height="100%" className='overflow-hidden px-0 img-fluid' src={Webdevelopment} alt='Web development company in Chandigarh' />
+                         <img loading="lazy" width="100%" height="100%" className='overflow-hidden px-0' src={Webdevelopment} alt='Web development company in Chandigarh' />
                     </div>
                 </div>
             </div>

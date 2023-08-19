@@ -36,7 +36,7 @@ function Career() {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
-                        <img loading="lazy" className='overflow-hidden px-0 img-fluid'
+                        <img width="100%" loading="lazy" className='overflow-hidden px-0'
                             src={careerbanner}
                             alt='We Are Hiring - IT Jobs' />
                     </div>

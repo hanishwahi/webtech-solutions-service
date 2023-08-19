@@ -14,8 +14,9 @@ function ORM() {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col px-0'>
-                         <img loading="lazy" className='overflow-hidden px-0 img-fluid'
+                         <img loading="lazy" className='overflow-hidden px-0'
                             src={ormbanner}
+                            width="100%"
                             alt='' />
                     </div>
                 </div>

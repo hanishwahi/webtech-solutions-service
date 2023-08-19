@@ -33,6 +33,7 @@ import BlogPage from './Pages/Blog-New/BlogPage';
 import Blog1 from './Pages/Blog-New/blog-detail/blog-1';
 import Blog2 from './Pages/Blog-New/blog-detail/Blog-2';
 import Blog3 from './Pages/Blog-New/blog-detail/Blog-3';
+import Portfolio from './Pages/Portfolio/Portfolio';
  
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
               <Route path='/smm-service' element={<SMM />} />
               <Route path='/training-development' element={<Training />} />
               <Route path='*' element={<PageNotFound />} />
+              <Route path='/portfolio' element={<Portfolio/>} />
               <Route path='/blogs' element={<BlogPage/>} />
               <Route path='/blogs/Golden-Rules-for-Elevating-Your-Creative-Vision' element={<Blog1/>} />
               <Route path='/blogs/How-to-Improve-Your-Website-Visibility' element={<Blog2/>} />
