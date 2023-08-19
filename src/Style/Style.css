@@ -360,7 +360,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     background-color: #42ADE4;
     color: #fff;
     width: auto;
-     text-transform: uppercase;
+    text-transform: uppercase;
     border-radius: 20px;
 }
 
@@ -511,7 +511,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     font-family: 'poppins';
     font-style: normal;
     font-weight: 400;
-    line-height: 123.5%; 
+    line-height: 123.5%;
     color: #000000;
 }
 
@@ -2201,8 +2201,8 @@ input::-webkit-inner-spin-button {
     color: #000;
 }
 
- 
-.accordion-button{
+
+.accordion-button {
     font-size: 17px;
     font-weight: 500;
     font-family: 'poppins';
@@ -2249,7 +2249,7 @@ input::-webkit-inner-spin-button {
     border-radius: 30px;
 }
 
-.text-muted{
+.text-muted {
     color: #000 !important;
     font-family: 'poppins';
     font-style: normal;
@@ -2426,7 +2426,7 @@ input::-webkit-inner-spin-button {
     line-height: 24px;
     font-style: normal;
     color: #000;
-     text-align: justify;
+    text-align: justify;
 }
 
 .nav-009 img {
@@ -2449,14 +2449,12 @@ input::-webkit-inner-spin-button {
 }
 
 
-
-
 /* portfolio page  */
 
-.portfolio-nu-main{
-    padding: 50px 0px;
+.portfolio-nu-main {
+    padding: 50px 0;
 }
-.portfolio-nu h1{
+.portfolio-nu h1 {
     font-family: 'poppins';
     font-style: normal;
     font-weight: 500;
@@ -2466,4 +2464,32 @@ input::-webkit-inner-spin-button {
     color: #000;
     text-align: center;
 }
- 
+.react-multi-carousel-dot-list {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+.modal-dialog {
+    max-width: 80%;
+    margin: 6rem auto;
+}
+.viewMoreButton h1 {
+     
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%; 
+    padding: 10px;
+   background: #000;
+   width: 100%;
+} 
