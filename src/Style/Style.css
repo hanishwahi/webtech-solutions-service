@@ -2482,14 +2482,13 @@ input::-webkit-inner-spin-button {
     margin: 6rem auto;
 }
 .viewMoreButton h1 {
-     
     color: #fff;
     font-family: 'poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    width: 100%; 
+    width: 100%;
     padding: 10px;
-   background: #000;
-   width: 100%;
-} 
+    background: #000;
+    width: 100%;
+}

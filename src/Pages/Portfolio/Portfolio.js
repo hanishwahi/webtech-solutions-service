@@ -23,21 +23,18 @@ function Portfolio() {
             <div className="container-fluid py-5">
                 <div className="container-xl">
                     <div className="row ">
-                        <div className="col">
+                        <div className="col-6 col-md-4">
                             <NuCosmetic />
                         </div>
-                        <div className="col">
+                        <div className="col-6 col-md-4">
                             <CarParts />
                         </div>
-                        <div className="col">
+                        <div className="col-6 col-md-4">
                             <NuCosmetic />
                         </div>
-
                     </div>
                 </div>
             </div>
-
-
             <Footer />
         </>
     )

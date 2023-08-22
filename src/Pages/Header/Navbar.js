@@ -13,7 +13,7 @@ function Navbar() {
     return (
         <>
 
-           
+
             <div className="container-fluid border-bottom sticky-top bg-white py-2">
                 <div className="container-xl">
                     <div className="row">
@@ -74,7 +74,7 @@ function Navbar() {
                 </div>
             </div>
 
-           
+
         </>
     );
 }
