@@ -1,11 +1,11 @@
-@media screen and(max-width: 480px) {
+@media screen and (max-width: 480px) {
     .banner-heading h1 {
         font-size: 24px !important;
         line-height: 28px !important;
     }
 }
 
-@media screen and(max-width: 576px) {
+@media screen and (max-width: 576px) {
     .navbar-001-hide {
         display: none;
     }
@@ -186,7 +186,7 @@
         line-height: 55px;
     }
     .bt-nav-hide {
-        display: none;
+        display: none !important;
     }
     .new-height-content p {
         text-align: justify;
@@ -363,9 +363,10 @@
     .footer-wrapper {
         padding-bottom: 51px;
     }
+
 }
 
-@media screen and(min-width: 577px) and(max-width: 767px) {
+@media screen and (min-width: 577px) and (max-width: 767px) {
     .navbar-001-hide {
         display: none;
     }
@@ -449,7 +450,7 @@
         transform: none;
     }
     .bt-nav-hide {
-        display: none;
+        display: none !important;
     }
     .new-height-content h1 {
         font-size: 20px;
@@ -544,7 +545,10 @@
 
 }
 
-@media screen and(min-width: 768px) and(max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .bt-nav-main {
+        display: none;
+    }
     .landing_page_content h1 {
         font-size: 34px;
         line-height: 38px;
@@ -634,7 +638,7 @@
         min-height: 160px;
     }
     .bt-nav-hide {
-        display: none;
+        display: none !important;
     }
     .new-height-content h1 {
         font-size: 25px;
@@ -706,9 +710,12 @@
         max-width: 70%;
         margin: 3rem auto;
     }
+    .navbar-001-hide {
+        display: none !important;
+    }
 }
 
-@media screen and(min-width: 993px) and(max-width: 1024px) {
+@media screen and (min-width: 993px) and (max-width: 1024px) {
     .service-grid-text p {
         font-size: 17px;
         text-align: justify;
@@ -716,7 +723,7 @@
     }
 }
 
-@media screen and(min-width: 1025px) and(max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
     .ppc-marketing-box h2 {
         font-family: "inter", sans-serif;
         font-size: 24px;
@@ -726,3 +733,6 @@
         text-align: center;
     }
 }
+
+
+ 
