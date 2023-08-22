@@ -534,6 +534,10 @@
 .training-box h2 { 
   font-size: 18px; 
 }
+.modal-dialog {
+  max-width: 90%; 
+  margin: 3rem auto;
+}
   
 }
 
@@ -694,6 +698,10 @@
 }
 .training-box h2 { 
   font-size: 17px; 
+}
+.modal-dialog {
+  max-width: 70%; 
+  margin: 3rem auto;
 }
 }
 
