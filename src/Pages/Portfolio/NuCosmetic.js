@@ -1,30 +1,32 @@
 import React from 'react'
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import NUIMG1 from '../../Images/nu-1.webp'
+// import Carousel from "react-multi-carousel";
+// import "react-multi-carousel/lib/styles.css";
+ 
+import nuCosmeticCarousel from '../../Images/NuCosmeticCarousel.webp'
+import nuCosmeticCarouselWall from '../../Images/Nu CosmeticCaraouselWall.webp'
 
 
 
 function NuCosmetic() {
-    const responsive = {
-        superLargeDesktop: {
-            // the naming can be any, depends on you.
-            breakpoint: { max: 4000, min: 3000 },
-            items: 5
-        },
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 4
-        },
-        tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2
-        },
-        mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1
-        }
-    };
+    // const responsive = {
+    //     superLargeDesktop: {
+
+    //         breakpoint: { max: 4000, min: 3000 },
+    //         items: 5
+    //     },
+    //     desktop: {
+    //         breakpoint: { max: 3000, min: 1024 },
+    //         items: 4
+    //     },
+    //     tablet: {
+    //         breakpoint: { max: 1024, min: 464 },
+    //         items: 2
+    //     },
+    //     mobile: {
+    //         breakpoint: { max: 464, min: 0 },
+    //         items: 1
+    //     }
+    // };
     return (
         <>
 
@@ -33,7 +35,7 @@ function NuCosmetic() {
                     <h1>NU Cosmetics</h1>
                 </div>
                 <div className=''>
-                    <img src={NUIMG1} alt="" width="100%" />
+                    <img src={nuCosmeticCarousel} alt="" width="100%" />
                 </div>
                 <div className="viewMoreButton">
                     <h1>View More</h1>
@@ -49,10 +51,10 @@ function NuCosmetic() {
                         </div>
                         <div class="modal-body">
                             <div className="row">
-                                <Carousel responsive={responsive} swipeable={false}
+                                {/* <Carousel responsive={responsive} swipeable={false}
                                     draggable={true}
                                     showDots={true}
-                                    ssr={true} // means to render carousel on server-side.
+                                    ssr={true}  
                                     infinite={true}
                                     autoPlay={true}
                                     autoPlaySpeed={2000}
@@ -89,7 +91,10 @@ function NuCosmetic() {
                                             <img src={NUIMG1} alt="" className='img-fluid' />
                                         </div>
                                     </div>
-                                </Carousel>
+                                </Carousel> */}
+                                <div className="col">
+                                    <img width="100%" src={nuCosmeticCarouselWall} alt="" />
+                                </div>
                             </div>
                         </div>
 

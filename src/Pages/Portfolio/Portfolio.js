@@ -4,9 +4,11 @@ import Footer from './../Footer/Footer'
 import Portfolio1 from '../../Images/Portfolio.webp'
 import NuCosmetic from './NuCosmetic'
 import CarParts from './CarParts'
+ 
 
 
 function Portfolio() {
+     
     return (
         <>
             <Header />
@@ -23,18 +25,18 @@ function Portfolio() {
             <div className="container-fluid py-5">
                 <div className="container-xl">
                     <div className="row ">
-                        <div className="col-6 col-md-4">
+                        <div className="col-lg-4 col-6 px-0">
                             <NuCosmetic />
                         </div>
-                        <div className="col-6 col-md-4">
+                        <div className="col-lg-4 col-6 px-0">
                             <CarParts />
                         </div>
-                        <div className="col-6 col-md-4">
+                        <div className="col-lg-4 col-6 px-0">
                             <NuCosmetic />
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
             <Footer />
         </>
     )

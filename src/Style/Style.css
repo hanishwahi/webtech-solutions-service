@@ -2478,7 +2478,7 @@ input::-webkit-inner-spin-button {
 }
 
 .modal-dialog {
-    max-width: 80%;
+    max-width: 50%;
     margin: 6rem auto;
 }
 .viewMoreButton h1 {
