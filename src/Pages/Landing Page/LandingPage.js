@@ -7,6 +7,7 @@ import LandingFooter from './LandingFooter';
 import LandingContact from './LandingContact';
 import LandingServices from './LandingServices'
 import ReactGA from 'react-ga';
+import PortfolioSlider from '../Portfolio/PortfolioSlider';
 
 
 function LandingPage() {
@@ -25,12 +26,12 @@ function LandingPage() {
       window.dataLayer.push(arguments);
     }
     gtag('js', new Date());
-  
+
     gtag('config', 'G-4403Q50DT8');
   };
   return (
     <>
-    <script>{injectGA()}</script>
+      <script>{injectGA()}</script>
       <LandingNav />
       <div className='container-fluid px-0 landing_page'>
         <div className='container align-self-center'>
@@ -49,10 +50,15 @@ function LandingPage() {
 
       <div className='py-3'><LandingServices /></div>
       <div className='my-5'><HowWeWork /></div>
+      <div className='portfolio-nu'>
+        <h2>Our Work</h2>
+        <PortfolioSlider />
+      </div>
       <Faq />
       <div className='how-it-works-section mb-5'>
         <Testimonial />
       </div>
+
       <LandingFooter />
 
 

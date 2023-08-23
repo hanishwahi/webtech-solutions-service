@@ -92,7 +92,7 @@ function NuCosmetic() {
                                     </div>
                                 </Carousel> */}
                                 <div className="col">
-                                    <img width="100%" src={nuCosmeticCarouselWall} alt="" />
+                                    <img width="100%"  src={nuCosmeticCarouselWall} alt="" />
                                 </div>
                             </div>
                         </div>

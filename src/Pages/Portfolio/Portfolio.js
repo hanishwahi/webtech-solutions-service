@@ -2,13 +2,13 @@ import React from 'react'
 import Header from './../Header/Header'
 import Footer from './../Footer/Footer'
 import Portfolio1 from '../../Images/Portfolio.webp'
-import NuCosmetic from './NuCosmetic'
-import CarParts from './CarParts'
- 
+import PortfolioSlider from './PortfolioSlider'
+
+
 
 
 function Portfolio() {
-     
+
     return (
         <>
             <Header />
@@ -22,21 +22,10 @@ function Portfolio() {
                 </div>
 
             </div>
-            <div className="container-fluid py-5">
-                <div className="container-xl">
-                    <div className="row ">
-                        <div className="col-lg-4 col-6 px-0">
-                            <NuCosmetic />
-                        </div>
-                        <div className="col-lg-4 col-6 px-0">
-                            <CarParts />
-                        </div>
-                        <div className="col-lg-4 col-6 px-0">
-                            <NuCosmetic />
-                        </div>
-                    </div>
-                </div>
-            </div >
+            <div className="py-5">
+                <PortfolioSlider />
+            </div>
+
             <Footer />
         </>
     )

@@ -1,19 +1,15 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-
 import MainNewlogo from '../../Images/newlogo.webp'
 
 function Navbar() {
 
     const scrollToHome = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
-
     };
 
     return (
         <>
-
-
             <div className="container-fluid border-bottom sticky-top bg-white py-2">
                 <div className="container-xl">
                     <div className="row">
@@ -44,7 +40,6 @@ function Navbar() {
                         <div className="col-8 col-md-9 align-self-center  text-end new-menu-hide px-0">
                             <Link onClick={scrollToHome} to='/'><i className="fa-solid fa-house" style={{ color: "#42ADE4", fontSize: "20px", paddingRight: "10px" }}></i></Link>
                             <button className="btn shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i className="fa-solid fa-bars h2 mb-0" style={{ color: "#42ADE4" }}></i></button>
-
                         </div>
 
                         <div className="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabIndex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">

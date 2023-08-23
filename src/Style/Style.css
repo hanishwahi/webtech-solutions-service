@@ -1705,8 +1705,8 @@ a.list-group-item.list-group-item-action.drop-color:hover {
 
 .icon-position {
     position: fixed;
-    bottom: 40px;
-    right: 25px;
+    bottom: 50px;
+    right: 15px;
     z-index: 20;
 }
 
@@ -1718,8 +1718,8 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     width: 50px;
     color: #fff;
     cursor: pointer;
-    animation: movebtn 3s ease-in-out infinite;
-    transition: all 0.5s ease-in-out;
+    /* animation: movebtn 3s ease-in-out infinite;
+    transition: all 0.5s ease-in-out; */
 }
 
 .icon-style:hover {
@@ -2450,20 +2450,22 @@ input::-webkit-inner-spin-button {
 
 
 /* portfolio page  */
+ 
 
 .portfolio-nu-main {
     padding: 50px 0;
 }
-.portfolio-nu h1 {
+ 
+.portfolio-nu h2 {
     font-family: 'poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 38px;
-    line-height: 44px;
-    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 55px;
     color: #000;
     text-align: center;
 }
+
+
 .react-multi-carousel-dot-list {
     position: absolute;
     bottom: 0;
@@ -2479,7 +2481,7 @@ input::-webkit-inner-spin-button {
 
 .modal-dialog {
     max-width: 50%;
-    margin: 6rem auto;
+    margin: 4rem auto;
 }
 .viewMoreButton h1 {
     color: #fff;
