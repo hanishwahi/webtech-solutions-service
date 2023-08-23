@@ -1,7 +1,6 @@
-import React from 'react'
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import CarParts from '../../Images/carparts1.jpg'
+import React from 'react' 
+import CarParts from '../../Images/carsPartPortfolio.webp'
+import carsPartsCaraouselWal from '../../Images/carsPartsCaraouselWall.webp'
 
 function NuCosmetic() {
     const responsive = {
@@ -99,47 +98,9 @@ function NuCosmetic() {
                         </div>
                         <div class="modal-body">
                             <div className="row">
-                                <Carousel responsive={responsive} swipeable={false}
-                                    draggable={true}
-                                    showDots={true}
-                                    ssr={true} // means to render carousel on server-side.
-                                    infinite={true}
-                                    autoPlay={true}
-                                    autoPlaySpeed={2000}
-                                    keyBoardControl={true}
-                                    dotListClass="custom-dot-list-style"
-                                    itemClass="carousel-item-padding-40-px">
-                                    <div className='p-3 mb-4'>
-                                        <div className='border'>
-                                            <img src={CarParts} alt="" className='img-fluid' />
-                                        </div>
-                                    </div>
-                                    <div className='p-3 mb-4'>
-                                        <div className='border'>
-                                            <img src={CarParts} alt="" className='img-fluid' />
-                                        </div>
-                                    </div>
-                                    <div className='p-3 mb-4'>
-                                        <div className='border'>
-                                            <img src={CarParts} alt="" className='img-fluid' />
-                                        </div>
-                                    </div>
-                                    <div className='p-3 mb-4'>
-                                        <div className='border'>
-                                            <img src={CarParts} alt="" className='img-fluid' />
-                                        </div>
-                                    </div>
-                                    <div className='p-3 mb-4'>
-                                        <div className='border'>
-                                            <img src={CarParts} alt="" className='img-fluid' />
-                                        </div>
-                                    </div>
-                                    <div className='p-3 mb-4'>
-                                        <div className='border'>
-                                            <img src={CarParts} alt="" className='img-fluid' />
-                                        </div>
-                                    </div>
-                                </Carousel>
+                                <div className="col">
+                                    <img width="100%" src={carsPartsCaraouselWal} alt="" />
+                                </div>
                             </div>
                         </div>
 

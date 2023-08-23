@@ -59,10 +59,7 @@ function LandingPage() {
         <Testimonial />
       </div>
 
-      <LandingFooter />
-
-
-
+      <LandingFooter /> 
     </>
   )
 }
