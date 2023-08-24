@@ -1,6 +1,7 @@
 import React from 'react'
 import NuCosmetic from './NuCosmetic'
 import CarParts from './CarParts'
+import TicketMaster from './TicketMaster'
 
 function PortfolioSlider() {
     return (
@@ -15,7 +16,7 @@ function PortfolioSlider() {
                             <CarParts />
                         </div>
                         <div className="col-lg-4 col-6 px-0">
-                            <NuCosmetic />
+                            <TicketMaster/>
                         </div>
                     </div>
                 </div>

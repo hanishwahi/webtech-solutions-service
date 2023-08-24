@@ -1,70 +1,37 @@
 import React from 'react'
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import IMG1 from '../../Images/Expert Trainer.png'
+import ticketMasterCarousel from '../../Images/ticketMasterCarousel.webp'
+import ticketMasterCarouselwall from '../../Images/ticketMasterCaraouselWall.webp'
 
-function CarParts() {
-    const responsive = {
-        superLargeDesktop: {
-            // the naming can be any, depends on you.
-            breakpoint: { max: 4000, min: 3000 },
-            items: 5
-        },
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 4
-        },
-        tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2
-        },
-        mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1
-        }
-    };
+function TicketMaster() {
+
     return (
         <>
-            <div className="container-fluid portfolio-nu-main">
-                <div className="container-lg">
-                    <div className="row portfolio-nu">
-                        <h1>Car Parts</h1>
-                    </div>
-                    <div className="row">
-                        <Carousel responsive={responsive}>
-                            <div className='p-3'>
-                                <div className='border'>
-                                    <img src={IMG1} alt="" className='img-fluid' />
-                                </div>
-                            </div>
-                            <div className='p-3'>
-                                <div className='border'>
-                                    <img src={IMG1} alt="" className='img-fluid' />
-                                </div>
-                            </div>
-                            <div className='p-3'>
-                                <div className='border'>
-                                    <img src={IMG1} alt="" className='img-fluid' />
-                                </div>
-                            </div>
-                            <div className='p-3'>
-                                <div className='border'>
-                                    <img src={IMG1} alt="" className='img-fluid' />
-                                </div>
-                            </div>
-                            <div className='p-3'>
-                                <div className='border'>
-                                    <img src={IMG1} alt="" className='img-fluid' />
-                                </div>
-                            </div>
-                            <div className='p-3'>
-                                <div className='border'>
-                                    <img src={IMG1} alt="" className='img-fluid' />
-                                </div>
-                            </div>
+              <button type="button" class="btn shadow-none position-rel" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                <div className="viewMoreButton">
+                    <h1>Ticket Master</h1>
+                </div>
+                <div className=''>
+                    <img src={ticketMasterCarousel} alt="" className='img-fluid' />
+                </div>
+                <div className="viewMoreButton">
+                    <h1>View More</h1>
+                </div>
+            </button>
 
-
-                        </Carousel>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Ticket Master</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div className="row">
+                                <div className="col">
+                                    <img width="100%" src={ticketMasterCarouselwall} alt="" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -73,4 +40,4 @@ function CarParts() {
     )
 }
 
-export default CarParts
+export default TicketMaster
