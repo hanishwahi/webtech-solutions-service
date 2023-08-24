@@ -425,7 +425,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     display: flex;
     justify-content: space-around;
     width: 90%;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .features-tools-grid-cell h5 {
@@ -2257,35 +2257,30 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: 500;
 }
- 
-.packages-main h1{
+
+.packages-main h1 {
     font-family: 'poppins';
     font-size: 32px;
     font-weight: 700;
     line-height: 55px;
     color: #000;
     text-align: center;
+    text-transform: uppercase;
 }
 
-.packages-main p {
-    font-size: 18px;
-    text-align: center;
-    font-family: 'poppins';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 123.5%;
-    color: #000000;
-}
-.package-plan{
+ 
+.package-plan {
     padding: 30px 20px;
-    background-color: #42ADE4;
+    background-color: #2d9cd8;
     border-radius: 15px;
-    min-height: 410px;
+    min-height: 435px;
 }
-.package-plan:hover{
-    background-color: #0e77ac;
+.package-plan:hover {
+    background-color: #016494   ;
+    transform: scale(1.1);
 }
-.package-plan h3{
+.package-plan h3 {
+    text-align: center;
     color: #fff;
     font-family: 'poppins';
     font-style: normal;
@@ -2295,7 +2290,7 @@ input::-webkit-inner-spin-button {
     line-height: 28px;
     text-transform: uppercase;
 }
-.package-plan p{
+.package-plan p {
     color: #fff;
     font-family: 'poppins';
     font-style: normal;
@@ -2303,10 +2298,10 @@ input::-webkit-inner-spin-button {
     font-size: 17px;
     line-height: 20px;
 }
-.package-plan ul{
-    padding: 30px 20px 0px 20px;
+.package-plan ul {
+    padding: 30px 20px 0;
 }
-.package-plan ul li{
+.package-plan ul li {
     color: #fff;
     font-family: 'poppins';
     font-style: normal;
@@ -2512,12 +2507,12 @@ input::-webkit-inner-spin-button {
 
 
 /* portfolio page  */
- 
+
 
 .portfolio-nu-main {
     padding: 50px 0;
 }
- 
+
 .portfolio-nu h2 {
     font-family: 'poppins';
     font-size: 32px;
@@ -2556,4 +2551,3 @@ input::-webkit-inner-spin-button {
     background: #000;
     width: 100%;
 }
-
