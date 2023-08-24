@@ -2257,6 +2257,66 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: 500;
 }
+ 
+.packages-main h1{
+    font-family: 'poppins';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #000;
+    text-align: center;
+}
+
+.packages-main p {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.5%;
+    color: #000000;
+}
+.package-plan{
+    padding: 30px 20px;
+    background-color: #42ADE4;
+    border-radius: 15px;
+    min-height: 410px;
+}
+.package-plan:hover{
+    background-color: #0e77ac;
+}
+.package-plan h3{
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.package-plan p{
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+}
+.package-plan ul{
+    padding: 30px 20px 0px 20px;
+}
+.package-plan ul li{
+    color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
 
 /* blog page  */
 .blog-heading {

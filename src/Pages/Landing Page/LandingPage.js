@@ -8,6 +8,8 @@ import LandingContact from './LandingContact';
 import LandingServices from './LandingServices'
 import ReactGA from 'react-ga';
 import PortfolioSlider from '../Portfolio/PortfolioSlider';
+import Packages from './Packages';
+import BusinessSolutions from './BusinessSolutions';
 
 
 function LandingPage() {
@@ -47,19 +49,23 @@ function LandingPage() {
 
         </div>
       </div>
-
       <div className='py-3'><LandingServices /></div>
+      <div className='py-3'><BusinessSolutions/></div>
+    
       <div className='my-5'><HowWeWork /></div>
       <div className='portfolio-nu'>
         <h2>Our Work</h2>
         <PortfolioSlider />
+      </div>
+      <div>
+        <Packages />
       </div>
       <Faq />
       <div className='how-it-works-section mb-5'>
         <Testimonial />
       </div>
 
-      <LandingFooter /> 
+      <LandingFooter />
     </>
   )
 }

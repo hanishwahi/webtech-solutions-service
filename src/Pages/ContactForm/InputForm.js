@@ -53,6 +53,11 @@ function InputForm() {
                     <input type="email" name="email" id="form4Example2" required className="form-control" placeholder='Enter your Email ID' />
                 </div>
                 <div className="form-outline mb-4">
+                    <label className="form-label fw-bold" htmlFor="form4Example2">Select Time</label>
+                    <input type="email" name="email" id="form4Example2" required className="form-control" placeholder='Enter your Email ID' />
+                    {/* <input type="time" id="form4Example2" name="time" className="form-control" placeholder='Select Time' min="00:00" max="24:00" required/> */}
+                </div>
+                <div className="form-outline mb-4">
                     <label className="form-label fw-bold" htmlFor="form4Example2">Service</label>
                     <select required defaultValue='' name='service' className="form-select" aria-label="Default select example">
                         <option value="" disabled>Select the service</option>

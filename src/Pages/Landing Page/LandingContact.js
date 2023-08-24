@@ -43,6 +43,10 @@ function LandingContact() {
                         <input type="email" name="email" id="form4Example2" required className="form-control" placeholder='Enter your Email ID' />
                     </div>
                     <div className="form-outline mb-4">
+                        <label className="form-label text-dark fw-bold" htmlFor="form4Example2">Select Time for call</label>
+                        <input type="time" id="form4Example2" name="time" className="form-control" placeholder='Select Time' min="00:00" max="24:00" required/>
+                    </div>
+                    <div className="form-outline mb-4">
                         <label className="form-label text-dark fw-bold" htmlFor="form4Example2">Service</label>
                         <select required defaultValue='' name='service' className="form-select" aria-label="Default select example">
                             <option value="" disabled>Select the service</option>
@@ -50,6 +54,16 @@ function LandingContact() {
                             <option value="Web Development">Web Development</option>
                             <option value="App Development">App Development</option>
                             <option value="Graphic Designing">Graphic Designing</option>
+                        </select>
+
+                    </div>
+                    <div className="form-outline mb-4">
+                    <label className="form-label text-dark fw-bold" htmlFor="form4Example2">Package</label>
+                        <select required defaultValue='' name='package' className="form-select" aria-label="Default select example">
+                            <option value="" disabled>Select Package</option>
+                            <option value="Silver">Silver</option>
+                            <option value="Gold">Gold</option>
+                            <option value="Platinum">Platinum</option> 
                         </select>
 
                     </div>
