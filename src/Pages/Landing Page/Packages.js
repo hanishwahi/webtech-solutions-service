@@ -1,7 +1,6 @@
 import React from 'react'
 import off from './../../Images/packageoff (1).png'
-import off2 from './../../Images/packageoff (2).png'
-
+ 
 function Packages() {
     return (
         <>
@@ -50,7 +49,7 @@ function Packages() {
                                     <h3>COMBO</h3>
                                 </div>
  
-                                <div className="row p-5 justify-content-center">
+                                <div className="row p-lg-5 p-3 justify-content-center">
                                         <img width={140} src={off} alt="" />
                                 </div>
 

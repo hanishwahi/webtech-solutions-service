@@ -362,7 +362,23 @@
     .footer-wrapper {
         padding-bottom: 51px;
     }
-
+    .footer-right-contain {
+        padding-top: 20px;
+    }
+    .package-plan { 
+        min-height: 385px;
+    }
+    .packages-main h1 { 
+        font-size: 25px; 
+        line-height: 30px; 
+    }
+    .portfolio-nu h2 { 
+        font-size: 28px; 
+        line-height: 35px; 
+    }
+    .package-plan h3 { 
+        font-size: 22px; 
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
@@ -541,7 +557,8 @@
         max-width: 90%;
         margin: 3rem auto;
     }
-
+    
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
