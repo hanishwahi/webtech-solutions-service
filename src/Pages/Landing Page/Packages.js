@@ -1,6 +1,6 @@
 import React from 'react'
 import off from './../../Images/packageoff (1).png'
- 
+
 function Packages() {
     return (
         <>
@@ -48,12 +48,12 @@ function Packages() {
                                 <div className='row border-bottom'>
                                     <h3>COMBO</h3>
                                 </div>
- 
+
                                 <div className="row p-lg-5 p-3 justify-content-center">
-                                        <img width={140} src={off} alt="" />
+                                    <img width={140} src={off} alt="" />
                                 </div>
 
-                                <div className="row align-items-center"> 
+                                <div className="row align-items-center">
                                     <h3>  Digital Marketing <br /> + <br />Web Development</h3>
                                 </div>
                             </div>
