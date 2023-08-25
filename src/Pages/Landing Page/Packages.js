@@ -16,7 +16,7 @@ function Packages() {
                     <div className="row packages-main">
                         <h1>Packages we offer</h1>
                     </div>
-                    <div className="row py-4">
+                    <div className="row py-lg-4">
                         <div className="col-lg-4 col-sm-6 col-md-6 mb-3">
                             <div className='shadow package-plan'>
                                 <div className='border-bottom'>
@@ -65,7 +65,7 @@ function Packages() {
 
                                 <div className="row py-4 text-center p-3 justify-content-center">
                                     <div className="col">
-                                        <img width="80%" src={off} alt="" />
+                                        <img loading='lazy' width="80%" src={off} alt="" />
                                         <h3 className='py-2'>Digital Marketing <br /> + <br />Web Development</h3>
                                     </div>
                                 </div>

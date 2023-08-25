@@ -61,7 +61,7 @@
     }
 
     .features-tools-grid {
-        padding: 0 36px;
+        padding: 0px;
     }
 
     .how-it-works-header-text {
@@ -456,13 +456,15 @@
     }
 
     .packages-main h1 {
-        font-size: 25px;
-        line-height: 30px;
+        font-size: 22px;
+        line-height: 30px; 
     }
-
+    .package-plan:hover { 
+        transform: none;
+    }
     .portfolio-nu h2 {
-        font-size: 28px;
-        line-height: 35px;
+        font-size: 22px;
+        line-height: 30px;
     }
 
     .package-plan h3 {
