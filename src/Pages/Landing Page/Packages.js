@@ -1,7 +1,14 @@
 import React from 'react'
 import off from './../../Images/packageoff (1).png'
+import { Link } from 'react-router-dom';
 
 function Packages() {
+    const scrollToHome = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
     return (
         <>
             <div className="container-fluid py-lg-5 py-3">
@@ -25,6 +32,9 @@ function Packages() {
                                         <li>E-Commerce Marketing</li>
                                     </ul>
                                 </div>
+                                <div className="package-button py-2">
+                                    <Link onClick={scrollToHome} >Book Now</Link>
+                                </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6 col-md-6 mb-3">
@@ -37,9 +47,13 @@ function Packages() {
                                         <li>UI/UX Designing</li>
                                         <li>Frontend Development</li>
                                         <li>Backend Development</li>
-                                        <li>Wordpress/Shopify Development</li>
+                                        <li>Wordpress Development</li>
+                                        <li>Shopify Development</li>
                                         <li>Maintenance & Support</li>
                                     </ul>
+                                </div>
+                                <div className="package-button py-2">
+                                    <Link onClick={scrollToHome} >Book Now</Link>
                                 </div>
                             </div>
                         </div>
@@ -49,12 +63,15 @@ function Packages() {
                                     <h3>COMBO</h3>
                                 </div>
 
-                                <div className="row p-lg-5 p-3 justify-content-center">
-                                    <img width={140} src={off} alt="" />
+                                <div className="row py-4 text-center p-3 justify-content-center">
+                                    <div className="col">
+                                        <img width="80%" src={off} alt="" />
+                                        <h3 className='py-2'>Digital Marketing <br /> + <br />Web Development</h3>
+                                    </div>
                                 </div>
 
-                                <div className="row align-items-center">
-                                    <h3>  Digital Marketing <br /> + <br />Web Development</h3>
+                                <div className="package-button py-3">
+                                    <Link onClick={scrollToHome} >Book Now</Link>
                                 </div>
                             </div>
                         </div>

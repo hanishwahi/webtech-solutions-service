@@ -85,7 +85,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000 !important;
 }
 
-.dropdown-hover:hover > .dropdown-menu {
+.dropdown-hover:hover>.dropdown-menu {
     display: inline-block;
 }
 
@@ -907,6 +907,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000;
     margin-bottom: 20px;
 }
+
 .training-box-para {
     font-family: 'poppins';
     font-weight: 400;
@@ -987,6 +988,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     margin: 10px;
 
 }
+
 .position-main {
     position: relative;
 }
@@ -2216,9 +2218,11 @@ input::-webkit-inner-spin-button {
     color: #42ADE4;
     font-weight: 700;
 }
+
 .Landing-contact-button a:hover {
     color: red;
 }
+
 .landing_page {
     background-image: url('../Images/landing-bg.webp');
     height: auto;
@@ -2268,17 +2272,19 @@ input::-webkit-inner-spin-button {
     text-transform: uppercase;
 }
 
- 
+
 .package-plan {
     padding: 30px 20px;
     background-color: #2d9cd8;
     border-radius: 15px;
     min-height: 435px;
 }
+
 .package-plan:hover {
-    background-color: #016494   ;
-    transform: scale(1.1);
+    background-color: #016494;
+    transform: scale(1.05);
 }
+
 .package-plan h3 {
     text-align: center;
     color: #fff;
@@ -2290,6 +2296,7 @@ input::-webkit-inner-spin-button {
     line-height: 28px;
     text-transform: uppercase;
 }
+
 .package-plan p {
     color: #fff;
     font-family: 'poppins';
@@ -2298,9 +2305,11 @@ input::-webkit-inner-spin-button {
     font-size: 17px;
     line-height: 20px;
 }
+
 .package-plan ul {
     padding: 30px 20px 0;
 }
+
 .package-plan ul li {
     color: #fff;
     font-family: 'poppins';
@@ -2311,7 +2320,21 @@ input::-webkit-inner-spin-button {
     line-height: 24px;
     margin-bottom: 20px;
 }
-
+.package-button{
+    text-align: center;
+}
+.package-button a{
+    background-color: #fff;
+    color: #42ADE4;
+    text-decoration: none;
+    padding: 10px 16px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
 
 /* blog page  */
 .blog-heading {
@@ -2493,6 +2516,7 @@ input::-webkit-inner-spin-button {
 .nav-009 {
     animation: myAnim 1s ease 0s 1 normal forwards;
 }
+
 @keyframes myAnim {
     0% {
         opacity: 0;
@@ -2540,6 +2564,7 @@ input::-webkit-inner-spin-button {
     max-width: 50%;
     margin: 4rem auto;
 }
+
 .viewMoreButton h1 {
     color: #fff;
     font-family: 'poppins';
