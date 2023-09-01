@@ -14,13 +14,12 @@ function LandingNav() {
                 <div className="row">
                     <div className="col-lg-2 col-md-3 col-4 text-start px-0" style={{ transform: "scale(0.8" }}>
                         <Link onClick={scrollToHome}>
-                             <img loading="lazy" width="100%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
-
+                            <img loading="lazy" width="100%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
                         </Link>
                     </div>
-                   
+
                     <div className="col-lg-10 col-lg-9 col-8 Landing-contact-button text-end  align-self-center">
-                    <Link  to="tel:+91 8427682603"><i class="fa-solid fa-phone"></i>  +91 8427682603</Link>
+                        <Link to="tel:+91 8427682603"><i class="fa-solid fa-phone"></i>  +91 8427682603</Link>
                     </div>
                 </div>
             </div>
