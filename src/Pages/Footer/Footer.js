@@ -29,13 +29,9 @@ function Footer() {
                         <div className="footer-column ">
                             <h6 className="footer-column-heading">QUICK LINKS</h6>
                             <div className="footer-links-contain">
-                                <Link onClick={scrollToTop} to="/">HOME</Link>
-                                <Link onClick={scrollToTop} to="/about-us">ABOUT US</Link>
-                                <Link onClick={scrollToTop} to="/services">SERVICES</Link>
-                                <Link onClick={scrollToTop} to="/clients">CLIENTS</Link>
-                                <Link onClick={scrollToTop} to="/career">CAREERS</Link>
-                                <Link onClick={scrollToTop} to="/contact-us">CONTACT</Link>
-                                <Link onClick={scrollToTop} to="/privacy-policy">Privacy-Policy</Link>
+                                <Link onClick={scrollToTop} to="/career">CAREERS</Link> 
+                                <Link onClick={scrollToTop} to="/privacy-policy">PRIVACY POLICY</Link>
+                                
                             </div>
 
                         </div>
@@ -44,12 +40,8 @@ function Footer() {
                         <div className="footer-column ">
                             <h6 className="footer-column-heading">SERVICES</h6>
                             <div className="footer-links-contain">
-                                <Link onClick={scrollToTop} to="/digital-marketing">Digital Marketing</Link>
-                                <Link onClick={scrollToTop} to="/web-development">Web Development</Link>
-                                <Link onClick={scrollToTop} to="/app-development">App Development</Link>
-                                <Link onClick={scrollToTop} to="/graphic-design">Graphic Design</Link>
-                                <Link onClick={scrollToTop} to="/seo">SEO</Link>
-                                <Link onClick={scrollToTop} to="/smo">SMM</Link>
+                            <Link onClick={scrollToTop} to="/career">CAREERS</Link> 
+                                <Link onClick={scrollToTop} to="/privacy-policy">PRIVACY POLICY</Link>
                                 <Link onClick={scrollToTop} to="/training-development">Training & Development</Link>
                             </div>
                              
@@ -73,14 +65,14 @@ function Footer() {
                                 <Link to="mailto:info@webtechsolutionsservice.com" className="footer-link">
                                     <i className="fa-solid fa-envelope"></i>  info@webtechsolutionsservice.com</Link>
                             </div>
-                            <div className='d-flex gap-3 social-links'>
+                            {/* <div className='d-flex gap-3 social-links'>
                                 <Link to="https://www.linkedin.com/company/webtechsolutionsservice/" target="_blank" className="footer-link"><i className="fa-brands fa-linkedin"></i></Link>
                                 <Link to="https://www.instagram.com/webtechsolutionsservice/" target="_blank" className="footer-link"><i className="fa-brands fa-instagram"></i></Link>
                                 <Link to="https://www.facebook.com/webtechsolutionsservice" target="_blank" className="footer-link"><i className="fa-brands fa-square-facebook"></i></Link>
                                 <Link to="https://twitter.com/webtechpvtltd" target="_blank" className="footer-link"><i class="fa-brands fa-square-x-twitter"></i></Link>
                                 <Link to="https://in.pinterest.com/webtechsolutionsservice/" target="_blank" className="footer-link"><i className="fa-brands fa-pinterest-p"></i></Link>
                                 <Link to="https://www.youtube.com/@webtechsolutionsservice" target="_blank" className="footer-link"><i className="fa-brands fa-youtube"></i></Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     
