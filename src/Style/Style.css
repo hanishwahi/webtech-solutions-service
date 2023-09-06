@@ -1,5 +1,5 @@
 /* top nav bar  */
- 
+
 .top-nav-bg {
     background-color: #000;
 }
@@ -86,7 +86,7 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     color: #000 !important;
 }
 
-.dropdown-hover:hover>.dropdown-menu {
+.dropdown-hover:hover > .dropdown-menu {
     display: inline-block;
 }
 
@@ -2321,10 +2321,10 @@ input::-webkit-inner-spin-button {
     line-height: 24px;
     margin-bottom: 20px;
 }
-.package-button{
+.package-button {
     text-align: center;
 }
-.package-button a{
+.package-button a {
     background-color: #fff;
     color: #42ADE4;
     text-decoration: none;
@@ -2571,7 +2571,7 @@ input::-webkit-inner-spin-button {
     font-family: 'poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 17px;
     width: 100%;
     padding: 10px;
     background: #000;
