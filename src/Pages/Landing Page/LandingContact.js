@@ -48,10 +48,7 @@ function LandingContact() {
                             <input type="time" id="form4Example2" name="time" className="form-control" placeholder='Select Time' min="00:00" max="24:00" required />
                         </div>
                     </div>
-                    {/* <div className="form-outline mb-4">
-                        <label className="form-label text-dark fw-bold" htmlFor="form4Example2">Select Time for call</label>
-                        <input type="time" id="form4Example2" name="time" className="form-control" placeholder='Select Time' min="00:00" max="24:00" required />
-                    </div> */}
+                   
                     <div className="form-outline mb-4 row">
                         <div className='col-sm-6 col-12'>
                             <label className="form-label text-dark fw-bold" htmlFor="form4Example2">Service</label>

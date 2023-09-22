@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
 import MainNewlogo from '../../Images/newlogo.webp'
 
 function LandingNav() {

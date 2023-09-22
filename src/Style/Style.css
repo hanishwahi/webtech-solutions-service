@@ -228,11 +228,11 @@ a.list-group-item.list-group-item-action.drop-color:hover {
     background-size: cover;
 }
 
-.create-website-banner:hover {
+/* .create-website-banner:hover {
     border: 6px solid #42ADE4;
     border-top-left-radius: 35%;
     border-bottom-right-radius: 35%;
-}
+} */
 
 .create-website-heading h1 {
     font-family: 'poppins';
@@ -2499,7 +2499,7 @@ input::-webkit-inner-spin-button {
     color: #000;
     padding: 8px 0;
 }
-
+    
 .blog-list p {
     font-family: 'poppins';
     font-weight: 400;

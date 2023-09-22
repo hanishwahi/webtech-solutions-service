@@ -31,9 +31,7 @@ function Footer() {
                             <div className="footer-links-contain">
                                 <Link onClick={scrollToTop} to="/career">CAREERS</Link> 
                                 <Link onClick={scrollToTop} to="/privacy-policy">PRIVACY POLICY</Link>
-                                
                             </div>
-
                         </div>
                     </div>
                     <div className='col-lg-3 col-md-6 footer-right-contain'>
