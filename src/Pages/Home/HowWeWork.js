@@ -16,10 +16,10 @@ function HowWeWork() {
         </div>
         <div className="how-it-works-content-wrap row">
           <div className="how-it-works-left-contain col-12 frame">
-           <div className='blob blob-1'>
+           <div className=''>
            <img src={HowImg} loading="lazy"
               alt="IT Work Flow"
-              className="how-it-works-image img-fluid" />
+              className="how-it-works-image"  width={500}/>
            </div>
           </div>
           <div className="how-it-works-right-contain col-12">
